@@ -26,8 +26,8 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**Early June 2019**  
-Prostar version 1.16 will be available through the Zero-install (still in beta version).
+**06/06/2019**  
+Prostar version 1.16 is available through the Zero-install (still in beta version).
 
 **03/05/2019**  
 Prostar version 1.16 has been released on the Bioconductor (April release).
