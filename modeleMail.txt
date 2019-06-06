@@ -1,0 +1,16 @@
+Bonjour à tous,
+
+La nouvelle release de Prostar (1.16.0) a été mise en ligne sur Bioconductor la semaine dernière. La liste des nouveautés est décrite ici :
+  http://www.prostar-proteomics.org/#release_notes
+  
+  Pour le moment, cette version n’est installée que sur le serveur de test (http://gre046180:3838/ProStaR_test/), et l’ancienne version (la 1.14.XX) est toujours disponible :
+  -	Sur le prabi (live.prostar-proteomics.org)
+-	Sur vos machines (en version zip)
+
+Tout cela va rester en l’état pendant 1 mois, notamment afin de réaliser les ultimes débogages, et vérifier la comptabilités avec les autres packages bioconductor, qui sont sortis en même temps que Prostar 1.16.0. On compte donc sur vous pour ces tests.
+
+A compter de la fin Mai, nous mettrons tout à jour avec la version 1.16. Vous pourrez alors réaliser une installation locale (zip) de la version 1.16 sur vos postes de travail. Par ailleurs, la future version 1.18 deviendra disponible sur le serveur de tests (nouveautés listées ici aussi : http://www.prostar-proteomics.org/#release_notes) pendant 5 mois (pour une release officielle en octobre 2019).
+                                                                                                                                                                                                                                                                      
+On reste à votre dispo si vous avez des questions,
+                                                                              Samuel et Thomas
+                                                                                                                                                                                                                                                                    
