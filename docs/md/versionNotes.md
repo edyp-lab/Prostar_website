@@ -23,14 +23,16 @@
 ### News in Prostar 1.16
 
 #### Bug fixed
+* [1.16.5] Bug fixed in intensity values during conversion
+* [1.16.4] Bug fixed when converting into MSnset some datasets with no shared peptides
+* [1.16.2] Set 'No' as default value for order conditions in convert data
+* [1.16.1] Colors of different conditions in missing values plots ()
 * Interactive quantitative data display from volcanoplot.
 * Aggregation statistics corrected.
 * Differential analysis is now working with Firefox.
 * Sum aggregation function is back.
 * In string-based filtering, reusing several times the same column is possible.
 * Added more numerical precision of p-values in exported dataset (differential analysis)
-* Colors of different conditions in missing values plots ()
-* Bug fixed when converting into MSnset some datasets with no shared peptides
 
 #### New features
 * New customized theme according to Prostar logo colors.
