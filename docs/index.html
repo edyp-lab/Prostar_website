@@ -363,8 +363,8 @@ text-align: justify}
 <div id="news" class="section level2">
 <h2>News</h2>
 <p><strong>Enjoy the <a href="#zero-install">Zero-install version of Prostar</a> as well as the new <a href="#online-demo">Online demo</a>!</strong></p>
-<p><strong>06/06/2019</strong><br />
-Prostar version 1.16 is available through the Zero-install (still in beta version).</p>
+<p><strong>12/06/2019</strong><br />
+Prostar version 1.16.5 is available through the Zero-install (still in beta version).</p>
 <p><strong>03/05/2019</strong><br />
 Prostar version 1.16 has been released on the Bioconductor (April release).</p>
 <p><strong>22/11/2018</strong><br />
@@ -432,7 +432,7 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 <div id="zero-install" class="section level2">
 <h2>Zero-install</h2>
 <p>Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.</p>
-<p><a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.16.zip" onclick="ga('send', 'event', { eventCategory: 'download', eventAction: 'fichier_zip', eventLabel: '/downloads/Prostar_1.16.zip'});"><strong>Download Prostar 1.16 zip file</strong></a> (Release date: 06/06/2019 <strong>- still in beta-testing</strong>)</p>
+<p><a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.16.5.zip" onclick="ga('send', 'event', { eventCategory: 'download', eventAction: 'fichier_zip', eventLabel: '/downloads/Prostar_1.16.5.zip'});"><strong>Download Prostar 1.16.5 zip file</strong></a> (Release date: 12/06/2019 <strong>- still in beta-testing</strong>)</p>
 <p>(Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)</p>
 <p><strong>Remarks:</strong> 1. It is not necessary to have R already installed.<br />
 2. For now, Zero-install is only available for Microsoft Windows machines.<br />
@@ -502,14 +502,16 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <div id="bug-fixed-2" class="section level4">
 <h4>Bug fixed</h4>
 <ul>
+<li>[1.16.5] Bug fixed in intensity values during conversion</li>
+<li>[1.16.4] Bug fixed when converting into MSnset some datasets with no shared peptides</li>
+<li>[1.16.2] Set ‘No’ as default value for order conditions in convert data</li>
+<li>[1.16.1] Colors of different conditions in missing values plots ()</li>
 <li>Interactive quantitative data display from volcanoplot.</li>
 <li>Aggregation statistics corrected.</li>
 <li>Differential analysis is now working with Firefox.</li>
 <li>Sum aggregation function is back.</li>
 <li>In string-based filtering, reusing several times the same column is possible.</li>
 <li>Added more numerical precision of p-values in exported dataset (differential analysis)</li>
-<li>Colors of different conditions in missing values plots ()</li>
-<li>Bug fixed when converting into MSnset some datasets with no shared peptides</li>
 </ul>
 </div>
 <div id="new-features-2" class="section level4">
