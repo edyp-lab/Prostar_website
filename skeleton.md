@@ -112,7 +112,7 @@ library(Prostar)
 Prostar()
 ```
 
-4. For a better experience, it is advised to install the development version DT and highcharter packages. 
+4. For a better experience, it is advised to install the development version DT package. 
 To do so, install the devtools package and execute the following commands:
 ```R
 install.packages("devtools")
