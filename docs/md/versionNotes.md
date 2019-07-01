@@ -14,6 +14,7 @@
 * tba
 
 #### New features
+* Computation of the number of shared and specific peptides per protein in the aggregation tool. Natably useful for filtering.
 * Filters on numerical values.
 * New tool for exploring and visualize peptide-protein graphs.
 * New navigation principle to switch between differents steps of a process.
