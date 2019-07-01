@@ -26,6 +26,11 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
+**01/07/2019**
+Thanks to Prostar users, all around the word! Here is a map of Prostar Download during the first semester of 219.
+
+<img src="https://prostar-proteomics.org/img/usermap-sem1-2019.png" />
+
 **24/06/2019**  
 Prostar version 1.16.6 is available through the Zero-install (still in beta version).
 
