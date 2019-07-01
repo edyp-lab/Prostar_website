@@ -159,7 +159,7 @@ Our community forum is hosted by the Bioconductor:
 
 **Samuel Wieczorek**
 
-<img src="https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/Sam.png"   width="155"/>
+<img src="https://prostar-proteomics.org/img/Sam.png"   width="155"/>
 
 After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et M&eacute;tiers", 
 followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University. 
@@ -171,7 +171,7 @@ debugging, graphical user interfaces, etc.
 
 <a href="https://sites.google.com/site/thomasburgerswebpage" target="_blank">**Thomas Burger**</a>
 
-<img src="https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/Thomas-Burger-155.jpg"   width="155"/>
+<img src="https://prostar-proteomics.org/img/Thomas-Burger-155.jpg"   width="155"/>
 
 After two MS degrees in computer sciences and in applied mathematics (2004), 
 Thomas defended a PhD in pattern recognition (2007) at Grenoble-Alpes University. 
