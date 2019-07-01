@@ -27,7 +27,7 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 **01/07/2019**
-Thanks to Prostar users, all around the word! Here is a map of Prostar Download during the first semester of 219.
+Thank you for using Prostar, all around the word! Here is a map of Prostar downloads of 2019, semester 1.
 
 <img src="https://prostar-proteomics.org/img/usermap-sem1-2019.png" />
 
