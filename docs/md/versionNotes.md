@@ -1,12 +1,20 @@
 
+### Roadmap for Prostar 1.22
+
+#### Bug fixed
+
+#### New features
+* New low level architecture for improved processing pipeline management.
+* Preliminary work to extend Prostar pipelines to metabolimics data.
+
+
 ### Roadmap for Prostar 1.20
 
 #### Bug fixed
 * tba
 
 #### New features
-* New low level architecture for improved processing pipeline management.
-* Preliminary work to extend Prostar pipelines to metabolimics data.
+* tba
 
 ### Teaser for Prostar 1.18
 
