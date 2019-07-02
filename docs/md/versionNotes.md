@@ -14,6 +14,7 @@
 * tba
 
 #### New features
+* Warning on the FDR if the number of selected peptides/proteins is too small.
 * Computation of the number of shared and specific peptides per protein in the aggregation tool. Notably useful for filtering.
 * Filters on numerical values.
 * New tool for exploring and visualize peptide-protein graphs.
