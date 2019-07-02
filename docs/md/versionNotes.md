@@ -27,7 +27,6 @@
 * Filters on numerical values.
 * New tool for exploring and visualize peptide-protein graphs.
 * New navigation principle to switch between differents steps of a process.
-* Warning on the FDR computation if the number of selected proteins is too small.
 
 
 ### News in Prostar 1.16
