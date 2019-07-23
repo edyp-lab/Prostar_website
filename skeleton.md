@@ -195,12 +195,12 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 * <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">Quentin Giai-Gianetto</a> (Institut Pasteur, France)
 * <a href="https://lgatto.github.io/" target="_blank">Laurent Gatto</a> 
 (Universit&eacute; catholique de Louvain, Belgique)
-* Cosmin Lazar
-* Helene Borges
+* <a href="https://scholar.google.fr/citations?hl=fr&user=gHyBfNwAAAAJ" target="_blank">Cosmin Lazar</a>
+* <a href="https://scholar.google.fr/citations?hl=fr&user=yYroo3gAAAAJ" target="_blank">Helene Borges</a>
 * <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">Yohann Cout&eacute;</a>
-* Christophe Bruley
-* Anne-Marie Hesse
-* Alexia Dorffer
+* <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">Christophe Bruley</a>
+* <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">Anne-Marie Hesse</a>
+* <a href="https://dblp.org/pers/hd/d/Dorffer:Alexia" target="_blank">Alexia Dorffer</a>
 
 ### Beta-testing & co.
 <img src="https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/edyp.png"   width="155"/>
