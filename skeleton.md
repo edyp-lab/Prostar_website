@@ -163,7 +163,7 @@ Our community forum is hosted by the Bioconductor:
 
 ### Core team
 
-**Samuel Wieczorek**
+<a href="https://scholar.google.fr/citations?hl=fr&user=K4CBghYAAAAJ" target="_blank">**Samuel Wieczorek**</a>
 
 <img src="https://github.com/samWieczorek/Prostar_website/raw/master/docs/img/Sam.png"   width="155"/>
 
@@ -191,7 +191,7 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 
 ### Occasional contributors
 
-* Florence Combes
+* <a href="https://scholar.google.fr/citations?hl=fr&user=IJj2oUsAAAAJ" target="_blank">Florence Combes</a>
 * <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">Quentin Giai-Gianetto</a> (Institut Pasteur, France)
 * <a href="https://lgatto.github.io/" target="_blank">Laurent Gatto</a> 
 (Universit&eacute; catholique de Louvain, Belgique)
