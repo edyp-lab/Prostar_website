@@ -4,6 +4,7 @@
 2. <a href="https://sites.google.com/site/thomasburgerswebpage/download/Prostar_Tutorial.pdf"  target="_blank">Prostar tutorial</a>  (corresponds to Prostar release 1.10)
 3. <a href="https://sites.google.com/site/thomasburgerswebpage/download/tutorial-CP4P-4.pdf" target="_blank">cp4p tutorial</a>
 4. <a href="https://sites.google.com/site/thomasburgerswebpage/download/MiMB_Burger_FinalVersion2.pdf" target="_blank">Prostar protein-level protocol</a> (corresponds to Prostar release 1.14)
+5. <a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank">Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.</a>
 
 ### Contact
 
