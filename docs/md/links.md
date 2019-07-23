@@ -29,7 +29,8 @@ If you need any help, but also if you wish to make comments or suggestions, plea
 6. <a href="http://prabig-prostar.univ-lyon1.fr/Articles/revised-biostat-proteom-preprint.pdf" target="_blank">_L. Jacob, F. Combes and T. Burger_. PEPA test : fast and powerful differential analysis from relative quantitative proteomics data using shared peptides. **Biostatistics**, kxy021, 2018.</a>
 7. <a href="https://sites.google.com/site/thomasburgerswebpage/download/MiMB_Burger_FinalVersion2.pdf" target="_blank">_S. Wieczorek, F. Combes, H. Borges, T. Burger_. Protein-Level Statistical Analysis of Quantitative Label-Free Proteomics Data with ProStaR. **Proteomics for Biomarker Discovery, V. Brun, Y. Coute (Eds.), Methods in Molecular Biology Series**, Vol. 1959, pp. 225-246, 2019.</a>
 8. <a href="https://sites.google.com/site/thomasburgerswebpage/download/LetterSpectralClusteringRevised2.pdf" target="_blank">_H. Borges(+), R. Guibert(+), O. Permiakova(+), T. Burger_. Distinguishing between spectral clustering and cluster analysis of mass spectra.  Journal of Proteome Research, 18 (1), pp 571-573, 2019.</a>
-9. _Q. Giai Gianetto, S. Wieczorek, Y. Coute and T. Burger_. Multiple peptide-level imputation strategy for mass spectrometry-based proteomic data. (in preparation).
+9. <a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank">_S. Wieczorek, Q. Giai Gianetto, T. Burger_. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.  Journal of Proteomics, Accepted manuscript, In Press, 2019.</a>
+10. _Q. Giai Gianetto, S. Wieczorek, Y. Coute and T. Burger_. Multiple peptide-level imputation strategy for mass spectrometry-based proteomic data. (in preparation).
 
 #### Other references
 
