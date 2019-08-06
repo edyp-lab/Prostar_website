@@ -25,6 +25,7 @@
 ### News in Prostar 1.16
 
 #### Bug fixed
+* [1.16.7] Bug fixed which have made wrong Fold Change computation in a specific case : when the dataset contains conditions with different number of samples AND the names of the conditions were not in an alphabetic order
 * [1.16.6] Delete 'copy to clipboard' button in the 'Bug report' screen
 * [1.16.5] Bug fixed in intensity values during conversion
 * [1.16.4] Bug fixed when converting into MSnset some datasets with no shared peptides
