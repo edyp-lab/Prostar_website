@@ -26,6 +26,7 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
+
 **06/08/2019**  
 Prostar version 1.16.7 is available through the Zero-install (still in beta version).
 
