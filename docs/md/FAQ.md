@@ -70,12 +70,12 @@ Shortly, because from a statistical viewpoint, doing so roughly amount to FDR ch
 ### How does "Push p-values" works?
 This is now clearly explained and illustrated in <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf" target="_blank">Prostar user manual</a> as well as in the following article (Section 3):
 
-<a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank">_S. Wieczorek, Q. Giai Gianetto, T. Burger_. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.  **Journal of Proteomics**, Accepted manuscript, In Press, 2019.</a>
+<a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank">_S. Wieczorek, Q. Giai Gianetto, T. Burger_. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.  **Journal of Proteomics**, vol 207, p. 103441, In Press, 2019.</a>
 
 ### How should I tune the calibration plot options?
 This is now clearly explained and illustrated in <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf" target="_blank">Prostar user manual</a> as well as in the following article (Sections 4, 5 and 6):
 
-<a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank">_S. Wieczorek, Q. Giai Gianetto, T. Burger_. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.  **Journal of Proteomics**, Accepted manuscript, In Press, 2019.</a>
+<a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank">_S. Wieczorek, Q. Giai Gianetto, T. Burger_. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.  **Journal of Proteomics**, vol 207, p. 103441, In Press, 2019.</a>
 
 
 ### Why are the adjusted p-values hidden in the tabular outputs of the differential analysis?
