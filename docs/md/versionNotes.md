@@ -14,12 +14,18 @@
 
 ### Teaser for Prostar 1.18
 
+#### Bug fixed
+* In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.
+* Export of a dataset when several metadata are selected to be integrated to the export file
+
+
 #### New features
 * Warning on the FDR if the number of selected peptides/proteins is too small.
 * Computation of the number of shared and specific peptides per protein in the aggregation tool. Notably useful for filtering.
 * Filters on numerical values.
 * New tool for exploring and visualize peptide-protein graphs.
 * New navigation principle to switch between differents steps of a process.
+* Better default filenames when the user click on downloads Button or on export buttons above the different tables in Prostar
 
 
 ### News in Prostar 1.16
