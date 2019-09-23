@@ -41,5 +41,3 @@ If you need any help, but also if you wish to make comments or suggestions, plea
 4. _Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W and Smyth GK_ (2015). Limma powers differential expression analyses for RNA-sequencing and microarray studies. **Nucleic Acids Research**, 43(7), pp. e47.
 5. _Cleveland, W. S., & Devlin, S. J._ (1988). Locally weighted regression: an approach to regression analysis by local fitting. **Journal of the American statistical association**, 83(403), 596-610.
 6. _Huber, W., Von Heydebreck, A., Sultmann, H., Poustka, A., & Vingron, M._ (2002). Variance stabilization applied to microarray data calibration and to the quantification of differential expression. **Bioinformatics**, 18(suppl_1), S96-S104.
-
-

@@ -19,11 +19,11 @@ for (i in 1:length(base)){
 close(dest)
 
 rmarkdown::render("temp.md", output_file = "./docs/index.html", quiet = TRUE)
-unlink('temp.md')
+#unlink('temp.md')
 
 ### add the favicon necessary text in the header
 
-html.tmp <- readLines("./docs/index.html")
+html.tmp <- readLines("docs/index.html")
 if (file.exists('temp.html')){unlink('temp.html')}
 dest <- file("temp.html", open = "w")
 
