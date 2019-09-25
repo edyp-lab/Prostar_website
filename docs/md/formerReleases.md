@@ -59,3 +59,4 @@
 * Tooltip implementation.
 * Interactive plots with highcharter.
 * Enhancement of the string-based filtering UI
+
