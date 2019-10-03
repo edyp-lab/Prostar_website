@@ -27,6 +27,13 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
+**30/09/2019**
+We consider organizing a Prostar spring school in Grenoble, by May or June 2020 (3 days or so).
+If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020]
+You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.
+
+
+
 **06/08/2019**  
 Prostar version 1.16.7 is available through the Zero-install (still in beta version).
 
