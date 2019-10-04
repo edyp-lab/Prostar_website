@@ -31,7 +31,7 @@
 ### News in Prostar 1.16
 
 #### Bug fixed
-* [1.16.14] Bug fixed in hypothesis testing whien the dataset has samples not grouped by conditions
+* [1.16.14] Bug fixed in hypothesis testing when the dataset has samples not grouped by conditions
 * [1.16.8] Bug fixed: The logFC value calculated by t.test was the opposite as the real one (-log(FC))
 * [1.16.7] Bug fixed which have made wrong Fold Change computation in a specific case : when the dataset contains conditions with different number of samples AND the names of the conditions were not in an alphabetic order
 * [1.16.6] Delete 'copy to clipboard' button in the 'Bug report' screen
