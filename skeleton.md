@@ -28,7 +28,7 @@ text-align: justify}
 
 
 **30/09/2019**
-We consider organizing a Prostar spring school in Grenoble, by May or June 2020 (3 days or so).
+We consider organizing a **Prostar spring school in Grenoble**, by May or June 2020 (3 days or so).
 If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020]
 You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.
 
