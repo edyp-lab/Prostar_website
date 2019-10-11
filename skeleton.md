@@ -35,11 +35,11 @@ You can also fill the email with short description of your expectations, so that
 **09/10/2019**  
 Prostar version 1.16.10 is available through the Zero-install (still in beta version).
 
-**01/07/2019**  
-Thank you for using Prostar, all around the world! Here is a map of Prostar downloads of 2019, semester 1.
-
-<img src="https://github.com/samWieczorek/Prostar_website/raw/master/docs/img/usermap-sem1-2019.png"/>
-
+<>**01/07/2019**  
+<>Thank you for using Prostar, all around the world! Here is a map of Prostar downloads of 2019, semester 1.
+<>
+<><img src="https://github.com/samWieczorek/Prostar_website/raw/master/docs/img/usermap-sem1-2019.png"/>
+<>
 
 **03/05/2019**  
 Prostar version 1.16 has been released on the Bioconductor (April release).
