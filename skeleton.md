@@ -27,19 +27,13 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
-<font color=red>**We consider organizing a Prostar spring school in Grenoble, by May or June 2020 (3 days or so).
+<font color=red>We consider organizing a **Prostar spring school** in Grenoble, by May or June 2020 (3 days or so).
 If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020]
-You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.**</font>
+You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.</font>
 
 
 **09/10/2019**  
 Prostar version 1.16.10 is available through the Zero-install (still in beta version).
-
-<>**01/07/2019**  
-<>Thank you for using Prostar, all around the world! Here is a map of Prostar downloads of 2019, semester 1.
-<>
-<><img src="https://github.com/samWieczorek/Prostar_website/raw/master/docs/img/usermap-sem1-2019.png"/>
-<>
 
 **03/05/2019**  
 Prostar version 1.16 has been released on the Bioconductor (April release).
