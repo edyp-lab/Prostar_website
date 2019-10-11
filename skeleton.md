@@ -27,15 +27,13 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
-**30/09/2019**
-We consider organizing a **Prostar spring school in Grenoble**, by May or June 2020 (3 days or so).
+<font color=red>**We consider organizing a Prostar spring school in Grenoble, by May or June 2020 (3 days or so).
 If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020]
-You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.
+You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.**</font>
 
 
-
-**06/08/2019**  
-Prostar version 1.16.7 is available through the Zero-install (still in beta version).
+**09/10/2019**  
+Prostar version 1.16.10 is available through the Zero-install (still in beta version).
 
 **01/07/2019**  
 Thank you for using Prostar, all around the world! Here is a map of Prostar downloads of 2019, semester 1.
@@ -90,7 +88,7 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-<a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.16.7.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.16.7.zip'});">**Download Prostar 1.16.7 zip file**</a> (Release date: 06/08/2019 **- still in beta-testing**) 
+<a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.16.10.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.16.10.zip'});">**Download Prostar 1.16.10 zip file**</a> (Release date: 09/10/2019 **- still in beta-testing**) 
 
 
 (Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)
