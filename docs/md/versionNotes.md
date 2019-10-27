@@ -17,7 +17,8 @@
 #### Bug fixed
 * In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.
 * Export of a dataset when several metadata are selected to be integrated to the export file
-
+* Bug fixed in the navigation bar for each process: the reset button is functional
+* Inconsistent behaviour when the user changes a dataset in any process UI
 
 #### New features
 * Warning on the FDR if the number of selected peptides/proteins is too small.
