@@ -32,8 +32,11 @@ If you are interested in participating to such an event, please send an email to
 You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.</font>
 
 
-**09/10/2019**  
-Prostar version 1.16.10 is available through the Zero-install (still in beta version).
+**20/11/2019**  
+Prostar version 1.18.1 has been released on the Bioconductor (beta version).
+
+**31/10/2019**  
+Prostar version 1.18 has been released on the Bioconductor (October release).
 
 **03/05/2019**  
 Prostar version 1.16 has been released on the Bioconductor (April release).
@@ -98,14 +101,14 @@ Just download the zip file below and unzip it! The unzipped folder contains an e
 
 Only stand-alone install is detailed below. For server install, please refer to the user manual. 
 This type of install works with any operating system among Unix/Linux, Mac OS X and Windows. 
-However, it is necessary to have the latest version of R installed in a directory where the user has read/write permissions. 
+However, it is necessary to have the latest version of R (R-3.6.xx for Prostar 1.18) installed in a directory where the user has read/write permissions. 
 
 1. Install Bioconductor package manager by copy-paste of the following commands (see 
 <a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a>
 for details):
 ```R
-chooseCRANmirror()
-install.packages("BiocManager")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 ```
 2. Install Prostar:
 ```R
@@ -118,7 +121,7 @@ library(Prostar)
 Prostar()
 ```
 
-4. For a better experience, it is advised to install the development version DT and highcharter packages. 
+4. For a better experience, it is advised to install the development version of the package DT. 
 To do so, install the devtools package and execute the following commands:
 ```R
 install.packages("devtools")

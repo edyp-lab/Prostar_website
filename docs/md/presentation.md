@@ -13,5 +13,6 @@
 
 ### Data mining
 * **Descriptive statistics**: Available at any stage of the analysis, for data exploration and visualization.
+* **Peptide-Protein Graph**: Explore and visualize peptide-protein graphs.
 * **Differential analysis**: To select a list of differentially abundant proteins with a controlled false discovery rate.
 * **Gene Ontology analysis**: To  map a protein list onto GO terms and test category enrichment.

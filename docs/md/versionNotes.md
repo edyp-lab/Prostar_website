@@ -6,15 +6,16 @@
 * Preliminary work to extend Prostar pipelines to metabolimics data.
 
 
-### Roadmap for Prostar 1.20
+### Teaser for Prostar 1.20
 
 #### New features
 * Improvement of the vizualization for the normalization tool
 * Peptide-level test (linear model, PEPA)
 
-### Teaser for Prostar 1.18
+### News in Prostar 1.18
 
 #### Bug fixed
+* [1.18.1] Bug fixed in the dataset convert tool.
 * In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.
 * Export of a dataset when several metadata are selected to be integrated to the export file
 * Bug fixed in the navigation bar for each process: the reset button is functional
