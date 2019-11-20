@@ -41,11 +41,6 @@ Prostar version 1.18 has been released on the Bioconductor (October release).
 **03/05/2019**  
 Prostar version 1.16 has been released on the Bioconductor (April release).
 
-**22/11/2018**  
-Prostar version 1.14 is available through the Zero-install (beta version).
-
-**31/10/2018**  
-Prostar version 1.14 has been released on the Bioconductor (October release).
 
 ## About
 Prostar is a software tool devoted to the differential analysis of quantitative data resulting from discovery proteomics experiments.
