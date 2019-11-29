@@ -1806,8 +1806,8 @@ text-align: justify}
 <h2>News</h2>
 <p><strong>Enjoy the <a href="#zero-install">Zero-install version of Prostar</a> as well as the new <a href="#online-demo">Online demo</a>!</strong></p>
 <p><font color="red">We consider organizing a <strong>Prostar spring school</strong> in Grenoble, by May or June 2020 (3 days or so). If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020] You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.</font></p>
-<p><strong>20/11/2019</strong><br />
-Prostar version 1.18.1 has been released on the Bioconductor (beta version).</p>
+<p><strong>29/11/2019</strong><br />
+Prostar Zero-install version (1.18.2) has been released.</p>
 <p><strong>31/10/2019</strong><br />
 Prostar version 1.18 has been released on the Bioconductor (October release).</p>
 <p><strong>03/05/2019</strong><br />
@@ -1874,7 +1874,7 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 <div id="zero-install" class="section level2">
 <h2>Zero-install</h2>
 <p>Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.</p>
-<p><a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.16.10.zip" onclick="gtag(&#39;event&#39;, &#39;send&#39;, { &#39;event_category&#39;: &#39;download&#39;,  &#39;event_label&#39;: &#39;Download Prostar_1.16.10.zip&#39;});"><strong>Download Prostar 1.16.10 zip file</strong></a> (Release date: 09/10/2019 <strong>- still in beta-testing</strong>)</p>
+<p><a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.18.2.zip" onclick="gtag(&#39;event&#39;, &#39;send&#39;, { &#39;event_category&#39;: &#39;download&#39;,  &#39;event_label&#39;: &#39;Download Prostar_1.18.2.zip&#39;});"><strong>Download Prostar 1.18.2 zip file</strong></a> (Release date: 29/11/2019 <strong>- still in beta-testing</strong>)</p>
 <p>(Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)</p>
 <p><strong>Remarks:</strong> 1. It is not necessary to have R already installed.<br />
 2. For now, Zero-install is only available for Microsoft Windows machines.<br />
@@ -1933,16 +1933,6 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 </div>
 <div id="news-in-prostar-1.18" class="section level3">
 <h3>News in Prostar 1.18</h3>
-<div id="bug-fixed" class="section level4">
-<h4>Bug fixed</h4>
-<ul>
-<li>[1.18.1] Bug fixed in the dataset convert tool.</li>
-<li>In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.</li>
-<li>Export of a dataset when several metadata are selected to be integrated to the export file</li>
-<li>Bug fixed in the navigation bar for each process: the reset button is functional</li>
-<li>Inconsistent behaviour when the user changes a dataset in any process UI</li>
-</ul>
-</div>
 <div id="new-features-2" class="section level4">
 <h4>New features</h4>
 <ul>
@@ -1954,9 +1944,33 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 <li>Better default filenames when the user click on downloads Button or on export buttons above the different tables in Prostar</li>
 </ul>
 </div>
+<div id="bugs-currently-being-fixed" class="section level4">
+<h4>Bugs currently being fixed</h4>
+</div>
+<div id="bug-fixed" class="section level4">
+<h4>Bug fixed</h4>
+<ul>
+<li>[1.18.3] (available soon) Bug fixed in retro-compatibility with certain MSnset datasets created with previsous versions of Prostar. Bug fixed in the Color settings UI.</li>
+<li>[1.18.2] Bug fixed in the volcanoplots.</li>
+<li>[1.18.1] Bug fixed in the dataset convert tool.</li>
+<li>In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.</li>
+<li>Export of a dataset when several metadata are selected to be integrated to the export file</li>
+<li>Bug fixed in the navigation bar for each process: the reset button is functional</li>
+<li>Inconsistent behaviour when the user changes a dataset in any process UI</li>
+</ul>
+</div>
 </div>
 <div id="news-in-prostar-1.16" class="section level3">
 <h3>News in Prostar 1.16</h3>
+<div id="new-features-3" class="section level4">
+<h4>New features</h4>
+<ul>
+<li>New customized theme according to Prostar logo colors.</li>
+<li>Uniform organization of the method parameters.</li>
+<li>Three buttons are displayed above each tab to export the data (Copy to clipboard, export to CSV, print).</li>
+<li>In the CV distribution plot (Descriptive statistics), a convenient zoom is predefined.</li>
+</ul>
+</div>
 <div id="bug-fixed-1" class="section level4">
 <h4>Bug fixed</h4>
 <ul>
@@ -1975,15 +1989,6 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 <li>Sum aggregation function is back.</li>
 <li>In string-based filtering, reusing several times the same column is possible.</li>
 <li>Added more numerical precision of p-values in exported dataset (differential analysis)</li>
-</ul>
-</div>
-<div id="new-features-3" class="section level4">
-<h4>New features</h4>
-<ul>
-<li>New customized theme according to Prostar logo colors.</li>
-<li>Uniform organization of the method parameters.</li>
-<li>Three buttons are displayed above each tab to export the data (Copy to clipboard, export to CSV, print).</li>
-<li>In the CV distribution plot (Descriptive statistics), a convenient zoom is predefined.</li>
 </ul>
 </div>
 </div>
