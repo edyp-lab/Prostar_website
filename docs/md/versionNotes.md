@@ -14,13 +14,6 @@
 
 ### News in Prostar 1.18
 
-#### Bug fixed
-* [1.18.1] Bug fixed in the dataset convert tool.
-* In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.
-* Export of a dataset when several metadata are selected to be integrated to the export file
-* Bug fixed in the navigation bar for each process: the reset button is functional
-* Inconsistent behaviour when the user changes a dataset in any process UI
-
 #### New features
 * Warning on the FDR if the number of selected peptides/proteins is too small.
 * Computation of the number of shared and specific peptides per protein in the aggregation tool. Notably useful for filtering.
@@ -30,7 +23,25 @@
 * Better default filenames when the user click on downloads Button or on export buttons above the different tables in Prostar
 
 
+#### Bugs currently being fixed
+
+
+#### Bug fixed
+* [1.18.3] (available soon) Bug fixed in retro-compatibility with certain MSnset datasets created with previsous versions of Prostar. Bug fixed in the Color settings UI.
+* [1.18.2] Bug fixed in the volcanoplots.
+* [1.18.1] Bug fixed in the dataset convert tool.
+* In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.
+* Export of a dataset when several metadata are selected to be integrated to the export file
+* Bug fixed in the navigation bar for each process: the reset button is functional
+* Inconsistent behaviour when the user changes a dataset in any process UI
+
 ### News in Prostar 1.16
+
+#### New features
+* New customized theme according to Prostar logo colors.
+* Uniform organization of the method parameters.
+* Three buttons are displayed above each tab to export the data (Copy to clipboard, export to CSV, print).
+* In the CV distribution plot (Descriptive statistics), a convenient zoom is predefined.
 
 #### Bug fixed
 * [1.16.10] Bug fixed in imputation tools (package imp4p) when the dataset has not samples grouped by conditions. Bug fixed which appeared sometimes in the Export tool.
@@ -49,8 +60,3 @@
 * In string-based filtering, reusing several times the same column is possible.
 * Added more numerical precision of p-values in exported dataset (differential analysis)
 
-#### New features
-* New customized theme according to Prostar logo colors.
-* Uniform organization of the method parameters.
-* Three buttons are displayed above each tab to export the data (Copy to clipboard, export to CSV, print).
-* In the CV distribution plot (Descriptive statistics), a convenient zoom is predefined.
