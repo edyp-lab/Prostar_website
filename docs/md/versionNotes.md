@@ -24,10 +24,15 @@
 
 
 #### Bugs currently being fixed
+* [1.18.4]
+  * Spinner wheels showed during the computation of plots were replaced by a progress bar at the bottom right of the window.
+  * Due to some instability of cache memory when successively opening several datasets in a Prostar session, data management has been simplified. To work on another dataset than the current one, reloading Prostar first is now necessary (with the button above).  It will restart Prostar with a fresh R session where import menus are enabled 'Dataset manager' menu. 
 
 
 #### Bug fixed
-* [1.18.3] (available soon) Bug fixed in retro-compatibility with certain MSnset datasets created with previsous versions of Prostar. Bug fixed in the Color settings UI.
+* [1.18.3] 
+  * Bug fixed in retro-compatibility with certain MSnset datasets created with previsous versions of Prostar.
+  * Bug fixed in the Color settings UI.
 * [1.18.2] Bug fixed in the volcanoplots.
 * [1.18.1] Bug fixed in the dataset convert tool.
 * In the convert tool (build design step), the reordering of conditions is now functional. In the same screen, bug fixed when the user wants to show design examples.
