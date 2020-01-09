@@ -1819,8 +1819,8 @@ text-align: justify}
 <h2>News</h2>
 <p><strong>Enjoy the <a href="#zero-install">Zero-install version of Prostar</a> as well as the new <a href="#online-demo">Online demo</a>!</strong></p>
 <p><font color="red">We consider organizing a <strong>Prostar spring school</strong> in Grenoble, by May or June 2020 (3 days or so). If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020] You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.</font></p>
-<p><strong>29/11/2019</strong><br />
-Prostar Zero-install version (1.18.2) has been released.</p>
+<p><strong>09/01/2020</strong><br />
+Prostar Zero-install version (1.18.4) has been released.</p>
 <p><strong>31/10/2019</strong><br />
 Prostar version 1.18 has been released on the Bioconductor (October release).</p>
 <p><strong>03/05/2019</strong><br />
@@ -1887,7 +1887,7 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 <div id="zero-install" class="section level2">
 <h2>Zero-install</h2>
 <p>Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.</p>
-<p><a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.18.2.zip" onclick="gtag(&#39;event&#39;, &#39;send&#39;, { &#39;event_category&#39;: &#39;download&#39;,  &#39;event_label&#39;: &#39;Download Prostar_1.18.2.zip&#39;});"><strong>Download Prostar 1.18.2 zip file</strong></a> (Release date: 29/11/2019 <strong>- still in beta-testing</strong>)</p>
+<p><a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.18.4.zip" onclick="gtag(&#39;event&#39;, &#39;send&#39;, { &#39;event_category&#39;: &#39;download&#39;,  &#39;event_label&#39;: &#39;Download Prostar_1.18.4.zip&#39;});"><strong>Download Prostar 1.18.4 zip file</strong></a> (Release date: 09/01/2020 <strong>- still in beta-testing</strong>)</p>
 <p>(Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)</p>
 <p><strong>Remarks:</strong> 1. It is not necessary to have R already installed.<br />
 2. For now, Zero-install is only available for Microsoft Windows machines.<br />
@@ -1960,17 +1960,15 @@ Before installing Prostar on your desktop machine, test our online demo!</li>
 </div>
 <div id="bugs-currently-being-fixed" class="section level4">
 <h4>Bugs currently being fixed</h4>
+</div>
+<div id="bug-fixed" class="section level4">
+<h4>Bug fixed</h4>
 <ul>
 <li>[1.18.4]
 <ul>
 <li>Spinner wheels showed during the computation of plots were replaced by a progress bar at the bottom right of the window.</li>
 <li>Due to some instability of cache memory when successively opening several datasets in a Prostar session, data management has been simplified. To work on another dataset than the current one, reloading Prostar first is now necessary (with the button above). It will restart Prostar with a fresh R session where import menus are enabled ‘Dataset manager’ menu.</li>
 </ul></li>
-</ul>
-</div>
-<div id="bug-fixed" class="section level4">
-<h4>Bug fixed</h4>
-<ul>
 <li>[1.18.3]
 <ul>
 <li>Bug fixed in retro-compatibility with certain MSnset datasets created with previsous versions of Prostar.</li>
