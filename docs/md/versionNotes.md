@@ -1,16 +1,16 @@
 
-### Roadmap for Prostar 1.22
+### Roadmap for Prostar 2.0
 
 #### New features
 * New low level architecture for improved processing pipeline management.
 * Preliminary work to extend Prostar pipelines to metabolimics data.
+* Peptide-level test (linear model, PEPA)
 
 
 ### Teaser for Prostar 1.20
 
 #### New features
 * Improvement of the vizualization for the normalization tool
-* Peptide-level test (linear model, PEPA)
 
 ### News in Prostar 1.18
 
@@ -21,11 +21,6 @@
 * New tool for exploring and visualize peptide-protein graphs.
 * New navigation principle to switch between differents steps of a process.
 * Better default filenames when the user click on downloads Button or on export buttons above the different tables in Prostar
-
-
-#### Bugs currently being fixed
-
-
 
 #### Bug fixed
 * [1.18.4]
