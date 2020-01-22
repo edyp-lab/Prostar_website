@@ -23,9 +23,10 @@
 * Better default filenames when the user click on downloads Button or on export buttons above the different tables in Prostar
 
 #### Bug fixed
+* [1.18.5]
+  *   * Due to some instability of cache memory when successively opening several datasets in a Prostar session, data management has been simplified. To work on another dataset than the current one, reloading Prostar first is now necessary (with the button above).  It will restart Prostar with a fresh R session where import menus are enabled 'Dataset manager' menu.
 * [1.18.4]
   * Spinner wheels showed during the computation of plots were replaced by a progress bar at the bottom right of the window.
-  * Due to some instability of cache memory when successively opening several datasets in a Prostar session, data management has been simplified. To work on another dataset than the current one, reloading Prostar first is now necessary (with the button above).  It will restart Prostar with a fresh R session where import menus are enabled 'Dataset manager' menu. 
 * [1.18.3] 
   * Bug fixed in retro-compatibility with certain MSnset datasets created with previsous versions of Prostar.
   * Bug fixed in the Color settings UI.
