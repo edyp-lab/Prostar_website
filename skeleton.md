@@ -27,13 +27,8 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
-<font color=red>We consider organizing a **Prostar spring school** in Grenoble, by May or June 2020 (3 days or so).
-If you are interested in participating to such an event, please send an email to Thomas Burger with the following subject: [Prostar-School-2020]
-You can also fill the email with short description of your expectations, so that we can adapt the program accordingly.</font>
-
-
 **22/01/2020**  
-Prostar Zero-install version (1.18.5) has been released.
+Prostar Zero-install version (1.18.6) has been released.
 
 **31/10/2019**  
 Prostar version 1.18 has been released on the Bioconductor (October release).
