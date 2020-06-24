@@ -7,10 +7,7 @@
 * Peptide-level test (linear model, PEPA)
 
 
-### Teaser for Prostar 1.20
-
-#### New features
-* Possibility to normalize protein datasets using a subset of proteins (either randomly chosen or house-keeping) and to visualize the influence of a normalization method by displaying the patterns of a subset of proteins (either randomly chosen or house-keeping).
+### News in Prostar 1.20
 
 ### News in Prostar 1.18
 

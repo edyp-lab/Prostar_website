@@ -27,14 +27,14 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
+**23/06/2020**  
+Prostar Zero-install version (1.20.0) has been released.
+
 **22/01/2020**  
 Prostar Zero-install version (1.18.6) has been released.
 
 **31/10/2019**  
 Prostar version 1.18 has been released on the Bioconductor (October release).
-
-**03/05/2019**  
-Prostar version 1.16 has been released on the Bioconductor (April release).
 
 
 ## About
@@ -75,10 +75,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.18.6.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.18.6.zip'});">**Prostar 1.18.6 zip file**</a> 
-(Release date: 22/01/2020) 
-
-Prostar beta-testers can already download the <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar-Devel.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar-Devel.zip'});">**Prostar Devel-Version zip file**</a> and use it at their own risk! (Release date: 24/01/2020)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.20.0.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.20.0.zip'});">**Prostar 1.20.0 zip file**</a> 
+(Release date: 23/06/2020) 
 
 (Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)
 
@@ -101,7 +99,7 @@ for details):
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version='3.10')
+BiocManager::install(version='3.11')
 ```
 2. Install Prostar:
 ```R
@@ -112,13 +110,6 @@ BiocManager::install("Prostar")
 ```R
 library(Prostar)
 Prostar()
-```
-
-4. For a better experience, it is advised to install the development version of the package DT. 
-To do so, install the devtools package and execute the following commands:
-```R
-install.packages("devtools")
-devtools::install_github('rstudio/DT')
 ```
 
 
