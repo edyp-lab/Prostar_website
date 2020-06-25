@@ -30,11 +30,8 @@ text-align: justify}
 **23/06/2020**  
 Prostar Zero-install version (1.20.0) has been released.
 
-**22/01/2020**  
-Prostar Zero-install version (1.18.6) has been released.
-
-**31/10/2019**  
-Prostar version 1.18 has been released on the Bioconductor (October release).
+**28/04/2020**  
+Prostar version 1.20 has been released on the Bioconductor (April release).
 
 
 ## About
@@ -187,7 +184,8 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 * <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">Yohann Cout&eacute;</a>
 * <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">Christophe Bruley</a>
 * <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">Anne-Marie Hesse</a>
-* <a href="https://dblp.org/pers/hd/d/Dorffer:Alexia" target="_blank">Alexia Dorffer</a>
+* Alexia Dorffer
+* Enora Fremy
 
 ### Beta-testing & co.
 <img src="https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/edyp.png"   width="155"/>

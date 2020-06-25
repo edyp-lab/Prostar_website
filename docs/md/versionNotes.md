@@ -2,12 +2,15 @@
 ### Roadmap for Prostar 2.0
 
 #### New features
-* New low level architecture for improved processing pipeline management.
-* Preliminary work to extend Prostar pipelines to metabolimics data.
-* Peptide-level test (linear model, PEPA)
-
+* To Be Announced - Many Great Stuff! 😉
 
 ### News in Prostar 1.20
+
+#### New features
+* NA: [dev freezed since 1.18.6 - we are working on Prostar 2.0]
+
+#### Bug fixed
+* NA: [dev freezed since 1.18.6 - we are working on Prostar 2.0]
 
 ### News in Prostar 1.18
 
