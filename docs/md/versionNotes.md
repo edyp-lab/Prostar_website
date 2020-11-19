@@ -4,6 +4,28 @@
 #### New features
 * To Be Announced - Many Great Stuff! 😉
 
+### Roadmap for Prostar 1.24
+
+#### New features
+* Implementation of statistics test (ANOVA) for more complex experimental designs
+* Clustering of proteins
+* Integration of the type of identification (by MS/MS, by matching) within the missing values filtering.
+
+### News in Prostar 1.22
+Only a few features have been introduced in this version. Our main efforts are focused on developping Prostar 2.0.
+
+#### New features
+* Add the 'protein tracking' functionality in the normalization tool for protein datasets. It allows to:
+  * view intensities of proteins (selected by the user) in the boxplot and the violin plot,
+  * normalize the whole dataset with the intensities of these selected proteins.
+* Missing values filtering tool: the user can also filter missing values on 
+
+#### Bug fixed
+* Bug fixed in the convert tool, introduced by R-4.0.3,
+* The extension of the exported file has been corrected,
+* Bug fixed in MEC imputation after the POV imputation proceeded with KNN
+
+
 ### News in Prostar 1.20
 
 #### New features
