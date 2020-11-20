@@ -26,11 +26,9 @@
 
 ### News in Prostar 1.20
 
-#### New features
-* 
-
 #### Bug fixed
-* 
+* Typos corrections
+* Optimisation of Convert Data tool
 
 ### News in Prostar 1.18
 
