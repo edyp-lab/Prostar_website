@@ -22,6 +22,8 @@
 * Bug fixed in the convert tool, introduced by R-4.0.3,
 * The extension of the exported file has been corrected,
 * Bug fixed in MEC imputation after the POV imputation proceeded with KNN
+* [1.22.4] 
+  * Bug fixed in Welch/Student hypothesis tests.
 
 
 ### News in Prostar 1.20
