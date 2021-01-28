@@ -7,9 +7,8 @@
 ### News in Prostar 1.22
 
 #### New features
-* Add a filter based on percentage of imputed values in the 'Push p-value' tool of the differential analysis.
 * Track prot tool: allows to select specific proteins in the dataset to use them for normalization. The intensity values of these proteins are displayed on boxplot and violinplot.
-* Missing values filtering: one can now select either numeric values or percentage of NA.
+* Missing values filtering and "Push p-values" (in Differential analysis tool): one can now select either numeric values or percentage of NA or imputed values.
 * In DAPAR, implementation of ANOVA tools
 
 #### Bug fixed
@@ -26,10 +25,30 @@
 ### News in Prostar 1.20
 
 #### New features
-* NA: [dev freezed since 1.18.6 - we are working on Prostar 2.0]
+* Implementation of for more complex experimental designs,
+* Automatic clustering of protein expression profiles,
+* Additional preliminary filtering option for match between run based evidence.
+
+### News in Prostar 1.22
+
+#### New features
+* Functionalities enabling the focus on a protein (or a subset of proteins) to compare the normalization options.
+* Possibility to apply normalization with respect to a user-defined subset of reference proteins.
+* Missing values filtering: It is now possible to tune the filtering option with proportions, in addition to with absolute values.
 
 #### Bug fixed
-* NA: [dev freezed since 1.18.6 - we are working on Prostar 2.0]
+* Bug fixed in the convert tool, introduced by R-4.0.3,
+* The extension of the exported file has been corrected,
+* Bug fixed in MEC imputation after the POV imputation proceeded with KNN
+* [1.22.4] 
+  * Bug fixed in Welch/Student hypothesis tests.
+
+
+### News in Prostar 1.20
+
+#### Bug fixed
+* Typos corrections
+* Optimisation of Convert Data tool
 
 ### News in Prostar 1.18
 
