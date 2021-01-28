@@ -26,12 +26,11 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
+**28/01/2021**  
+Prostar version 1.22.6 has been released on the Bioconductor (update fixing bugs). New [Zero-install](#zero-install) version is deployed.
 
-**23/06/2020**  
-Prostar Zero-install version (1.20.0) has been released.
-
-**28/04/2020**  
-Prostar version 1.20 has been released on the Bioconductor (April release).
+**31/10/2020**  
+Prostar version 1.22.0 has been released on the Bioconductor (Automn release).
 
 
 ## About
@@ -72,8 +71,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.20.0.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.20.0.zip'});">**Prostar 1.20.0 zip file**</a> 
-(Release date: 23/06/2020) 
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.22.6.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.22.6.zip'});">**Prostar 1.22.6 zip file**</a> 
+(Release date: 28/01/2021) 
 
 (Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)
 
@@ -96,7 +95,7 @@ for details):
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version='3.11')
+BiocManager::install(version='3.12')
 ```
 2. Install Prostar:
 ```R

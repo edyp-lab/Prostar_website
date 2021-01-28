@@ -4,6 +4,25 @@
 #### New features
 * To Be Announced - Many Great Stuff! 😉
 
+### News in Prostar 1.22
+
+#### New features
+* Add a filter based on percentage of imputed values in the 'Push p-value' tool of the differential analysis.
+* Track prot tool: allows to select specific proteins in the dataset to use them for normalization. The intensity values of these proteins are displayed on boxplot and violinplot.
+* Missing values filtering: one can now select either numeric values or percentage of NA.
+* In DAPAR, implementation of ANOVA tools
+
+#### Bug fixed
+* [1.22.6]
+  * Fixed issue when converting a dataset into MSnSet and select columns which correspond to the origin
+  of quantitative values (e.g. 'By_MS/MS', 'By_Matching', etc..)
+  * Bug fixed in normalization tool when the user wants to normalize on a selection of protein. Now, there is no need to check 'Synchronize' option to proceed to the normalization.
+  * The volcanoplot in the differential analysis tool now updates automatically when the user clicks on the 'Push p-value' button.
+* [1.22.5]
+  * Bug fixed when Prostar is used with R > 4.0.0 (Convert tool crashes)
+  * MEC imputation crashed after POV imputation using KNN
+
+
 ### News in Prostar 1.20
 
 #### New features
