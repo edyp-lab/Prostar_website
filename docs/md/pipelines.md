@@ -1,10 +1,8 @@
 ### Description of the pipelines
 
-* Peptidomic
 
-* Protein
-
-* Full peptide level
-
-* Peptide to protein (p2p)
-
+| Operation | Protein  	| Peptidomic  	| P2P  	| Full Peptide  	|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|  Input|  Proteins 	|  Peptides 	|  Peptides 	|  Peptides 	|
+|  Output|  Proteins 	|  Peptides 	|  Proteins 	|  Proteins 	|
+|  Remarks|  - 	|  - 	|  Aggregation 	|  No explicit aggregation 	|

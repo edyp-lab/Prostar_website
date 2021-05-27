@@ -4,14 +4,47 @@
 #### New features
 * To Be Announced - Many Great Stuff! 😉
 
+### News in Prostar 1.24
+
+#### New features
+* Add a quantitative cell metadata tag (metacell) which indicates, for each condition and each entity (protein, peptide) whether it is a quantitative, missing, imputed of combined value. Each of these tags is further detailed with specific info
+* The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is implemented.
+* Missing values barplots have been replaced by barplots on metacell.
+* Integration of quantitative cell metadata in the aggregation process from peptides to proteins
+* Better managment of colors for plots
+* When converting a dataset into a MSnSet object, the log-transformation is run after have set all 0 values to NA
+
+#### Bug fixed
+
+* [1.24.3]
+  * Update the download functionality to get the list of proteins and peptides that make the agregation      failed.
+  * Bugs fixed in plots of 'Quantitative nature' of entities
+* [1.24.2]
+  * Bug fixed with the Reset button in DIfferential Analysis and the 'Push p-value' functionality
+* [1.24.1]
+  * Fixed a bug with the number of digits when displaying numbers (such as in quantitative data tables)
+  * 
+
+* [1.24.0]
+  * Enhancement of the selection of pi0 value in differential analysis tool
+  * Bug fixed when the user wants to impute values after have just display the normalization tool without     process any normalization
+  * Fixed bug in differential analysis: The push p-value did not work on One-vs-All comparisons.
+  * Bug fixed with normalization on some selected proteins.
+
+
+  
 ### News in Prostar 1.22
 
 #### New features
-* Track prot tool: allows to select specific proteins in the dataset to use them for normalization. The intensity values of these proteins are displayed on boxplot and violinplot.
+* Functionalities enabling the focus on a protein (or a subset of proteins) to compare the normalization options.
+* Possibility to apply normalization with respect to a user-defined subset of reference proteins.
+* Missing values filtering: It is now possible to tune the filtering option with proportions, in addition to with absolute values.
 * Missing values filtering and "Push p-values" (in Differential analysis tool): one can now select either numeric values or percentage of NA or imputed values.
 * In DAPAR, implementation of ANOVA tools
 
 #### Bug fixed
+* [1.22.10]
+  * Bug fixed in convert tool
 * [1.22.6]
   * Fixed issue when converting a dataset into MSnSet and select columns which correspond to the origin
   of quantitative values (e.g. 'By_MS/MS', 'By_Matching', etc..)
@@ -20,6 +53,11 @@
 * [1.22.5]
   * Bug fixed when Prostar is used with R > 4.0.0 (Convert tool crashes)
   * MEC imputation crashed after POV imputation using KNN
+* [1.22.4] 
+  * Bug fixed in Welch/Student hypothesis tests.
+* Bug fixed in the convert tool, introduced by R-4.0.3,
+* The extension of the exported file has been corrected
+* Bug fixed in MEC imputation after the POV imputation proceeded with KNN
 
 
 ### News in Prostar 1.20
@@ -28,23 +66,6 @@
 * Implementation of for more complex experimental designs,
 * Automatic clustering of protein expression profiles,
 * Additional preliminary filtering option for match between run based evidence.
-
-### News in Prostar 1.22
-
-#### New features
-* Functionalities enabling the focus on a protein (or a subset of proteins) to compare the normalization options.
-* Possibility to apply normalization with respect to a user-defined subset of reference proteins.
-* Missing values filtering: It is now possible to tune the filtering option with proportions, in addition to with absolute values.
-
-#### Bug fixed
-* Bug fixed in the convert tool, introduced by R-4.0.3,
-* The extension of the exported file has been corrected,
-* Bug fixed in MEC imputation after the POV imputation proceeded with KNN
-* [1.22.4] 
-  * Bug fixed in Welch/Student hypothesis tests.
-
-
-### News in Prostar 1.20
 
 #### Bug fixed
 * Typos corrections

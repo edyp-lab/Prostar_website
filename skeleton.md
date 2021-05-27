@@ -26,11 +26,11 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**28/01/2021**  
-Prostar version 1.22.6 has been released on the Bioconductor (update fixing bugs). New [Zero-install](#zero-install) version is deployed.
+**27/05/2021**
+Prostar version 1.24.3 has been released on the Bioconductor (bugs fixed). New  [Zero-install](#zero-install) version is deployed.
 
-**31/10/2020**  
-Prostar version 1.22.0 has been released on the Bioconductor (Automn release).
+**20/05/2021**  
+Prostar version 1.24.0 has been released on the Bioconductor (Spring release).
 
 
 ## About
@@ -71,8 +71,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.22.6.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.22.6.zip'});">**Prostar 1.22.6 zip file**</a> 
-(Release date: 28/01/2021) 
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.24.3.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.24.3.zip'});">**Prostar 1.24.3 zip file**</a> 
+(Release date: 27/05/2021) 
 
 (Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)
 
@@ -87,7 +87,7 @@ Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar
 
 Only stand-alone install is detailed below. For server install, please refer to the user manual. 
 This type of install works with any operating system among Unix/Linux, Mac OS X and Windows. 
-However, it is necessary to have the latest version of R (R-4.0.3 for Prostar 1.22) installed in a directory where the user has read/write permissions. 
+However, it is necessary to have the latest version of R (R-4.1.0 for Prostar 1.24) installed in a directory where the user has read/write permissions. 
 
 1. Install Bioconductor package manager by copy-paste of the following commands (see 
 <a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a>
@@ -95,7 +95,7 @@ for details):
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version='3.12')
+BiocManager::install(version='3.13')
 ```
 2. Install Prostar:
 ```R
