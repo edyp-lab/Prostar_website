@@ -16,6 +16,11 @@
 
 #### Bug fixed
 
+* [1.24.4]
+  * During the conversion process, the following error ("CreateMSnSet: unused argument (indFData=indexForFData") has been fixed.
+  * The push p-value interface is now consistent with the one in the filtering tool. Furthermore, the user cannot run successive "Push p-value" operations. if he runs several times the "Push p-value button", the dataset is now automatically reset to the original comparison.
+  * Bug fixed in the plot which shows the number of lines with <quant. metadata> tags which appears in the filtering tool (tab "Quanti. metadata filtering") and the menu "Descriptive statistics" (tab "Quantitative nature")
+  * The error message "Argument 'obj' is missing with no default" in the preview filtering example (in the tab "Quantitative nature") has been fixed.
 * [1.24.3]
   * Update the download functionality to get the list of proteins and peptides that make the agregation      failed.
   * Bugs fixed in plots of 'Quantitative nature' of entities
