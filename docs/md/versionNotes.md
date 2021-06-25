@@ -2,38 +2,40 @@
 ### Roadmap for Prostar 2.0
 
 #### New features
-* To Be Announced - Many Great Stuff! 😉
+* To Be Announced - Many Great stuffs! 😉
 
 ### News in Prostar 1.24
 
 #### New features
-* Add a quantitative cell metadata tag (metacell) which indicates, for each condition and each entity (protein, peptide) whether it is a quantitative, missing, imputed of combined value. Each of these tags is further detailed with specific info
-* The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is implemented.
-* Missing values barplots have been replaced by barplots on metacell.
-* Integration of quantitative cell metadata in the aggregation process from peptides to proteins
-* Better managment of colors for plots
-* When converting a dataset into a MSnSet object, the log-transformation is run after have set all 0 values to NA
+* Fully operational peptidomics and peptide-level workflows.
+*	Addition of a cell metadata tag about quantitative values (it indicates for each condition and each entity (either protein or peptide) whether it is a quantitative, missing or imputed value. 
+*	The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is provided.
+* Missing values barplots have been genearlized to any type of cell metadata tag.
+*	The information available in cell metadata is now accounted for during the aggregation step.
+*	Better color managment in plots.
+* When converting a dataset into a MSnSet object, the log-transformation is run after 0 values have been replaced by NAs.
 
 #### Bug fixed
-
+* [1.24.5]
+  * Bug fixed with download Excel and csv buttons. Now, it is possible to download the entire table rather than only 153 items.
+  * All spaces in column names have been replaced by '_' to standardize names.
+  * A 'keyId' field has been in the aggregated dataset. It is the same feature as in the Convert tool but, during the aggregation process, it is set automatically - based on the adjacency matrix)
 * [1.24.4]
   * During the conversion process, the following error ("CreateMSnSet: unused argument (indFData=indexForFData") has been fixed.
   * The push p-value interface is now consistent with the one in the filtering tool. Furthermore, the user cannot run successive "Push p-value" operations. if he runs several times the "Push p-value button", the dataset is now automatically reset to the original comparison.
   * Bug fixed in the plot which shows the number of lines with <quant. metadata> tags which appears in the filtering tool (tab "Quanti. metadata filtering") and the menu "Descriptive statistics" (tab "Quantitative nature")
   * The error message "Argument 'obj' is missing with no default" in the preview filtering example (in the tab "Quantitative nature") has been fixed.
 * [1.24.3]
-  * Update the download functionality to get the list of proteins and peptides that make the agregation      failed.
+  * Update the download functionality to get the list of proteins and peptides that make the aggregation failed.
   * Bugs fixed in plots of 'Quantitative nature' of entities
 * [1.24.2]
-  * Bug fixed with the Reset button in DIfferential Analysis and the 'Push p-value' functionality
+  * Bug fixed with the Reset button in Differential Analysis, as well as in the 'Push p-value' functionality
 * [1.24.1]
-  * Fixed a bug with the number of digits when displaying numbers (such as in quantitative data tables)
-  * 
-
+  * Bug fixed with the number of digits when displaying numbers (such as in quantitative data tables)
 * [1.24.0]
-  * Enhancement of the selection of pi0 value in differential analysis tool
-  * Bug fixed when the user wants to impute values after have just display the normalization tool without     process any normalization
-  * Fixed bug in differential analysis: The push p-value did not work on One-vs-All comparisons.
+  * Enhancement of the pi0 value selection in differential analysis tool.
+  * Bug fixed when the user wants to impute NAs after the normalization tool display (without process any normalization).
+  * Bug fixed in differential analysis: The 'Push p-value' function now also works on One-vs-All comparisons.
   * Bug fixed with normalization on some selected proteins.
 
 

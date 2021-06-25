@@ -172,7 +172,7 @@ pre code {
 <div id="new-features" class="section level4">
 <h4>New features</h4>
 <ul>
-<li>To Be Announced - Many Great Stuff! 😉</li>
+<li>To Be Announced - Many Great stuffs! 😉</li>
 </ul>
 </div>
 </div>
@@ -181,17 +181,24 @@ pre code {
 <div id="new-features-1" class="section level4">
 <h4>New features</h4>
 <ul>
-<li>Add a quantitative cell metadata tag (metacell) which indicates, for each condition and each entity (protein, peptide) whether it is a quantitative, missing, imputed of combined value. Each of these tags is further detailed with specific info</li>
-<li>The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is implemented.</li>
-<li>Missing values barplots have been replaced by barplots on metacell.</li>
-<li>Integration of quantitative cell metadata in the aggregation process from peptides to proteins</li>
-<li>Better managment of colors for plots</li>
-<li>When converting a dataset into a MSnSet object, the log-transformation is run after have set all 0 values to NA</li>
+<li>Fully operational peptidomics and peptide-level workflows.</li>
+<li>Addition of a cell metadata tag about quantitative values (it indicates for each condition and each entity (either protein or peptide) whether it is a quantitative, missing or imputed value.</li>
+<li>The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is provided.</li>
+<li>Missing values barplots have been genearlized to any type of cell metadata tag.</li>
+<li>The information available in cell metadata is now accounted for during the aggregation step.</li>
+<li>Better color managment in plots.</li>
+<li>When converting a dataset into a MSnSet object, the log-transformation is run after 0 values have been replaced by NAs.</li>
 </ul>
 </div>
 <div id="bug-fixed" class="section level4">
 <h4>Bug fixed</h4>
 <ul>
+<li>[1.24.5]
+<ul>
+<li>Bug fixed with download Excel and csv buttons. Now, it is possible to download the entire table rather than only 153 items.</li>
+<li>Replace all spaces in column names by ’_’</li>
+<li>Set a keyId field in the aggregated dataset. It is the same feature as in the Convert tool but, during the aggregation process, it is set automatically - based on the adjacency matrix)</li>
+</ul></li>
 <li>[1.24.4]
 <ul>
 <li>During the conversion process, the following error (“CreateMSnSet: unused argument (indFData=indexForFData”) has been fixed.</li>
@@ -201,23 +208,22 @@ pre code {
 </ul></li>
 <li>[1.24.3]
 <ul>
-<li>Update the download functionality to get the list of proteins and peptides that make the agregation failed.</li>
+<li>Update the download functionality to get the list of proteins and peptides that make the aggregation failed.</li>
 <li>Bugs fixed in plots of ‘Quantitative nature’ of entities</li>
 </ul></li>
 <li>[1.24.2]
 <ul>
-<li>Bug fixed with the Reset button in DIfferential Analysis and the ‘Push p-value’ functionality</li>
+<li>Bug fixed with the Reset button in Differential Analysis, as well as in the ‘Push p-value’ functionality</li>
 </ul></li>
 <li>[1.24.1]
 <ul>
-<li>Fixed a bug with the number of digits when displaying numbers (such as in quantitative data tables)</li>
-<li></li>
+<li>Bug fixed with the number of digits when displaying numbers (such as in quantitative data tables)</li>
 </ul></li>
 <li>[1.24.0]
 <ul>
-<li>Enhancement of the selection of pi0 value in differential analysis tool</li>
-<li>Bug fixed when the user wants to impute values after have just display the normalization tool without process any normalization</li>
-<li>Fixed bug in differential analysis: The push p-value did not work on One-vs-All comparisons.</li>
+<li>Enhancement of the pi0 value selection in differential analysis tool.</li>
+<li>Bug fixed when the user wants to impute NAs after the normalization tool display (without process any normalization).</li>
+<li>Bug fixed in differential analysis: The ‘Push p-value’ function now also works on One-vs-All comparisons.</li>
 <li>Bug fixed with normalization on some selected proteins.</li>
 </ul></li>
 </ul>
