@@ -24,7 +24,9 @@ unlink('temp.md')
 ### add the favicon necessary text in the header
 
 html.tmp <- readLines("docs/index.html")
-if (file.exists('temp.html')){unlink('temp.html')}
+if (file.exists('temp.html'))
+  unlink('temp.html')
+
 dest <- file("temp.html", open = "w")
 
 for (i in 1:length(html.tmp)){
