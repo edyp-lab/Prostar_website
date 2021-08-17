@@ -16,6 +16,11 @@
 * When converting a dataset into a MSnSet object, the log-transformation is run after 0 values have been replaced by NAs.
 
 #### Bug fixed
+* [1.24.7]
+  * Bug fixed within the 'Convert tool', in the 'Build design' tab where the use of 'Order conditions' did not apply to the quantitative cell metadata. Now, this functionality works.
+  * The 'push p-value' feature in the Differential Analysis tool works fine now!
+* [1.24.6]
+  * Bug fixed with the 'Reset' button in the 'Hypothesis test' processing tool. 
 * [1.24.5]
   * Bug fixed with download Excel and csv buttons. Now, it is possible to download the entire table rather than only 153 items.
   * All spaces in column names have been replaced by '_' to standardize names.
