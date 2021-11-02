@@ -29,11 +29,11 @@ text-align: justify}
 
 **27/10/2021**
 
-With the new Bioconductor release, Prostar version 1.26.0 is now available and is deployed as a  [Zero-install](#zero-install) zip.
+* With the new Bioconductor release, Prostar version 1.26.0 is now available and is deployed as a  [Zero-install](#zero-install) zip.
  
 **22/06/2021**
 
-Prostar for metabolomics 1.22.8 (beta version) is now available as a [Zero-install](#zero-install) zip.
+* Prostar for metabolomics 1.22.8 (beta version) is now available as a [Zero-install](#zero-install) zip.
 
 
 ## About
