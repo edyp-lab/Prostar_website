@@ -4,6 +4,23 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.26
+
+#### New features
+* In the 'Convert' tool, implementation of a new way to select the nature of quantitative data for each sample
+* Add colors to cells metadata tags in Excel export file
+* The 'swap volcanolpot' feature in Differentiel Analysis has been removed.  It is replaced by a new feature in the 'Hypothesis Test' tool where it is now possible to swap the conditions of any comparison. This leads to a new list of comparisons which are available in the 'Differential analysis' tool.
+
+#### Bug fixed
+* [1.26.0]
+  * Bug fixed in demo datasets (package 'DAPARdata') related to the cell metadata tags for quantitative values.
+  * A bug in the function which exports datasets to MSnSets has been fixed.
+  * 'Aggregation tool': Bug fixed with the 'proteinId' on new aggregated protein dataset.
+  * Bug fixed with the feature '#/% of values to delete' when selecting '%'. This bug occurred in the 'Filtering tool > Quanti. metadata filtering' and the 'Differentiel analysis > Push p-value'
+  * Bug fixed in select metadata information for Aggregation
+
+
+
 ### News in Prostar 1.24
 
 #### New features
@@ -16,6 +33,9 @@
 * When converting a dataset into a MSnSet object, the log-transformation is run after 0 values have been replaced by NAs.
 
 #### Bug fixed
+* [1.24.8]
+  * Bug fixed in the Convert data tool (when selecting the identification method of quantitative data). The chechbox widget has been replaced by two radio buttons to improve the GUI experience. When the user choose to select identification methods, it is now mandatory to choose appropriate column names.
+  * Add comma as separating character for protIds (Use to generate adjacency matrices)
 * [1.24.7]
   * Bug fixed within the 'Convert tool', in the 'Build design' tab where the use of 'Order conditions' did not apply to the quantitative cell metadata. Now, this functionality works.
   * The 'push p-value' feature in the Differential Analysis tool works fine now!
