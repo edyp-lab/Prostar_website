@@ -94,7 +94,7 @@ Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar
 
 Only stand-alone install is detailed below. For server install, please refer to the user manual. 
 This type of install works with any operating system among Unix/Linux, Mac OS X and Windows. 
-However, it is necessary to have the latest version of R (R-4.1.0 for Prostar 1.24) installed in a directory where the user has read/write permissions. 
+However, it is necessary to have the latest version of R (R-4.1.0 for Prostar 1.26) installed in a directory where the user has read/write permissions. 
 
 1. Install Bioconductor package manager by copy-paste of the following commands (see 
 <a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a>
@@ -102,7 +102,7 @@ for details):
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version='3.13')
+BiocManager::install(version='3.14')
 ```
 2. Install Prostar:
 ```R
