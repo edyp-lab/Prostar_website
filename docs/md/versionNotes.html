@@ -189,6 +189,12 @@ pre code {
 <div id="bug-fixed" class="section level4">
 <h4>Bug fixed</h4>
 <ul>
+<li>[1.26.1]
+<ul>
+<li>A bug has been fixed in the computation of the t-test (in the Hypothesis test tool). The logFC value for a given comparison was swaped and not consistent with the computation of LogFC in Limma.</li>
+<li>In the Differential Analysis tool, the small info table about the number of selected entities is showed</li>
+<li>A bug fixed in the Filter tool with the tab ‘Quanti. metadata filtering’ or with the ‘Push p-value’ feature in the Differential Analysis tool. Now, both ‘keep’ and ‘delete’ options work.</li>
+</ul></li>
 <li>[1.26.0]
 <ul>
 <li>Bug fixed in demo datasets (package ‘DAPARdata’) related to the cell metadata tags for quantitative values.</li>
@@ -208,7 +214,7 @@ pre code {
 <li>Fully operational peptidomics and peptide-level workflows.</li>
 <li>Addition of a cell metadata tag about quantitative values (it indicates for each condition and each entity (either protein or peptide) whether it is a quantitative, missing or imputed value.</li>
 <li>The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is provided.</li>
-<li>Missing values barplots have been genearlized to any type of cell metadata tag.</li>
+<li>Missing values barplots have been generalized to any type of cell metadata tag.</li>
 <li>The information available in cell metadata is now accounted for during the aggregation step.</li>
 <li>Better color managment in plots.</li>
 <li>When converting a dataset into a MSnSet object, the log-transformation is run after 0 values have been replaced by NAs.</li>

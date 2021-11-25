@@ -27,9 +27,9 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
-**27/10/2021**
+**25/11/2021**
 
-* With the new Bioconductor release, Prostar version 1.26.0 is now available and is deployed as a  [Zero-install](#zero-install) zip.
+* Prostar version 1.26.1 has been released on the Bioconductor (bugs fixed) and is deployed as a [Zero-install](#zero-install)  zip.
  
 **22/06/2021**
 
@@ -74,8 +74,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.26.0.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.26.0.zip'});">**Prostar 1.26.0 zip file**</a> 
-(Release date: 27/10/2021) 
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.26.1.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.26.1.zip'});">**Prostar 1.26.1 zip file**</a> 
+(Release date: 25/11/2021) 
 
 (Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)
 

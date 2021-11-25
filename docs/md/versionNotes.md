@@ -12,6 +12,12 @@
 * The 'swap volcanolpot' feature in Differentiel Analysis has been removed.  It is replaced by a new feature in the 'Hypothesis Test' tool where it is now possible to swap the conditions of any comparison. This leads to a new list of comparisons which are available in the 'Differential analysis' tool.
 
 #### Bug fixed
+* [1.26.1]
+  * A bug has been fixed in the computation of the t-test (in the Hypothesis test tool). The logFC value for a given
+  comparison was swaped and not consistent with the computation of LogFC in Limma.
+  * In the Differential Analysis tool, the small info table about the number of selected entities is showed
+  * A bug fixed in the Filter tool with the tab 'Quanti. metadata filtering' or with the 'Push p-value' feature in the Differential Analysis tool. Now, both 'keep' and 'delete' options work.
+  
 * [1.26.0]
   * Bug fixed in demo datasets (package 'DAPARdata') related to the cell metadata tags for quantitative values.
   * A bug in the function which exports datasets to MSnSets has been fixed.
@@ -27,7 +33,7 @@
 * Fully operational peptidomics and peptide-level workflows.
 *	Addition of a cell metadata tag about quantitative values (it indicates for each condition and each entity (either protein or peptide) whether it is a quantitative, missing or imputed value. 
 *	The missing value filtering tool has been replaced by a filter tool that operates on quantitative cell metadata. A more user-friendly GUI is provided.
-* Missing values barplots have been genearlized to any type of cell metadata tag.
+* Missing values barplots have been generalized to any type of cell metadata tag.
 *	The information available in cell metadata is now accounted for during the aggregation step.
 *	Better color managment in plots.
 * When converting a dataset into a MSnSet object, the log-transformation is run after 0 values have been replaced by NAs.
