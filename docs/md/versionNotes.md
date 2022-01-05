@@ -12,6 +12,10 @@
 * The 'swap volcanolpot' feature in Differentiel Analysis has been removed.  It is replaced by a new feature in the 'Hypothesis Test' tool where it is now possible to swap the conditions of any comparison. This leads to a new list of comparisons which are available in the 'Differential analysis' tool.
 
 #### Bug fixed
+* [1.26.2]
+  * The selection of tooltips in the volcanoplot works now. It no longer stay on the default one but is updated with the current user selection for tooltips. 
+  * Bug fixed with the 'Reset' button in the 'Hypothesis Test' tool
+  
 * [1.26.1]
   * A bug has been fixed in the computation of the t-test (in the Hypothesis test tool). The logFC value for a given
   comparison was swaped and not consistent with the computation of LogFC in Limma.
