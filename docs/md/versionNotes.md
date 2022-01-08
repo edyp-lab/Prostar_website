@@ -12,6 +12,9 @@
 * The 'swap volcanolpot' feature in Differentiel Analysis has been removed.  It is replaced by a new feature in the 'Hypothesis Test' tool where it is now possible to swap the conditions of any comparison. This leads to a new list of comparisons which are available in the 'Differential analysis' tool.
 
 #### Bug fixed
+* [1.26.3]
+  * The function Prostar() works now when the user wants to launch Prostar via a R console.
+  
 * [1.26.2]
   * The selection of tooltips in the volcanoplot works now. It no longer stay on the default one but is updated with the current user selection for tooltips. 
   * Bug fixed with the 'Reset' button in the 'Hypothesis Test' tool
