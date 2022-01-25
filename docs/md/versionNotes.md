@@ -9,9 +9,12 @@
 #### New features
 * In the 'Convert' tool, implementation of a new way to select the nature of quantitative data for each sample
 * Add colors to cells metadata tags in Excel export file
-* The 'swap volcanolpot' feature in Differentiel Analysis has been removed.  It is replaced by a new feature in the 'Hypothesis Test' tool where it is now possible to swap the conditions of any comparison. This leads to a new list of comparisons which are available in the 'Differential analysis' tool.
+* The 'swap volcanolpot' feature in Differential Analysis has been removed.  It is replaced by a new feature in the 'Hypothesis Test' tool where it is now possible to swap the conditions of any comparison. This leads to a new list of comparisons which are available in the 'Differential analysis' tool.
 
 #### Bug fixed
+* [1.26.4]
+  * Fixes a bug with the Swap feature in the Hypothesis Test tool. When the user has swaped a first comparison and want to swap a second comparison, the first one was automatically swaped again.
+  * Fixed a bug with the Reset button in the differential analysis which did not reset the parameters of the Push p-value tool.
 * [1.26.3]
   * The function Prostar() works now when the user wants to launch Prostar via a R console.
   
