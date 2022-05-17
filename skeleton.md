@@ -6,7 +6,7 @@ output:
    toc: true
    toc_float: true
    theme: united
-   toc_depth: 2  # upto three depths of headings (specified by #, ## and ###)
+   toc_depth: 2  # up to three depths of headings (specified by #, ## and ###)
    highlight: tango  # specifies the syntax highlighting style
    #css: my.css   # you can add your custom css, should be in same folder 
    includes:
@@ -27,9 +27,9 @@ text-align: justify}
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
 
-**22/01/2022**
+**27/04/2022**
 
-* Prostar version 1.26.4 has been released on the Bioconductor (bugs fixed) and is deployed as a [Zero-install](#zero-install)  zip.
+* Prostar version 1.28.0 has been released on the Bioconductor (release 3.15) and is deployed as a [Zero-install](#zero-install)  zip.
  
 **22/06/2021**
 
@@ -74,10 +74,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.26.4.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.26.4.zip'});">**Prostar 1.26.4 zip file**</a> 
-(Release date: 22/01/2022) 
-
-(Prostar zip versions are released one month after the Bioconductor ones, after careful compatibility check)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.28.0.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.28.0.zip'});">**Prostar 1.28.0 zip file**</a> 
+(Release date: 27/04/2022) 
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a> 
@@ -102,7 +100,7 @@ for details):
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version='3.14')
+BiocManager::install(version='3.15')
 ```
 2. Install Prostar:
 ```R
