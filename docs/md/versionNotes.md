@@ -11,6 +11,8 @@
 * Textual information has been added in the imputation tool when the dataset contains no missing values. This prevents any user to run an imputation on such datasets (which made some imputation methods crash)
 
 #### Bugs fixed
+* [1.28.5]
+  * Improvements of the Differential Analysis tool, especially the information and tooltips related to the volcanoplot.
 * [1.28.0]
   * The 'Reset' action button in 'Differential Analysis' has been fixed. Now, the 'Push p-value' widgets are also set back to default values.
   * Bug fixed when exporting a peptide dataset as an Excel file
