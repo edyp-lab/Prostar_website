@@ -98,7 +98,7 @@ Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
 (Release date: 22/06/2021)
 
-### Docker image (Bêta, ok for Unix/Linux, Mac OS X and Windows)
+### **Bêta** Docker image (ok for Unix/Linux, Mac OS X and Windows)
 This feature is deployed as a Beta-test, as to give an alternative to the zip
 files. The Docker image and the zip file are synchronized and embed identical Prostar versions (to ensure full compatibility and debugging, the zip file and the docker image may be available up to few weeks after each Bioconductor release).
 
