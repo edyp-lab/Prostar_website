@@ -4,6 +4,20 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+
+### News in Prostar 1.30.1
+#### New features
+* [1.30.1]
+  * Differential analysis : a new information has been included concerning the 'push p-value' feature. This information is the number of entities that have been pushed
+  * Missing values imputation in pipeline at protein: In the 'Missing on Entire Condition' step, the info text after impuation was confusing. Now, when the imputation has been achieved a more explicit message( giving the number of imputed proteins) is displayed
+  * Metacell tags have been renamed. For more information, please got to the xxx xpages
+  
+
+#### Bugs fixed
+* [1.30.1]
+  * In the filtering tool, when selecting a tag which not appeared in the dataset, all the lines were deleted. This has been fixed. Moreover, the list of tags to choose now reflects only the tags that are really in the dataset and not all the tags available in DAPAR
+  * Bug fixed in "Open a MSnset" ("Attempt to select less than one element in get1index")
+
 ### News in Prostar 1.28
 
 #### New features

@@ -18,7 +18,7 @@ text-align: justify}
 </style>
 
 \usepackage{xspace}
-newcommand{\version}{1.28.5\xspace}
+newcommand{\version}{1.30.1\xspace}
 
 ------
 
@@ -29,19 +29,15 @@ newcommand{\version}{1.28.5\xspace}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**25/08/2022**
+**10/11/2022**
 
-* Prostar version 1.28.5 has been released on the Bioconductor (release 3.15) and is deployed as a [Zero-install](#zero-install)  zip.
+* Prostar version 1.30.1 has been released on the Bioconductor (release 3.16) and is deployed as a [Zero-install](#zero-install)  zip.
 
 
 **27/04/2022**
 
 * Prostar version 1.28.0 has been released on the Bioconductor (release 3.15) and is deployed as a [Zero-install](#zero-install)  zip.
  
-**22/06/2021**
-
-* Prostar for metabolomics 1.22.8 (beta version) is now available as a [Zero-install](#zero-install) zip.
-
 
 ## About
 Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.
@@ -91,8 +87,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.28.5.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.28.5.zip'});">**Prostar 1.28.5 zip file**</a>
-(Release date: 25/08/2022)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.30.1.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.30.1.zip'});">**Prostar 1.30.1 zip file**</a>
+(Release date: 10/11/2022)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
@@ -105,13 +101,13 @@ files. The Docker image and the zip file are synchronized and embed identical Pr
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be downloaded using the following command:
 ```
-docker pull ghcr.io/prostarproteomics/prostar:1.28.5
+docker pull ghcr.io/prostarproteomics/prostar:1.30.1
 
 ```
 
 There are two ways to launch Prostar's container. Using command line, type:
 ```
-docker run -it -p 3838:3838 prostar:1.28.5
+docker run -it -p 3838:3838 prostar:1.30.1
 ```
 
 Then, open your default web browser onto the following URL: http://localhost:3838.
@@ -146,7 +142,7 @@ for details):
 ```R
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version='3.15')
+BiocManager::install(version='3.16')
 ```
 2. Install Prostar:
 ```R
@@ -174,6 +170,8 @@ To test the online demo, please rely on the toy datasets that are available in "
 [[./docs/md/versionNotes.md]]
 
 [[./docs/md/formerReleases.md]]
+
+
 ------
 
 # Support & resources
