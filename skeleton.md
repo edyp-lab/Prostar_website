@@ -84,7 +84,7 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.30.1.zip" onclick="gtag('event', 'send', { 'event_category': 'download',  'event_label': 'Download Prostar_1.30.1.zip'});">**Prostar 1.30.1 zip file**</a>
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.30.1.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.30.1.zip'});">**Prostar 1.30.1 zip file**</a>
 (Release date: 10/11/2022)
 
 
