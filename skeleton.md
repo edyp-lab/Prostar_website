@@ -10,7 +10,7 @@ output:
    highlight: tango  # specifies the syntax highlighting style
    #css: my.css   # you can add your custom css, should be in same folder
    includes:
-    in_header: GA_Script.html
+    in_header: google-analytics.html
 ---
 <style>
 body {
