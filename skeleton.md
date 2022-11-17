@@ -17,9 +17,6 @@ body {
 text-align: justify}
 </style>
 
-\usepackage{xspace}
-newcommand{\version}{1.30.1\xspace}
-
 ------
 
 # Home
