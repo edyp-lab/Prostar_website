@@ -104,7 +104,7 @@ docker pull ghcr.io/prostarproteomics/prostar:1.30.2
 
 There are two ways to launch Prostar's container. Using command line, type:
 ```
-docker run -it -p 3838:3838 prostar:1.30.2
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.2
 ```
 
 Then, open your default web browser onto the following URL: http://localhost:3838.
@@ -115,7 +115,7 @@ lines:
 ```
 #! /bin/sh
 
-docker run -it -p 3838:3838 prostar
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.2
 python -m webbrowser http://localhost:3838
 ```
 
