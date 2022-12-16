@@ -83,4 +83,78 @@ This is now clearly explained and illustrated in <a href="https://www.bioconduct
 Adjusted p-values (a. k. a. q-values) are often misunderstood. Because of their names, Prostar users often assume that an adjusted p-value is a protein-level piece of information, which quantitative value differs from the raw p-value, because of a mere "mathematical correction factor", yet with essentially the same interpretation (that of a probabilistic quantification related to the DA status of the protein). However, this does not hold: an adjusted p-value is a list-related piece of information, which is exactly equivalent to an FDR: The adjusted p-value of the N-th protein with the smallest p-value equates the FDR when the list of putative DA proteins is cut to a length of N proteins. Consequently, a same protein with a same p-value, may have different adjusted p-values depending on the other p-values of the datasets (those which are smaller). This makes the adjusted p-value interpretation a bit touchy. In addition, displaying the adjusted p-value information in a tabular sheet were rows could be ordered in different ways (such as Excel spreadsheets for instance) is confusing: If the DA proteins are not sorted by increasing or decreasing p-values, their adjusted p-values cannot be related to the set of DA proteins they apply to. Thus, displaying them is both non-informative and error-prone. After having observed (or having received questions from) Prostar users who were misled by the adjusted p-value information, we have decided to remove it from the tabular outputs. An alternative would be to display the adjusted p-values, but with a different names, easier to interpret, such as "minimum FDR threshold at which the protein would be selected". However, displaying this information promotes p-value hacking, as users may be tempted to spot their proteins of interest and tune the FDR accordingly. As we search for a better solution, any suggestion or comment is welcomed!
 
 ### How the cells metadata tags are structured?
-Work in progress
+
+#### Prostar prior to 1.30.0
+
+Peptide-level vocabulary
+
+```
+──Any
+  │── 1.0 Quantitative Value
+  │    │── 1.1 Identified
+  │    │── 1.2 Recovered
+  │
+  │── 2.0 Missing value
+  │    │── 2.1 Missing POV
+  │    │── 2.2 Missing MEC
+  │
+  │── 3.0 Imputed value
+  │    │── 3.1 Imputed POV
+  │    │── 3.2 Imputed MEC
+
+```
+
+Protein-level vocabulary:
+```
+──Any
+  │── 1.0 Quantitative Value
+  │    │── 1.1 Identified
+  │    │── 1.2 Recovered
+  │
+  │── 2.0 Missing value
+  │    │── 2.1 Missing POV
+  │    │── 2.2 Missing MEC
+  │
+  │── 3.0 Imputed value
+  │    │── 3.1 Imputed POV
+  │    │── 3.2 Imputed MEC
+  │
+  │── 4.0 Combined value
+```
+
+#### Prostar from 1.30.0
+
+Peptide-level vocabulary
+
+```
+──Any
+  │── 1.0 Quantified
+  │    │── 1.1 Quant. by direct id
+  │    │── 1.2 Quant. by recovery
+  │── 2.0 Missing
+  │    │── 2.1 Missing POV
+  │    │── 2.2 Missing MEC
+  │── 3.0 Imputed
+  │    │── 3.1 Imputed POV
+  │    │── 3.2 Imputed MEC
+
+```
+
+Protein-level vocabulary:
+```
+──Any
+  |── 1.0 Quantified
+  |    │── 1.1 Quant. by direct id
+  |    │── 1.2 Quant. by recovery
+  |── 2.0 Missing
+  |    │── 2.1 Missing POV
+  |    │── 2.2 Missing MEC
+  |── 3.0 Imputed 
+  |    │── 3.1 Imputed POV
+  |    │── 3.2 Imputed MEC
+  |── 4.0 Combined tags
+```
+
+
+
+
