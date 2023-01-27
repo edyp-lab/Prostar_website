@@ -33,6 +33,7 @@ If you need any help, but also if you wish to make comments or suggestions, plea
 9. <a href="https://hal.archives-ouvertes.fr/hal-02267178v1" target="_blank">_S. Wieczorek, Q. Giai Gianetto, T. Burger_. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses.  **Journal of Proteomics**, vol 207, p. 103441, 2019</a>.
 10. <a href="https://hal.archives-ouvertes.fr/hal-02963041" target="_blank">_Y. Cout&eacute;, C. Bruley, T. Burger._ Beyond target-decoy competition: stable validation of peptide and protein identifications in mass spectrometry-based discovery proteomics. **Analytical Chemistry**, 92(22), pp 14898–14906, 2020.</a>
 11. <a href="https://www.biorxiv.org/content/10.1101/2020.05.29.122770v1" target="_blank">_Q. Giai Gianetto, S. Wieczorek, Y. Coute and T. Burger_. Multiple peptide-level imputation strategy for mass spectrometry-based proteomic data. (in preparation).</a>
+12. <a href="https://hal.science/hal-03695779" target="_blank">_T. Burger_. Can Omics Biology Go Subjective because of Artificial Intelligence? A Comment on “Challenges and Opportunities for Bayesian Statistics in Proteomics” by Crook et al. **Journal of Proteome Research**, 21(7), pp. 1783–1786, 2022.</a>
 
 #### Other references
 
