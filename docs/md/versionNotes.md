@@ -5,6 +5,19 @@
 * To Be Announced - Many Great stuffs! 😉
 
 
+### News in Prostar 1.30.3
+
+#### Bugs fixed
+  * In the imputation tool: all imputation methods are functional again
+  * Bug fixed in the Student's test (the value of logFC is now correct and consistent with Limma)
+
+  
+#### New features
+  * In case of error during the execution of some processes(), a popup window - containing the text of the error - will be shown.
+  
+  
+  
+  
 ### News in Prostar 1.30.2
 
 #### Bugs fixed

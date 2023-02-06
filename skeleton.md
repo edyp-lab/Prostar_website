@@ -26,9 +26,9 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**28/11/2022**
+**03/02/2023**
 
-* Prostar version 1.30.2 has been released on the Bioconductor (release 3.16) and is deployed as a [Zero-install](#zero-install)  zip.
+* Prostar version 1.30.3 has been released on the Bioconductor (release 3.16) and is deployed as a [Zero-install](#zero-install)  zip.
 
 
 **27/04/2022**
@@ -84,8 +84,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.30.2.zip" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.30.2.zip'});">**Prostar 1.30.2 zip file**</a>
-(Release date: 28/11/2022)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.30.3.zip" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.30.3.zip'});">**Prostar 1.30.3 zip file**</a>
+(Release date: 03/02/2023)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
@@ -98,13 +98,13 @@ files. The Docker image and the zip file are synchronized and embed identical Pr
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be downloaded using the following command:
 ```
-docker pull ghcr.io/prostarproteomics/prostar:1.30.2
+docker pull ghcr.io/prostarproteomics/prostar:1.30.3
 
 ```
 
 There are two ways to launch Prostar's container. Using command line, type:
 ```
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.2
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.3
 ```
 
 Then, open your default web browser onto the following URL: http://localhost:3838.
@@ -115,7 +115,7 @@ lines:
 ```
 #! /bin/sh
 
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.2
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.3
 python -m webbrowser http://localhost:3838
 ```
 
