@@ -131,7 +131,7 @@ chmod +x docker_launch_prostar.sh
 
 Only stand-alone install is detailed below. For server install, please refer to the user manual.
 This type of install works with any operating system among Unix/Linux, Mac OS X and Windows.
-However, it is necessary to have the latest version of R (R-4.2.0 for Prostar 1.28) installed in a directory where the user has read/write permissions.
+However, it is necessary to have the latest version of R (>= 4.2.0 for Prostar 1.30.x) installed in a directory where the user has read/write permissions.
 
 1. Install Bioconductor package manager with the following commands (see
 <a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a>
