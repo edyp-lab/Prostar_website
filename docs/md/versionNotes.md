@@ -5,6 +5,13 @@
 * To Be Announced - Many Great stuffs! 😉
 
 
+### News in Prostar 1.30.4
+
+#### Bugs fixed
+  * Small bug fixed in the normalization tool
+
+  
+  
 ### News in Prostar 1.30.3
 
 #### Bugs fixed
