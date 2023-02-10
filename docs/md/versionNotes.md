@@ -5,6 +5,12 @@
 * To Be Announced - Many Great stuffs! 😉
 
 
+### News in Prostar 1.30.5
+
+#### Bugs fixed
+  * Bug fixed in the filtering tool with the cell metadata tags
+
+
 ### News in Prostar 1.30.4
 
 #### Bugs fixed
