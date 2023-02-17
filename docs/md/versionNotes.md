@@ -5,6 +5,22 @@
 * To Be Announced - Many Great stuffs! 😉
 
 
+### News in Prostar 1.30.6
+
+#### Bugs fixed
+  * Bug fixed in agregation tool for peptide-level pipeline
+
+  
+#### New features
+  * A popup windows appears if the dataset which is loaded was built with an older version of Prostar than
+  the running one. Prostar will continue to run but the user is informed that unexpected behaviour may happen in this case.
+  
+### News in Prostar 1.30.5
+
+#### Bugs fixed
+  * Bug fixed in the filtering tool with the cell metadata tags
+
+
 ### News in Prostar 1.30.4
 
 #### Bugs fixed

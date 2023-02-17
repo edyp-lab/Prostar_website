@@ -144,16 +144,16 @@ and/or imputed values (1.x, 3.x) is not possible.
 
 * **Rule 2**: Aggregation of 2.1 peptides between each other gives a generic missing value (2.0)
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule2.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule2.png"   width="300"/>
 
 
 * **Rule 3**: Aggregation of 2.2 peptides between each other gives a generic missing value (2.0)
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule3.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule3.png"   width="300"/>
 
 * **Rule 4**: Aggregation of a mix of 2.1 and 2.2 gives a generic missing value (2.0)
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule4.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule4.png"   width="300"/>
 
 
 
@@ -162,22 +162,22 @@ and/or imputed values (1.x, 3.x) is not possible.
 * **Rule 5**: if the type of all the peptides to agregate is either 1.0, 1.1 or 1.2,
 then the final metadata is set to the corresponding tag
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule5.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule5.png"   width="300"/>
 
 * **Rule 5bis**: if the type of all the peptides to agregate is either 3.0, 3.1 or 3.2,
 then the final metadata is set to the corresponding tag
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule5.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule5.png"   width="300"/>
 
 * **Rule 6**: if the set of metacell to agregate is a mix of 1.x, then the final metadata is set to 1.0
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule6.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule6.png"   width="300"/>
 
 * **Rule 7**: if the set of metacell to agregate is a mix of 3.x, then the final metadata is set to 3.0
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule7.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule7.png"   width="300"/>
 
 * **Rule 8**: if the set of metacell to agregate is a mix of 3.X and 3.0 and other (1.X),
 then the final metadata is set to 4.0
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule8.png"   width="300"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-rule8.png"   width="300"/>
