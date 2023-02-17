@@ -1,5 +1,5 @@
 ---
-title: '<a name="top"></a><img src="https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/LogoProstarComplet.png"    width="135"/>
+title: '<a name="top"></a><img src="https://raw.githubusercontent.com/prostarproteomics/Prostar/master/inst/ProstarApp/www/images/LogoProstarComplet.png"    width="135"/>
 **p r o s t a r - p r o t e o m i c s .org**'
 output:
   html_document:
@@ -116,6 +116,7 @@ lines:
 #! /bin/sh
 
 docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.30.4
+wait 5
 python -m webbrowser http://localhost:3838
 ```
 
@@ -194,7 +195,7 @@ Our community forum is hosted by the Bioconductor:
 
 <a href="https://scholar.google.fr/citations?hl=fr&user=K4CBghYAAAAJ" target="_blank">**Samuel Wieczorek**</a>
 
-<img src="https://github.com/samWieczorek/Prostar_website/raw/master/docs/img/Sam.png"   width="155"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/Sam.png"   width="155"/>
 
 After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et M&eacute;tiers",
 followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University.
@@ -206,7 +207,7 @@ debugging, graphical user interfaces, etc.
 
 <a href="https://sites.google.com/site/thomasburgerswebpage" target="_blank">**Thomas Burger**</a>
 
-<img src="https://github.com/samWieczorek/Prostar_website/raw/master/docs/img/Thomas-Burger-155.jpg"   width="155"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/Thomas-Burger-155.jpg"   width="155"/>
 
 Tom is a CNRS senior scientist. He holds two MS degrees in computer sciences and applied mathematics (2004), 
 a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. 
@@ -233,7 +234,7 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 * Enora Fremy
 
 ### Beta-testing & co.
-<img src="https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/edyp.png"   width="155"/>
+<img src="https://raw.githubusercontent.com/prostarproteomics/Prostar/master/inst/ProstarApp/www/images/edyp.png"   width="155"/>
 
 The entire EDyP proteomics platform (see <a href="http://www.edyp.fr" target="_blank">www.edyp.fr</a>):
 Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members.

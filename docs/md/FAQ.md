@@ -52,7 +52,7 @@ devtools::install_github('jbkunst/highcharter')
 
 ### Why does my volcano plot look so aligned?
 
-![](https://raw.githubusercontent.com/samWieczorek/Prostar/master/inst/ProstarApp/www/images/dfPriorIssue.png "Volcano plot resulting from a Limma issue")
+![](https://raw.githubusercontent.com/prostarproteomics/Prostar/master/inst/ProstarApp/www/images/dfPriorIssue.png "Volcano plot resulting from a Limma issue")
 
 In very uncommun situations, one may obtain a bowl shape volcano plot such as depicted above. This is due to using Limma on a dataset for which it is not adapted: Briefly, the numerical values in the quantitative matrix appears to have a repetitive pattern that prevent Limma routines to compute the number of degrees of freedom of the Chi2 distribution on which the protein variances should be fitted. As a result, Limma returns a result directly proportional to the fold-change, and the p-values are none-informative. In such cases, which are fortunately extremely odd, we advise to replace Limma test by a classical t-test.
 
@@ -124,37 +124,60 @@ Protein-level vocabulary:
 
 #### Prostar from 1.30.0
 
-Peptide-level vocabulary
 
-```
-──Any
-  │── 1.0 Quantified
-  │    │── 1.1 Quant. by direct id
-  │    │── 1.2 Quant. by recovery
-  │── 2.0 Missing
-  │    │── 2.1 Missing POV
-  │    │── 2.2 Missing MEC
-  │── 3.0 Imputed
-  │    │── 3.1 Imputed POV
-  │    │── 3.2 Imputed MEC
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/metacellTags.png"   width="800"/>
 
-```
+### During the aggregation of peptides to proteins, how the cells metadata tags are managed?
 
-Protein-level vocabulary:
-```
-──Any
-  |── 1.0 Quantified
-  |    │── 1.1 Quant. by direct id
-  |    │── 1.2 Quant. by recovery
-  |── 2.0 Missing
-  |    │── 2.1 Missing POV
-  |    │── 2.2 Missing MEC
-  |── 3.0 Imputed 
-  |    │── 3.1 Imputed POV
-  |    │── 3.2 Imputed MEC
-  |── 4.0 Combined tags
-```
+A set of rules define how the cells metadata tags are aggregated:
+Each example below represent a set of three peptides which are aggregated into one protein.
+
+**Basic agregation**
+
+* **Rule 1**: The aggregation of a mix of missing values (2.X) with any of quantitative
+and/or imputed values (1.x, 3.x) is not possible. 
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule1.png"   width="300"/>
 
 
+**Aggregation of different types of missing values (among 2.1, 2.2)**
+
+* **Rule 2**: Aggregation of 2.1 peptides between each other gives a generic missing value (2.0)
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule2.png"   width="300"/>
 
 
+* **Rule 3**: Aggregation of 2.2 peptides between each other gives a generic missing value (2.0)
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule3.png"   width="300"/>
+
+* **Rule 4**: Aggregation of a mix of 2.1 and 2.2 gives a generic missing value (2.0)
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule4.png"   width="300"/>
+
+
+
+**Aggregation of a mix of quantitative and/or imputed values (among 1.x and 3.X)**
+
+* **Rule 5**: if the type of all the peptides to agregate is either 1.0, 1.1 or 1.2,
+then the final metadata is set to the corresponding tag
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule5.png"   width="300"/>
+
+* **Rule 5bis**: if the type of all the peptides to agregate is either 3.0, 3.1 or 3.2,
+then the final metadata is set to the corresponding tag
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule5.png"   width="300"/>
+
+* **Rule 6**: if the set of metacell to agregate is a mix of 1.x, then the final metadata is set to 1.0
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule6.png"   width="300"/>
+
+* **Rule 7**: if the set of metacell to agregate is a mix of 3.x, then the final metadata is set to 3.0
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule7.png"   width="300"/>
+
+* **Rule 8**: if the set of metacell to agregate is a mix of 3.X and 3.0 and other (1.X),
+then the final metadata is set to 4.0
+
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/peptide-level-aggregation-Rule8.png"   width="300"/>
