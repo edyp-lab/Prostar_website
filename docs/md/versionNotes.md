@@ -4,7 +4,13 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.30.7
 
+#### Bugs fixed
+  * Buggy plots have been disabled in aggregation process
+
+
+  
 ### News in Prostar 1.30.6
 
 #### Bugs fixed

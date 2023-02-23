@@ -138,46 +138,39 @@ Note: Before an aggregation, a dataset does not contain:
 * x.0 tags: 'Quantified' (1.0), 'Missing' (2.0) nor 'Imputed' (3.0)
 * 'Combined tags' tag
 
-These tags being specific to the aggregation process.
+These tags are specific to the aggregation process and appear only in aggregated proteins.
 
-**Rule 1: Aggregation of a unique type of quantified values (among 1.1, 1.2)**
-
+**Rule 1: Aggregation of a unique type of quantified values (among 1.1, 1.2)**. 
 If the type of all the peptides to agregate is either 1.1 or 1.2, then the resulting metadata tag is set to the corresponding tag
 
-**Rule 2: Aggregation of a unique type of missing values (among 2.1, 2.2)**
-
+**Rule 2: Aggregation of a unique type of missing values (among 2.1, 2.2)**.
 The aggregation of 2.1 peptides between each other gives a generic missing value (2.0)
 
-**Rule 3: Aggregation of a unique type of imputed values (among 3.3, 3.2)**
-
+**Rule 3: Aggregation of a unique type of imputed values (among 3.3, 3.2)**.
 If the type of all the peptides to agregate is either 3.0, 3.1 or 3.2, then the resulting metadata tag is set to an  'Imputed' value (3.0).
 
 
-**Rule 4: Aggregation of a mix of quantified values (1.x)**
-
+**Rule 4: Aggregation of a mix of quantified values (1.x)**.
 If the set of cell matadata tags to agregate is a mix of 1.x, then the final metadata is set to 1.0.
 
 
-**Rule 5: Aggregation of a mix of missing values (2.x)**
-
+**Rule 5: Aggregation of a mix of missing values (2.x)**.
 If the set of metacell to agregate is a mix of 2.x, then the final metadata is set to 'Missing' (2.0)
 
 
-**Rule 6: Aggregation of a mix of imputed values (3.x)**
-
+**Rule 6: Aggregation of a mix of imputed values (3.x)**.
 If the set of cells metadata tags to agregate is a mix of 3.x, then the final metadata is set to 'Imputed' (3.0)
 
 
-**Rule 7: Aggregation of a mix of missing values (2.x) with any of quantitative and/or imputed values (1.x, 3.x)**
-
+**Rule 7: Aggregation of a mix of missing values (2.x) with any of quantitative and/or imputed values (1.x, 3.x)**.
 This case is not possible.
 
 
-**Rule 8: Agregation of a mix of quantitative values (1.x) and imputed values (3.x)**
-
-
+**Rule 8: Agregation of a mix of quantitative values (1.x) and imputed values (3.x)**.
 If the set of metacell to agregate is a mix of 3.X and 3.0 and other (1.X), then the final metadata is set to 
 'Combined tags' (4.0).
 
 <img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/metacellTags2.png"   width="800"/>
 
+
+Once the cell metadata tags have been aggregated, the final step of the process consist in analyzing missing values in order to identify 'missing POV' and 'missing MEC'. Thus, at the end of the agregation process, a dataset may contains
