@@ -4,10 +4,18 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.32.1
+
+#### New features
+  * New selection tool for cell metadata tags (used in the filtering tool, in Descriptive Statistics and Differential Analysis)
+  
+  
+  
 ### News in Prostar 1.30.7
 
 #### Bugs fixed
-  * Buggy plots have been disabled in aggregation process
+  * Buggy plots have been temporarly disabled in aggregation process
+  * Bug fixed while converting a text/Excel file to a MSnset file (issue with the versions of Prostar and DAPAR)
 
 
   
