@@ -4,10 +4,17 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.32.3
+
+#### Bugs fixed
+  * Bug fixed while opening xlsx files.
+  
+  
 ### News in Prostar 1.32.1
 
 #### New features
   * New selection tool for cell metadata tags (used in the filtering tool, in Descriptive Statistics and Differential Analysis)
+  * Export as Excel file: additional sheet with DAPAR and Prostar version number used to process the dataset
   
   
   

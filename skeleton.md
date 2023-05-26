@@ -26,9 +26,9 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**04/05/2023**
+**24/05/2023**
 
-* Prostar version 1.32.1 has been released on the Bioconductor (release 3.17) and is deployed as a [Zero-install](#zero-install) zip.
+* Prostar version 1.32.3 has been released on the Bioconductor (release 3.17) and is deployed as a [Zero-install](#zero-install) zip.
 
 
 **27/04/2022**
@@ -84,8 +84,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.32.1.zip" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.32.1.zip'});">**Prostar 1.32.1 zip file**</a>
-(Release date: 04/05/2023)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.32.3.zip" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.32.3.zip'});">**Prostar 1.32.3 zip file**</a>
+(Release date: 24/05/2023)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
@@ -98,24 +98,23 @@ files. The Docker image and the zip file are synchronized and embed identical Pr
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be downloaded using the following command:
 ```
-docker pull ghcr.io/prostarproteomics/prostar:1.32.1
+docker pull ghcr.io/prostarproteomics/prostar:1.32.3
 
 ```
 
 There are two ways to launch Prostar's container. Using command line, type:
 ```
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.32.1
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.32.3
 ```
 
 Then, open your default web browser onto the following URL: http://localhost:3838.
 
-If an executable file is preferred, then create the launch script referred to as 'docker_launch_prostar.sh' with the following
-lines:
+If an executable file is preferred, then create the launch script referred to as 'docker_launch_prostar.sh' with the following lines:
 
 ```
 #! /bin/sh
 
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.32.1
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.32.3
 wait 5
 python -m webbrowser http://localhost:3838
 ```
@@ -132,7 +131,7 @@ chmod +x docker_launch_prostar.sh
 
 Only stand-alone install is detailed below. For server install, please refer to the user manual.
 This type of install works with any operating system among Unix/Linux, Mac OS X and Windows.
-However, it is necessary to have the latest version of R (>= 4.2.0 for Prostar 1.30.x) installed in a directory where the user has read/write permissions.
+However, it is necessary to have the latest version of R (>= 4.3.0 for Prostar 1.30.x) installed in a directory where the user has read/write permissions.
 
 1. Install Bioconductor package manager with the following commands (see
 <a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a>

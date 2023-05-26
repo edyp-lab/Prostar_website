@@ -123,10 +123,10 @@ Protein-level vocabulary:
   │── 4.0 Combined value
 ```
 
-#### Prostar from 1.30.0
+#### Prostar from 1.31.2
 
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/metacellTags.png"   width="800"/>
+<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/metacellTags.png"   width="600"/>
 
 ### How the cells metadata tags are aggregated?
 
