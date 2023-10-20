@@ -4,6 +4,14 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.32.6
+
+#### Bugs fixed
+  * Bug fixed while opening xlsx files.
+  * Bug fixed while converting either text nor Excel files
+  * Bug fixed with the display of some pages
+
+
 ### News in Prostar 1.32.3
 
 #### Bugs fixed
