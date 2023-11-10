@@ -138,7 +138,7 @@ BiocManager::install(version='3.18')
 ```
 2. In order to have a full installation, install all additional dependencies:
 ```R
-BiocManager::install(c("DT", "rclipboard", "shinyWidgets", "markdown", 'shinyTree', 'FactoMineR', 'factoextra'))
+BiocManager::install(c("graph", "openxlsx", "DT", "rclipboard", "shinyWidgets", "markdown", 'shinyTree', 'FactoMineR', 'factoextra'))
 ```
 
 3. Install Prostar:
