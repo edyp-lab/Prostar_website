@@ -4,6 +4,12 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.34.1
+
+#### New features
+  * Allow hypothesis test using Limma with a dataset built on a flat design and containing up to 26 conditions
+
+
 ### News in Prostar 1.34.0
 
 #### Bugs fixed
