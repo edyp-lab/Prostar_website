@@ -93,13 +93,13 @@ files. The Docker image and the zip file are synchronized and embed identical Pr
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be downloaded using the following command:
 ```
-docker pull ghcr.io/prostarproteomics/prostar:1.34.1
+docker pull ghcr.io/prostarproteomics/prostar:1.34.2
 
 ```
 
 There are two ways to launch Prostar's container. Using command line, type:
 ```
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.1
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.2
 ```
 
 Then, open your default web browser onto the following URL: http://localhost:3838.
