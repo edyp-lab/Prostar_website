@@ -4,6 +4,13 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+### News in Prostar 1.34.2
+
+#### Bugs fixed
+  * Bug fixed while opening the 'Descriptive statistics' tab after have used 
+  one of the processes in 'Data processing' tab.
+  
+
 ### News in Prostar 1.34.1
 
 #### New features

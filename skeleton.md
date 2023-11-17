@@ -26,9 +26,9 @@ text-align: justify}
 ## News
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**13/11/2023**
+**15/11/2023**
 
-* Prostar version 1.34.1 has been released on the Bioconductor (release 3.18) and is deployed as a [Zero-install](#zero-install) zip.
+* Prostar version 1.34.2 has been released on the Bioconductor (release 3.18) and is deployed as a [Zero-install](#zero-install) zip.
 
 
 ## About
@@ -79,8 +79,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.34.1.zip" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.1.zip'});">**Prostar 1.34.1 zip file**</a>
-(Release date: 13/11/2023)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.34.2.zip" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.2.zip'});">**Prostar 1.34.2 zip file**</a>
+(Release date: 15/11/2023)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
@@ -109,7 +109,7 @@ If an executable file is preferred, then create the launch script referred to as
 ```
 #! /bin/sh
 
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.1
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.2
 wait 5
 python -m webbrowser http://localhost:3838
 ```
@@ -135,10 +135,6 @@ for details):
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(version='3.18')
-```
-2. In order to have a full installation, install all additional dependencies:
-```R
-BiocManager::install(c("graph", "openxlsx", "DT", "rclipboard", "shinyWidgets", "markdown", 'shinyTree', 'FactoMineR', 'factoextra'))
 ```
 
 3. Install Prostar:
@@ -196,7 +192,7 @@ Our community forum is hosted by the Bioconductor:
 
 <img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/Sam.png"   width="155"/>
 
-After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et M&eacute;tiers",
+After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et Metiers",
 followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University.
 Since then, he has been working as a research engineer at EDyP-lab, where he has been developing and maintaining software tools for proteomics.
 Sam has been involved in Prostar project since its beginning.
