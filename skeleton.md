@@ -79,11 +79,11 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr:443/ProstarZeroInstall/Prostar_1.34.2.zip"  download="Prostar_1.34.2" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.2.zip'});">**Prostar 1.34.2 zip file**</a>
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.34.2.zip"  download="Prostar_1.34.2" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.2.zip'});">**Prostar 1.34.2 zip file**</a>
 (Release date: 15/11/2023)
 
 
-Download <a href="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
 (Release date: 22/06/2021)
 
 ### **Bêta** Docker image (ok for Unix/Linux, Mac OS X and Windows)
