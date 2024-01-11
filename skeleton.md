@@ -24,11 +24,24 @@ text-align: justify}
 \color{blue}{\scriptsize{\version}}
 
 ## News
+
+**16/01/2024**
+
+Meet us at Winterberg for EuBICS Winter school! (https://eubic-ms.org/events/2024-winter-school/)
+To download for the the Prostar workshop:
+
+* <lien vers le ZIP 1.34.5>
+* <lien vers le docker 1.34.5>
+* <lien vers allsamples_sum_Bouyssie_2020_simplified.csv (c’est le dataset original que je t’ai envoyé, mais il est aussi en PJ)>
+* <lien vers demo_dataset_winterberg_imputed.msnset (en PJ)>
+* <lien vers bouyssie_2020_winterberg_imputed.msnset (en PJ)>
+
+
+**11/01/2024**
+
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-**15/11/2023**
-
-* Prostar version 1.34.2 has been released on the Bioconductor (release 3.18) and is deployed as a [Zero-install](#zero-install) zip.
+* Prostar version 1.34.5 has been released on the Bioconductor (release 3.18) and is deployed as a [Zero-install](#zero-install) zip.
 
 
 ## About
@@ -42,7 +55,7 @@ Moreover, it has been regularly updated along years to provide state-of-the-art 
 ## Citation
 **Maintaining Prostar as free software is a heavy duty. Please cite the following reference**
 
-> *S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Cout&eacute;, M. Ferro, C. Bruley and T. Burger*.
+> *S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Coute;, M. Ferro, C. Bruley and T. Burger*.
 DAPAR & ProStaR: software to perform statistical analyses in quantitative discovery proteomics.
 **Bioinformatics** 33(1), 135-136, 2017.  
 <a href="http://doi.org/10.1093/bioinformatics/btw580" target="_blank">http://doi.org/10.1093/bioinformatics/btw580.</a>
@@ -79,8 +92,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.34.2.zip"  download="Prostar_1.34.2" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.2.zip'});">**Prostar 1.34.2 zip file**</a>
-(Release date: 15/11/2023)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.34.5.zip"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});">**Prostar 1.34.5 zip file**</a>
+(Release date: 11/01/2024)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
