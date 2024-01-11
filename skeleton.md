@@ -34,7 +34,7 @@ To download for the Prostar workshop:
 * <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});" target='_blank'>Prostar 1.34.5 zip</a>
 * Run: docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
   
-  Then, open a web browser onto the following URL: http://localhost
+  Then, access <a href="http://localhost" target='_blank'>Prostar</a>
 * <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>Datasets</a> 
 
 
