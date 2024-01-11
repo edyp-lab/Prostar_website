@@ -30,7 +30,7 @@ text-align: justify}
 Meet us at Winterberg for EuBICS Winter school! (https://eubic-ms.org/events/2024-winter-school/)
 To download for the the Prostar workshop:
 
-* <lien vers le ZIP 1.34.5>
+* Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});" target='_blank'>**Prostar 1.34.5 zip file**</a>
 * <lien vers le docker 1.34.5>
 * <lien vers allsamples_sum_Bouyssie_2020_simplified.csv (c’est le dataset original que je t’ai envoyé, mais il est aussi en PJ)>
 * <lien vers demo_dataset_winterberg_imputed.msnset (en PJ)>
