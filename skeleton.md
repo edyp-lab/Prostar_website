@@ -27,14 +27,18 @@ text-align: justify}
 
 **16/01/2024**
 
-Meet us at Winterberg for EuBICS Winter school! (https://eubic-ms.org/events/2024-winter-school/)
-To download for the the Prostar workshop:
+Meet us at Winterberg for EuBICS Winter school! (https://eubic-ms.org/events/2024-winter-school/).
 
-* Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});" target='_blank'>**Prostar 1.34.5 zip file**</a>
-* <lien vers le docker 1.34.5>
-* <lien vers allsamples_sum_Bouyssie_2020_simplified.csv (c’est le dataset original que je t’ai envoyé, mais il est aussi en PJ)>
-* <lien vers demo_dataset_winterberg_imputed.msnset (en PJ)>
-* <lien vers bouyssie_2020_winterberg_imputed.msnset (en PJ)>
+To download for the Prostar workshop:
+
+* <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});" target='_blank'>Prostar 1.34.5 zip</a>
+* Run: docker pull ghcr.io/prostarproteomics/prostar:1.34.5
+
+  docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.5
+  
+  Then, open your default web browser onto the following URL: http://localhost:3838.
+* <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_ZeroInstall_datasets/" target='_blank'>Datasets</a> 
+
 
 
 **11/01/2024**
@@ -106,13 +110,13 @@ files. The Docker image and the zip file are synchronized and embed identical Pr
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be downloaded using the following command:
 ```
-docker pull ghcr.io/prostarproteomics/prostar:1.34.2
+docker pull ghcr.io/prostarproteomics/prostar:1.34.5
 
 ```
 
 There are two ways to launch Prostar's container. Using command line, type:
 ```
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.2
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.5
 ```
 
 Then, open your default web browser onto the following URL: http://localhost:3838.
@@ -122,7 +126,7 @@ If an executable file is preferred, then create the launch script referred to as
 ```
 #! /bin/sh
 
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.2
+docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.5
 wait 5
 python -m webbrowser http://localhost:3838
 ```
