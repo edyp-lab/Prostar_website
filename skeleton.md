@@ -34,11 +34,13 @@ To download for the Prostar workshop:
 * Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});" target='_blank'>Prostar 1.34.5 zip</a>
 * Or run it through Docker with the following command:
 
-  docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
+  ```docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5```
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
 
 * Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a> .
+
+
 
 
 
