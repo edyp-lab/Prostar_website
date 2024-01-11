@@ -4,7 +4,15 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
-### News in Prostar 1.34.2
+### News in Prostar 1.34.5
+
+#### Bugs fixed
+  * Differential analysis: when a user clicks on a protein in the volcanoplot, fixing the details of quantitative values of peptides
+  * Hypothesis test: allow the use of Limma with dataset containing up to 26 conditions
+  * Bug fixed in the tree for the selection of cells metadata (used in Filtering tool and Descriptive Statistics)
+  
+  
+  ### News in Prostar 1.34.2
 
 #### Bugs fixed
   * Bug fixed while opening the 'Descriptive statistics' tab after have used 
