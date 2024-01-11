@@ -38,7 +38,7 @@ To download for the Prostar workshop:
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
 
-* Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a> .
+* Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a>.
 
 
 
