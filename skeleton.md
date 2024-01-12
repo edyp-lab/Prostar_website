@@ -37,6 +37,14 @@ To download for the Prostar workshop:
   ```docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5```
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
+* Alternatively, if you have R already installed, Prostar can be installed and launched with the following commands:
+
+  ```pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')```
+  
+  ```remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_18')```
+  
+  ```Prostar::Prostar()```
+
 
 * Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a>.
 
