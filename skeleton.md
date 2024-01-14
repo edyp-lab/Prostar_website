@@ -41,6 +41,8 @@ To download for the Prostar workshop:
 
   ```pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')```
   
+  ```install.packages('remotes')```
+  
   ```remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_18')```
   
   ```Prostar::Prostar()```
