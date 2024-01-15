@@ -4,6 +4,14 @@
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
+
+### News in Prostar 1.35.1 (developpment version)
+
+#### New features
+* Hypothesis test : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
+* Filtering tool: as for the metacell filtering, when the user selects infos in symbolic of numerical filtering, he has the number of lines which will be deleted after he clicks on the 'Perform' button.
+
+
 ### News in Prostar 1.34.5
 
 #### Bugs fixed
