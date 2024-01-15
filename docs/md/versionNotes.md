@@ -8,23 +8,22 @@
 ### News in Prostar 1.35.1 (developpment version)
 
 #### New features
-* Hypothesis test : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
-* Filtering tool: as for the metacell filtering, when the user selects infos in symbolic of numerical filtering, he has the number of lines which will be deleted after he clicks on the 'Perform' button.
+* Hypothesis testing : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
+* Filtering tool: as for the cell metadata filtering, when users select infos of symbolic or numerical nature, the number of lines which will be deleted is displayed before clicking on the 'Perform' button.
 
 
 ### News in Prostar 1.34.5
 
 #### Bugs fixed
-  * Differential analysis: when a user clicks on a protein in the volcanoplot, fixing the details of quantitative values of peptides
-  * Hypothesis test: allow the use of Limma with dataset containing up to 26 conditions
+  * Differential analysis: fixing the details of quantitative values of peptides (when a user clicks on a protein in the volcanoplot).
+  * Hypothesis testing: allow the use of Limma with dataset containing up to 26 conditions
   * Bug fixed in the tree for the selection of cells metadata (used in Filtering tool and Descriptive Statistics)
   
   
-  ### News in Prostar 1.34.2
+### News in Prostar 1.34.2
 
 #### Bugs fixed
-  * Bug fixed while opening the 'Descriptive statistics' tab after have used 
-  one of the processes in 'Data processing' tab.
+  * Bug fixed while opening the 'Descriptive statistics' tab after have used one of the processes in 'Data processing' tab.
   
 
 ### News in Prostar 1.34.1
