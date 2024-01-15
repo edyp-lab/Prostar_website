@@ -46,7 +46,8 @@ To download for the Prostar workshop:
   ```remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_18')```
   
   ```Prostar::Prostar()```
-
+  
+It takes about 10 minutes to install prostar and it dependenceis from a new R installation
 
 * Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a>.
 
