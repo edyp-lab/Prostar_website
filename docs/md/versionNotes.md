@@ -10,6 +10,7 @@
 #### New features
 * Hypothesis testing : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
 * Filtering tool: as for the cell metadata filtering, when users select infos of symbolic or numerical nature, the number of lines which will be deleted is displayed before clicking on the 'Perform' button.
+* Convert dataset: fixed a bug which built wrong cells metadata when using the option 'Order by conditions' (in the Build design step).
 
 
 ### News in Prostar 1.34.5

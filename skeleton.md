@@ -34,18 +34,19 @@ To download for the Prostar workshop:
 * Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});" target='_blank'>Prostar 1.34.5 zip</a>
 * Or run it through Docker with the following command:
 
-  ```docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5```
+  ```
+  docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
+  ```
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
 * Alternatively, if you have R already installed, Prostar can be installed and launched with the following commands:
 
-  ```pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')```
-  
-  ```install.packages('remotes')```
-  
-  ```remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_18')```
-  
-  ```Prostar::Prostar()```
+  ```
+  pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')
+  install.packages('remotes')
+  remotes::install_github(pkgs, dependencies = TRUE, ref = RELEASE_3_18)
+  Prostar::Prostar()
+  ```
   
 It takes about 10 minutes to install prostar and it dependenceis from a new R installation
 
@@ -110,7 +111,7 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar_1.34.5.zip"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});">**Prostar 1.34.5 zip file**</a>
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});">**Prostar 1.34.5 zip file**</a>
 (Release date: 11/01/2024)
 
 
@@ -122,27 +123,22 @@ This feature is deployed as a Beta-test, as to give an alternative to the zip
 files. The Docker image and the zip file are synchronized and embed identical Prostar versions (to ensure full compatibility and debugging, the zip file and the docker image may be available up to few weeks after each Bioconductor release).
 
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
-The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be downloaded using the following command:
-```
-docker pull ghcr.io/prostarproteomics/prostar:1.34.5
+The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
 
 ```
-
-There are two ways to launch Prostar's container. Using command line, type:
-```
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.5
+docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
 ```
 
-Then, open your default web browser onto the following URL: http://localhost:3838.
+Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
 
 If an executable file is preferred, then create the launch script referred to as 'docker_launch_prostar.sh' with the following lines:
 
 ```
 #! /bin/sh
 
-docker run -it -p 3838:3838 ghcr.io/prostarproteomics/prostar:1.34.5
+docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
 wait 5
-python -m webbrowser http://localhost:3838
+python -m webbrowser http://localhost
 ```
 
 Then, make the script runnable and launch Prostar:
@@ -179,6 +175,15 @@ library(Prostar)
 Prostar()
 ```
 
+## Github installs
+
+
+```
+pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')
+install.packages('remotes')
+remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_18')
+Prostar::Prostar()
+```
 
 ## Online demo
 
