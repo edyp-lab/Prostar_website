@@ -25,6 +25,13 @@ text-align: justify}
 
 ## News
 
+**09/02/2024**
+
+**Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
+
+* Prostar version 1.34.6 has been released on the Bioconductor (release 3.18) and is deployed as a [Zero-install](#zero-install) zip.
+
+
 **16/01/2024**
 
 **Meet us at Winterberg for EuBICS Winter school!** (https://eubic-ms.org/events/2024-winter-school/).
@@ -52,15 +59,6 @@ It takes about 10 minutes to install prostar and it dependenceis from a new R in
 
 * Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a>.
 
-
-
-
-
-**11/01/2024**
-
-**Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
-
-* Prostar version 1.34.5 has been released on the Bioconductor (release 3.18) and is deployed as a [Zero-install](#zero-install) zip.
 
 
 ## About
@@ -111,8 +109,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.5" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.5.zip'});">**Prostar 1.34.5 zip file**</a>
-(Release date: 11/01/2024)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.34.6" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.34.6.zip'});">**Prostar 1.34.6 zip file**</a>
+(Release date: 09/02/2024)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>

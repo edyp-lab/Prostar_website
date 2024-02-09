@@ -12,6 +12,11 @@
 * Filtering tool: as for the cell metadata filtering, when users select infos of symbolic or numerical nature, the number of lines which will be deleted is displayed before clicking on the 'Perform' button.
 * Convert dataset: fixed a bug which built wrong cells metadata when using the option 'Order by conditions' (in the Build design step).
 
+### News in Prostar 1.34.6
+
+#### Bugs fixed
+  * Hypothesis testing: bug fixed with Limma and designs of level 2 and 3.
+  
 
 ### News in Prostar 1.34.5
 
