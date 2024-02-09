@@ -124,28 +124,10 @@ As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
 
 ```
-docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
+docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.6
 ```
 
 Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
-
-If an executable file is preferred, then create the launch script referred to as 'docker_launch_prostar.sh' with the following lines:
-
-```
-#! /bin/sh
-
-docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.34.5
-wait 5
-python -m webbrowser http://localhost
-```
-
-Then, make the script runnable and launch Prostar:
-```
-chmod +x docker_launch_prostar.sh
-./docker_launch_prostar.sh
-```
-
-
 
 ## Bioconductor installs
 
