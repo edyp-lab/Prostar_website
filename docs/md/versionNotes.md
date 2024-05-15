@@ -5,7 +5,7 @@
 * To Be Announced - Many Great stuffs! 😉
 
 
-### News in Prostar 1.35.1 (development version)
+### News in Prostar 1.36.0
 
 #### New features
 * Hypothesis testing : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
