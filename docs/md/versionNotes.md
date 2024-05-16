@@ -5,10 +5,21 @@
 * To Be Announced - Many Great stuffs! 😉
 
 
-### News in Prostar 1.36.0
+### News in Prostar 1.36
+
+#### Bugs fixed
+[1.36.1]
+
+  * Bug fixed in hypothesis test tool with Limma when using a dataset in which
+  the names of the samples contain spaces
+  * Differential analysis tool. A warning message has been added if the user 
+  selects a p-value threshold that is over the p-values of all the data in the volcanoplot. 
+  In this case, the FDR cannot be computed.
 
 #### New features
-* Hypothesis testing : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
+[1.36.0]
+
+  * Hypothesis testing : it is now possible to change the log(FC) threshold and reprocess the test without resetting the entire interface
 * Filtering tool: as for the cell metadata filtering, when users select infos of symbolic or numerical nature, the number of lines which will be deleted is displayed before clicking on the 'Perform' button.
 * Convert dataset: fixed a bug which built wrong cells metadata when using the option 'Order by conditions' (in the Build design step).
 
