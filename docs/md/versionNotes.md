@@ -15,6 +15,8 @@
   * Differential analysis tool. A warning message has been added if the user 
   selects a p-value threshold that is over the p-values of all the data in the volcanoplot. 
   In this case, the FDR cannot be computed.
+  * Peptide-protein graph: bug fixed to view the list of One-One connected components
+  in the table and when sorting elements in the tabs.
 
 #### New features
 [1.36.0]
