@@ -38,7 +38,7 @@ text-align: justify}
 
 To download for the Prostar workshop:
 
-* Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.1" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.1.zip'});" target='_blank'>Prostar 1.36.1 zip</a>
+* Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.2" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.1.zip'});" target='_blank'>Prostar 1.36.2 zip</a>
 * Or run it through Docker with the following command:
 
   ```
