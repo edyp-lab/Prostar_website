@@ -7,6 +7,13 @@
 
 ### News in Prostar 1.36
 
+
+#### Bugs fixed
+[1.36.2]
+
+  * Bug fixed in the Convert tool when using the 'Order by conditions' feature
+
+
 #### Bugs fixed
 [1.36.1]
 
