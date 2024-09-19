@@ -25,11 +25,11 @@ text-align: justify}
 
 ## News
 
-**11/06/2024**
+**19/09/2024**
 
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-* Prostar version 1.36.2 has been released on the Bioconductor (release 3.19) and is deployed as a [Zero-install](#zero-install) zip.
+* Prostar version 1.36.3 has been released on the Bioconductor (release 3.19) and is deployed as a [Zero-install](#zero-install) zip.
 
 
 **16/01/2024**
@@ -38,11 +38,11 @@ text-align: justify}
 
 To download for the Prostar workshop:
 
-* Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.2" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.1.zip'});" target='_blank'>Prostar 1.36.2 zip</a>
+* Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.3" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.3.zip'});" target='_blank'>Prostar 1.36.3 zip</a>
 * Or run it through Docker with the following command:
 
   ```
-  docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.36.2
+  docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.36.3
   ```
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
@@ -109,8 +109,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.2" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.2.zip'});">**Prostar 1.36.2 zip file**</a>
-(Release date: 11/06/2024)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.3" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.3.zip'});">**Prostar 1.36.3 zip file**</a>
+(Release date: 19/09/2024)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
@@ -124,7 +124,7 @@ As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a
 The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
 
 ```
-docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.36.2
+docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.36.3
 ```
 
 Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>

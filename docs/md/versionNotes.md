@@ -9,6 +9,15 @@
 
 
 #### Bugs fixed
+[1.36.3] (19/09/2024)
+
+  * Bug fixed in the Convert tool when using the 'Order by conditions' feature
+  * Bug fixed in the Convert tool when clicking on "Convert Data": sometimes the following error occured: Error in [.data.frame(tmp.df, , ‘Sample.name’) : undefined columns selected.
+
+
+
+
+#### Bugs fixed
 [1.36.2]
 
   * Bug fixed in the Convert tool when using the 'Order by conditions' feature
