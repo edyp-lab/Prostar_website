@@ -13,7 +13,7 @@
 
   * Bug fixed in the Convert tool when using the 'Order by conditions' feature
   * Bug fixed in the Convert tool when clicking on "Convert Data": sometimes the following error occured: Error in [.data.frame(tmp.df, , ‘Sample.name’) : undefined columns selected.
-
+  * The page 'Check for Updates' is back
 
 
 

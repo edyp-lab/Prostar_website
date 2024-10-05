@@ -25,7 +25,7 @@ text-align: justify}
 
 ## News
 
-**19/09/2024**
+**05/10/2024**
 
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
@@ -110,7 +110,7 @@ Before installing Prostar on your desktop machine, test our online demo!
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.3" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.3.zip'});">**Prostar 1.36.3 zip file**</a>
-(Release date: 19/09/2024)
+(Release date: 05/10/2024)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
