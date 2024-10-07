@@ -1,5 +1,5 @@
 ---
-title: '<a name="top"></a><img src="https://raw.githubusercontent.com/prostarproteomics/Prostar/master/inst/ProstarApp/www/images/LogoProstarComplet.png"    width="135"/>
+title: '<a name="top"></a><img src="https://raw.githubusercontent.com/edyp-lab/Prostar/master/inst/ProstarApp/www/images/LogoProstarComplet.png"    width="135"/>
 **p r o s t a r - p r o t e o m i c s .org**'
 output:
   html_document:
@@ -42,14 +42,14 @@ To download for the Prostar workshop:
 * Or run it through Docker with the following command:
 
   ```
-  docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.36.3
+  docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.36.3
   ```
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
 * Alternatively, if you have R already installed, Prostar can be installed and launched with the following commands:
 
   ```
-  pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')
+  pkgs <- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
   install.packages('remotes')
   remotes::install_github(pkgs, dependencies = TRUE, ref = RELEASE_3_19)
   Prostar::Prostar()
@@ -121,10 +121,10 @@ This feature is deployed as a Beta-test, as to give an alternative to the zip
 files. The Docker image and the zip file are synchronized and embed identical Prostar versions (to ensure full compatibility and debugging, the zip file and the docker image may be available up to few weeks after each Bioconductor release).
 
 As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
-The Docker image of Prostar is available on <a href="https://github.com/orgs/prostarproteomics/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
+The Docker image of Prostar is available on <a href="https://github.com/orgs/edyp-lab/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
 
 ```
-docker run -it -p 80:3838 ghcr.io/prostarproteomics/prostar:1.36.3
+docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.36.3
 ```
 
 Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
@@ -159,7 +159,7 @@ Prostar()
 
 
 ```
-pkgs <- c('prostarproteomics/DAPARdata', 'prostarproteomics/DAPAR', 'prostarproteomics/Prostar')
+pkgs <- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
 install.packages('remotes')
 remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_19')
 Prostar::Prostar()
@@ -206,7 +206,7 @@ Our community forum is hosted by the Bioconductor:
 
 <a href="https://scholar.google.fr/citations?hl=fr&user=K4CBghYAAAAJ" target="_blank">**Samuel Wieczorek**</a>
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/Sam.png"   width="155"/>
+<img src="https://github.com/edyp-lab/Prostar_website/raw/master/docs/img/Sam.png"   width="155"/>
 
 After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et Metiers",
 followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University.
@@ -218,7 +218,7 @@ debugging, graphical user interfaces, etc.
 
 <a href="https://sites.google.com/site/thomasburgerswebpage" target="_blank">**Thomas Burger**</a>
 
-<img src="https://github.com/prostarproteomics/Prostar_website/raw/master/docs/img/Thomas-Burger-155.jpg"   width="155"/>
+<img src="https://github.com/edyp-lab/Prostar_website/raw/master/docs/img/Thomas-Burger-155.jpg"   width="155"/>
 
 Tom is a CNRS senior scientist. He holds two MS degrees in computer sciences and applied mathematics (2004), 
 a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. 
@@ -245,7 +245,7 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 * Enora Fremy
 
 ### Beta-testing & co.
-<img src="https://raw.githubusercontent.com/prostarproteomics/Prostar/master/inst/ProstarApp/www/images/edyp.png"   width="155"/>
+<img src="https://raw.githubusercontent.com/edyp-lab/Prostar/master/inst/ProstarApp/www/images/edyp.png"   width="155"/>
 
 The entire EDyP proteomics platform (see <a href="http://www.edyp.fr" target="_blank">www.edyp.fr</a>):
 Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members.
