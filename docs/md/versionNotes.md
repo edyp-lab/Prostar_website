@@ -8,6 +8,11 @@
 
 ### News in Prostar 1.38
 
+#### Bugs fixed
+[1.38.1] (25/11/2024)
+
+  * Bug fixed in the swap conditions tool indise the Hypothesis Test proess 
+
 
 ### News in Prostar 1.36
 

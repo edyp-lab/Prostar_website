@@ -25,11 +25,11 @@ text-align: justify}
 
 ## News
 
-**06/11/2024**
+**25/11/2024**
 
 **Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
 
-* Prostar version 1.38.0 has been released on the Bioconductor (release 3.20) and is deployed as a [Zero-install](#zero-install) zip.
+* Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a [Zero-install](#zero-install) zip.
 
 
 **16/01/2024**
@@ -42,7 +42,7 @@ To download for the Prostar workshop:
 * Or run it through Docker with the following command:
 
   ```
-  docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.0
+  docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1
   ```
 
   Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
@@ -109,8 +109,8 @@ Before installing Prostar on your desktop machine, test our online demo!
 
 Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.38.0" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.38.0.zip'});">**Prostar 1.38.0 zip file**</a>
-(Release date: 06/11/2024)
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.38.1" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.38.1.zip'});">**Prostar 1.38.1 zip file**</a>
+(Release date: 25/11/2024)
 
 
 Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
@@ -124,7 +124,7 @@ As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a
 The Docker image of Prostar is available on <a href="https://github.com/orgs/edyp-lab/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
 
 ```
-docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.0
+docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1
 ```
 
 Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
