@@ -2,4 +2,69 @@
 title: "About"
 ---
 
-About this site
+## Team presentation
+
+### Core team
+
+<a href="https://scholar.google.fr/citations?hl=fr&user=K4CBghYAAAAJ" target="_blank">**Samuel Wieczorek**</a>
+
+<img src="images/Sam.png"   width="155"/>
+
+After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et Metiers",
+followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University.
+Since then, he has been working as a research engineer at EDyP-lab, where he has been developing and maintaining software tools for proteomics.
+Sam has been involved in Prostar project since its beginning.
+He is the code guru and supervises all the software aspects of the project, such as coding, packaging, deployment,
+debugging, graphical user interfaces, etc.
+
+
+<a href="https://sites.google.com/site/thomasburgerswebpage" target="_blank">**Thomas Burger**</a>
+
+<img src="images/Thomas-Burger-155.jpg"   width="155"/>
+
+Tom is a CNRS senior scientist. He holds two MS degrees in computer sciences and applied mathematics (2004), 
+a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. 
+Tom was an associate professor in machine learning with South Brittany University (2008-2011), before rushing back to his beloved mountains, 
+with a CNRS position at EDyP-lab. 
+He is the principal investigator of Prostar project.
+His expertise focuses on the statistical, methodological and algorithmic aspects of proteomics data analysis.
+
+
+**Contact us** - firstname.lastname@cea.fr
+
+### Occasional contributors
+
+* <a href="https://scholar.google.fr/citations?hl=fr&user=IJj2oUsAAAAJ" target="_blank">Florence Combes</a>
+* <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">Quentin Giai-Gianetto</a> (Institut Pasteur, France)
+* <a href="https://lgatto.github.io/" target="_blank">Laurent Gatto</a>
+(Universit&eacute; catholique de Louvain, Belgique)
+* <a href="https://scholar.google.fr/citations?hl=fr&user=gHyBfNwAAAAJ" target="_blank">Cosmin Lazar</a>
+* <a href="https://scholar.google.fr/citations?hl=fr&user=yYroo3gAAAAJ" target="_blank">Helene Borges</a>
+* <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">Yohann Cout&eacute;</a>
+* <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">Christophe Bruley</a>
+* <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">Anne-Marie Hesse</a>
+* Alexia Dorffer
+* Enora Fremy
+
+### Beta-testing & co.
+<img src="images/logo_edyp.png"   width="155"/>
+
+The entire EDyP proteomics platform (see <a href="http://www.edyp.fr" target="_blank">www.edyp.fr</a>):
+Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members.
+They are all warmly acknowledged for their contributions.
+
+
+## Bug report
+
+To report any issue with Prostar, it is best to use the devoted tab in Prostar software (click on **Bug report** in the **Help menu**),
+as it allows easy sharing of the session logs and data (essential to efficient debugging).
+
+However, it is also possible to contact the development team by email (see [team presentation](#team-presentation)).
+
+
+## Happiness report
+
+**If you are pleased with your Prostar experience**, you can also send us a message (messages are not restricted to bug reports)!  
+:-)
+
+Do not forget to [cite Prostar in your publications](#citation)!

@@ -3,11 +3,32 @@ project:
   output-dir: docs
 
 website:
-  title: "Prostar_website"
-  navbar:
-    left:
+  title: "prostar-proteomics.org"
+  
+  sidebar:
+    background: "#C8E6E3"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    search: true
+    style: "docked"
+    collapse-level: 0
+    tools:
+      - icon: github
+        href: https://github.com/edyp-lab/Prostar2
+        text: "Prostar on GitHub"
+        
+    contents:
       - href: index.qmd
         text: Home
+      - section: discoverprostar.qmd
+        contents: 
+            - workflows.qmd
+      - download.qmd
+      - releasenotes.qmd
+      - section: ressources.qmd
+        contents: 
+          - faq.qmd
       - about.qmd
 
 format:
@@ -17,3 +38,4 @@ format:
       - brand
     css: styles.css
     toc: true
+    page-layout: full

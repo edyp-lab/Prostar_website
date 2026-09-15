@@ -1,7 +1,54 @@
 ---
-title: "Prostar_website"
+title: "Prostar"
 ---
 
-This is a Quarto website.
+Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Prostar is easy to install (see our [Zero-install page](#zero-install)), easy to use (thanks to its [Shiny](https://shiny.rstudio.com/)-based click-button interface) and well-documented (see our [reference page](#useful-links)). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.
+
+
+## Citation
+**Maintaining Prostar as free software is a heavy duty. Please cite the following reference**
+
+> *S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Coute;, M. Ferro, C. Bruley and T. Burger*.
+DAPAR & ProStaR: software to perform statistical analyses in quantitative discovery proteomics.
+**Bioinformatics** 33(1), 135-136, 2017.  
+<a href="http://doi.org/10.1093/bioinformatics/btw580" target="_blank">http://doi.org/10.1093/bioinformatics/btw580.</a>
+
+
+## News
+
+**25/11/2024**
+
+**Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
+
+* Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a [Zero-install](#zero-install) zip.
+
+
+**16/01/2024**
+
+**Meet us at Winterberg for EuBICS Winter school!** (https://eubic-ms.org/events/2024-winter-school/).
+
+To download for the Prostar workshop:
+
+* Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.3" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.3.zip'});" target='_blank'>Prostar 1.36.3 zip</a>
+* Or run it through Docker with the following command:
+
+  ```
+  docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1
+  ```
+
+  Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
+* Alternatively, if you have R already installed, Prostar can be installed and launched with the following commands:
+
+  ```
+  pkgs <- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
+  install.packages('remotes')
+  remotes::install_github(pkgs, dependencies = TRUE, ref = RELEASE_3_20)
+  Prostar::Prostar()
+  ```
+  
+It takes about 10 minutes to install Prostar and it dependencies from a new R installation
+
+* Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a>.
+

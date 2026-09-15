@@ -1,0 +1,83 @@
+---
+title: "Get Started"
+---
+
+## Zero-install
+
+### Zip file (only for Windows)
+
+
+**Remarks:**
+1. It is not necessary to already have R installed.  
+2. For now, Zero-install is only available for Microsoft Windows machines.  
+3. At first launch, an internet connection is necessary to finish the install.  
+4. To ensure full compatibility and debugging, the zip file may be available up to few weeks after each Bioconductor release.
+
+Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.
+
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.38.1" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.38.1.zip'});">**Prostar 1.38.1 zip file**</a>
+(Release date: 25/11/2024)
+
+
+Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
+(Release date: 22/06/2021)
+
+### **Bêta** Docker image (ok for Unix/Linux, Mac OS X and Windows)
+This feature is deployed as a Beta-test, as to give an alternative to the zip
+files. The Docker image and the zip file are synchronized and embed identical Prostar versions (to ensure full compatibility and debugging, the zip file and the docker image may be available up to few weeks after each Bioconductor release).
+
+As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. 
+The Docker image of Prostar is available on <a href="https://github.com/orgs/edyp-lab/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command:
+
+```
+docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1
+```
+
+Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
+
+## Bioconductor installs
+
+Only stand-alone install is detailed below. For server install, please refer to the user manual.
+This type of install works with any operating system among Unix/Linux, Mac OS X and Windows.
+However, it is necessary to have the latest version of R (>= 4.4.0 for Prostar 1.38.x) installed in a directory where the user has read/write permissions.
+
+1. Install Bioconductor package manager with the following commands (see
+<a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a>
+for details):
+```R
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version='3.20')
+```
+
+3. Install Prostar:
+```R
+BiocManager::install("Prostar")
+```
+
+3. Launch Prostar:
+```R
+library(Prostar)
+Prostar()
+```
+
+## Github installs
+
+
+```
+pkgs <- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
+install.packages('remotes')
+remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_20')
+Prostar::Prostar()
+```
+
+## Online demo
+
+An online demo of Prostar software is available at:
+<a href="http://live.prostar-proteomics.org/" target="_blank">**http://live.prostar-proteomics.org**</a>
+
+**Remark:** The server hosting the online demo has limited capacities.
+Thus, uploading your own dataset may lead to server overload.
+To test the online demo, please rely on the toy datasets that are available in "Demo data" (from "Data manager" menu).
+
+

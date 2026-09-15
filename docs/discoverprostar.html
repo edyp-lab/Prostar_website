@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prostar – prostar-proteomics.org</title>
+<title>Discover Prostar – prostar-proteomics.org</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discoverprostar.html">Discover Prostar</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,13 +109,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link">
+            <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Discover Prostar</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -175,8 +175,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#citation" id="toc-citation" class="nav-link active" data-scroll-target="#citation">Citation</a></li>
-  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
+  <li><a href="#presentation" id="toc-presentation" class="nav-link active" data-scroll-target="#presentation">Presentation</a>
+  <ul class="collapse">
+  <li><a href="#data-management" id="toc-data-management" class="nav-link" data-scroll-target="#data-management">Data management</a></li>
+  <li><a href="#data-processing" id="toc-data-processing" class="nav-link" data-scroll-target="#data-processing">Data processing</a></li>
+  <li><a href="#data-mining" id="toc-data-mining" class="nav-link" data-scroll-target="#data-mining">Data mining</a></li>
+  </ul></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
   </ul>
 </nav>
     </div>
@@ -185,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Prostar</h1>
+<h1 class="title">Discover Prostar</h1>
 </div>
 
 
@@ -203,40 +208,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.</p>
-<p>Prostar is easy to install (see our <a href="#zero-install">Zero-install page</a>), easy to use (thanks to its <a href="https://shiny.rstudio.com/">Shiny</a>-based click-button interface) and well-documented (see our <a href="#useful-links">reference page</a>). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.</p>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Maintaining Prostar as free software is a heavy duty. Please cite the following reference</strong></p>
-<blockquote class="blockquote">
-<p><em>S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Coute;, M. Ferro, C. Bruley and T. Burger</em>. DAPAR &amp; ProStaR: software to perform statistical analyses in quantitative discovery proteomics. <strong>Bioinformatics</strong> 33(1), 135-136, 2017.<br>
-<a href="http://doi.org/10.1093/bioinformatics/btw580" target="_blank">http://doi.org/10.1093/bioinformatics/btw580.</a></p>
-</blockquote>
+<p>Prostar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.</p>
+<section id="presentation" class="level1">
+<h1>Presentation</h1>
+<section id="data-management" class="level2">
+<h2 class="anchored" data-anchor-id="data-management">Data management</h2>
+<ul>
+<li><strong>Conversion</strong>: To import a tabulated file containing quantitative data and convert it into an MSnset structure.</li>
+<li><strong>Loading</strong>: To open an Msnset structure that has been previously constructed.</li>
+<li><strong>Exporting</strong>: To save a partially/completely processed dataset and to download the data analysis results.</li>
+<li><strong>Demo data</strong>: Toy datasets are available to discover Prostar potential in the simplest way.</li>
+</ul>
 </section>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<p><strong>25/11/2024</strong></p>
-<p><strong>Enjoy the <a href="#zero-install">Zero-install version of Prostar</a> as well as the new <a href="#online-demo">Online demo</a>!</strong></p>
+<section id="data-processing" class="level2">
+<h2 class="anchored" data-anchor-id="data-processing">Data processing</h2>
 <ul>
-<li>Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a <a href="#zero-install">Zero-install</a> zip.</li>
+<li><strong>Filtering</strong>: To prune the protein or peptide list according to various criteria (missing values, string matching).</li>
+<li><strong>Normalization</strong>: To correct batch or group effects.</li>
+<li>**Imputation: By taking into account the very nature of each missing value.</li>
+<li><strong>Aggregation</strong>: For peptide-level datasets, it is possible to estimate protein abundances.</li>
+<li><strong>Hypothesis testing</strong>: To compute the significance of each protein differential abundance.</li>
 </ul>
-<p><strong>16/01/2024</strong></p>
-<p><strong>Meet us at Winterberg for EuBICS Winter school!</strong> (https://eubic-ms.org/events/2024-winter-school/).</p>
-<p>To download for the Prostar workshop:</p>
+</section>
+<section id="data-mining" class="level2">
+<h2 class="anchored" data-anchor-id="data-mining">Data mining</h2>
 <ul>
-<li><p>Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/" download="Prostar_1.36.3" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.3.zip'});" target="_blank">Prostar 1.36.3 zip</a></p></li>
-<li><p>Or run it through Docker with the following command:</p>
-<pre><code>docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1</code></pre>
-<p>Then, access it by the following link : <a href="http://localhost" target="_blank">Prostar</a></p></li>
-<li><p>Alternatively, if you have R already installed, Prostar can be installed and launched with the following commands:</p>
-<pre><code>pkgs &lt;- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
-install.packages('remotes')
-remotes::install_github(pkgs, dependencies = TRUE, ref = RELEASE_3_20)
-Prostar::Prostar()</code></pre></li>
+<li><strong>Descriptive statistics</strong>: Available at any stage of the analysis, for data exploration and visualization.</li>
+<li><strong>Peptide-Protein Graph</strong>: Explore and visualize peptide-protein graphs.</li>
+<li><strong>Differential analysis</strong>: To select a list of differentially abundant proteins with a controlled false discovery rate.</li>
+<li><strong>Gene Ontology analysis</strong>: To map a protein list onto GO terms and test category enrichment.</li>
 </ul>
-<p>It takes about 10 minutes to install Prostar and it dependencies from a new R installation</p>
-<ul>
-<li>Several datasets will be used, they can be downloaded <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target="_blank">here</a>.</li>
-</ul>
+</section>
+</section>
+<section id="software" class="level1">
+<h1>Software</h1>
+<ol type="1">
+<li><a href="#zero-install"><strong>Zero-install</strong></a><br>
+The easiest way. Prostar is deployed either as a zip archive (so far only available on Microsoft Windows desktop machines) or as a Docker image (bêta, but ok for Windows, Mac OS X and (Unix/Linux).</li>
+<li><a href="#bioconductor-installs"><strong>Stand-alone Bioconductor install</strong></a><br>
+The standard method to install Bioconductor distributed software. This method works for any operating systems (Unix/Linux, Mac OS X and Windows) as long as R is installed.</li>
+<li><strong>Server install</strong><br>
+When one wants Prostar to run on a Unix server, on which remote users connect. This more advanced type of install is detailed in the <a href="#useful-links">user manual</a>.</li>
+<li><a href="#online-demo"><strong>Online demo</strong></a><br>
+Before installing Prostar on your desktop machine, test our online demo!</li>
+</ol>
 
 
 </section>
