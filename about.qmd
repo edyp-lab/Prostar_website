@@ -41,49 +41,47 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 <div class="contrib-container">
 <div class="contrib-box">
 <div class="contrib-box-name">Florence Combes</div>
-<a href="https://www.researchgate.net/scientific-contributions/Florence-Combes-84912639" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=IJj2oUsAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-links"><a href="https://www.researchgate.net/scientific-contributions/Florence-Combes-84912639" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=IJj2oUsAAAAJ" target="_blank">{{< fa link >}}</a></div></div>
 <div class="contrib-box">
 <div class="contrib-box-name">Quentin Giai-Gianetto</div>
-<a href="https://orcid.org/0000-0001-6815-2498" target="_blank">{{< fa brands orcid >}}</a> <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">{{< fa link >}}</a><br>
-(Institut Pasteur, France)
-</div>
+<div class="contrib-links"><a href="https://orcid.org/0000-0001-6815-2498" target="_blank">{{< fa brands orcid >}}</a> <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">{{< fa link >}}</a></div>
+(Institut Pasteur, France)</div>
 <div class="contrib-box">
 <div class="contrib-box-name">Laurent Gatto</div>
-<a href="https://orcid.org/0000-0002-1520-2268" target="_blank">{{< fa brands orcid >}}</a> <a href="https://lgatto.codeberg.page/" target="_blank">{{< fa link >}}</a><br>
-(Université catholique de Louvain, Belgique)
-</div>
+<div class="contrib-links"><a href="https://orcid.org/0000-0002-1520-2268" target="_blank">{{< fa brands orcid >}}</a> <a href="https://lgatto.codeberg.page/" target="_blank">{{< fa link >}}</a></div>
+(Université catholique de Louvain, Belgique)</div>
 <div class="contrib-box">
 <div class="contrib-box-name">Cosmin Lazar</div>
-<a href="https://www.researchgate.net/profile/Cosmin-Lazar" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=gHyBfNwAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-links"><a href="https://www.researchgate.net/profile/Cosmin-Lazar" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=gHyBfNwAAAAJ" target="_blank">{{< fa link >}}</a></div></div>
 <div class="contrib-box">
 <div class="contrib-box-name">Helene Borges</div>
-<a href="https://www.researchgate.net/profile/Helene-Borges" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=yYroo3gAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-links"><a href="https://www.researchgate.net/profile/Helene-Borges" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=yYroo3gAAAAJ" target="_blank">{{< fa link >}}</a></div></div>
 <div class="contrib-box">
 <div class="contrib-box-name">Yohann Couté</div>
-<a href="https://orcid.org/0000-0003-3896-6196" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-links"><a href="https://orcid.org/0000-0003-3896-6196" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">{{< fa link >}}</a></div></div>
 <div class="contrib-box">
 <div class="contrib-box-name">Christophe Bruley</div>
-<a href="https://www.researchgate.net/profile/Christophe-Bruley" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-links"><a href="https://www.researchgate.net/profile/Christophe-Bruley" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">{{< fa link >}}</a></div></div>
 <div class="contrib-box">
 <div class="contrib-box-name">Anne-Marie Hesse</div>
-<a href="https://orcid.org/0000-0001-6110-0636" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-links"><a href="https://orcid.org/0000-0001-6110-0636" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">{{< fa link >}}</a></div></div>
 <div class="contrib-box">
 <div class="contrib-box-name">Alexia Dorffer</div>
 </div>
 <div class="contrib-box">
 <div class="contrib-box-name">Enora Fremy</div>
-<a href="https://www.linkedin.com/in/enora-fremy-68486a102/" target="_blank">{{< fa brands linkedin >}}</a></div>
+<div class="contrib-links"><a href="https://www.linkedin.com/in/enora-fremy-68486a102/" target="_blank">{{< fa brands linkedin >}}</a></div></div>
 </div>
 
 
 ### Beta-testing & co.
-<img src="images/logo_edyp.png"   width="155"/>
+<div class="beta-test">
+<img src="images/logo_edyp.png" />
 
-**The entire [EDyP proteomics platform](http://www.edyp.fr)**
-
+<div>**The entire [EDyP proteomics platform](http://www.edyp.fr)** <br>
 Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members.
 They are all warmly acknowledged for their contributions.
-
+</div></div>
 
 ## Bug report
 
