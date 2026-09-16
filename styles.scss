@@ -1,0 +1,101 @@
+/*-- scss:defaults --*/
+
+// Colors
+$light-bluegreen: #D6EAE7;
+$turquoise: #25949A;
+$orange: #E87352;
+
+
+// Global
+$sidebar-bg: $light-bluegreen; 
+$sidebar-fg: $turquoise;
+$sidebar-hl: $orange;
+$sidebar-active-color: $orange;
+div.sidebar-item-container .active{font-weight: bold;}
+$sidebar-hover-color: $orange;
+
+$link-color: $orange;
+
+
+
+// About page
+.core-team-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.core-team-box {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $light-bluegreen;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    min-width: 0;
+}
+
+.core-team-profile {
+    flex: 0 1 40%;
+    font-size: 19px;
+    font-weight: bold;
+    color: $orange;
+    text-align: center;
+    max-width: 160px;
+}
+
+.core-team-profile img {
+    width: 100%;
+    max-width: 155px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.core-team-text {
+    flex: 1 1 0;
+    min-width: 0;
+    text-align: justify;
+    color: $turquoise;
+    font-size: 12px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+@media (max-width: 850px) {
+    .core-team-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.contrib-container {
+    //display: grid;
+    //grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contrib-box {
+    width: 220px;
+    box-sizing: border-box;
+    background-color: $light-bluegreen;
+    padding: 10px;
+    // margin-bottom: 5px;
+    text-align: center;
+    color: $orange;
+    font-size: 12px;
+}
+
+.contrib-box-name {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.contrib-box a {
+    font-weight: bold;
+    font-size: 16px;
+}
+

@@ -18,37 +18,12 @@ DAPAR & ProStaR: software to perform statistical analyses in quantitative discov
 
 ## News
 
+
+
+<table><tr><td style="width: 5%;"><hr><td>
 **25/11/2024**
+<td style="width: 100%;"><hr></table>
 
-**Enjoy the [Zero-install version of Prostar](#zero-install) as well as the new [Online demo](#online-demo)!**
+**Enjoy the [Zero-install version of Prostar](/download.html#zero-install) !**
 
-* Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a [Zero-install](#zero-install) zip.
-
-
-**16/01/2024**
-
-**Meet us at Winterberg for EuBICS Winter school!** (https://eubic-ms.org/events/2024-winter-school/).
-
-To download for the Prostar workshop:
-
-* Download the zero install version of Prostar (Windows only) <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.36.3" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.36.3.zip'});" target='_blank'>Prostar 1.36.3 zip</a>
-* Or run it through Docker with the following command:
-
-  ```
-  docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1
-  ```
-
-  Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a>
-* Alternatively, if you have R already installed, Prostar can be installed and launched with the following commands:
-
-  ```
-  pkgs <- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
-  install.packages('remotes')
-  remotes::install_github(pkgs, dependencies = TRUE, ref = RELEASE_3_20)
-  Prostar::Prostar()
-  ```
-  
-It takes about 10 minutes to install Prostar and it dependencies from a new R installation
-
-* Several datasets will be used, they can be downloaded  <a href="http://prabig-prostar.univ-lyon1.fr/Prostar_datasets/" target='_blank'>here</a>.
-
+* Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a [Zero-install](/download.html#zero-install) zip.

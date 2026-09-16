@@ -6,7 +6,6 @@ website:
   title: "prostar-proteomics.org"
   
   sidebar:
-    background: "#C8E6E3"
     logo: "images/logo.png"
     pinned: true
     align: center
@@ -36,6 +35,8 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+      - styles.scss
     toc: true
     page-layout: full
+    code-copy: true
+    code-overflow: wrap

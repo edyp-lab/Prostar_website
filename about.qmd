@@ -5,22 +5,25 @@ title: "About"
 ## Team presentation
 
 ### Core team
-
-<a href="https://scholar.google.fr/citations?hl=fr&user=K4CBghYAAAAJ" target="_blank">**Samuel Wieczorek**</a>
-
-<img src="images/Sam.png"   width="155"/>
-
+<div class="core-team-container">
+<div class="core-team-box">
+<div class="core-team-profile"><img src="images/Sam.png"/><br>
+Samuel Wieczorek
+<br><a href="https://orcid.org/0000-0002-5016-1203" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=K4CBghYAAAAJ" target="_blank">{{< fa link >}}</a>
+</div><div class="core-team-text">
 After a first career as IT support technician, Sam obtained an engineering degree (2004) at "Conservatoire National des Arts et Metiers",
 followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University.
 Since then, he has been working as a research engineer at EDyP-lab, where he has been developing and maintaining software tools for proteomics.
 Sam has been involved in Prostar project since its beginning.
 He is the code guru and supervises all the software aspects of the project, such as coding, packaging, deployment,
 debugging, graphical user interfaces, etc.
+</div></div>
 
-
-<a href="https://sites.google.com/site/thomasburgerswebpage" target="_blank">**Thomas Burger**</a>
-
-<img src="images/Thomas-Burger-155.jpg"   width="155"/>
+<div class="core-team-box">
+<div class="core-team-profile"><img src="images/Thomas-Burger-155.jpg"/><br>
+Thomas Burger
+<br><a href="https://orcid.org/0000-0003-3539-3564" target="_blank">{{< fa brands orcid >}}</a> <a href="https://sites.google.com/site/thomasburgerswebpage" target="_blank">{{< fa link >}}</a>
+</div><div class="core-team-text">
 
 Tom is a CNRS senior scientist. He holds two MS degrees in computer sciences and applied mathematics (2004), 
 a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. 
@@ -28,28 +31,56 @@ Tom was an associate professor in machine learning with South Brittany Universit
 with a CNRS position at EDyP-lab. 
 He is the principal investigator of Prostar project.
 His expertise focuses on the statistical, methodological and algorithmic aspects of proteomics data analysis.
-
+</div></div>
+</div>
 
 **Contact us** - firstname.lastname@cea.fr
 
 ### Occasional contributors
 
-* <a href="https://scholar.google.fr/citations?hl=fr&user=IJj2oUsAAAAJ" target="_blank">Florence Combes</a>
-* <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">Quentin Giai-Gianetto</a> (Institut Pasteur, France)
-* <a href="https://lgatto.github.io/" target="_blank">Laurent Gatto</a>
-(Universit&eacute; catholique de Louvain, Belgique)
-* <a href="https://scholar.google.fr/citations?hl=fr&user=gHyBfNwAAAAJ" target="_blank">Cosmin Lazar</a>
-* <a href="https://scholar.google.fr/citations?hl=fr&user=yYroo3gAAAAJ" target="_blank">Helene Borges</a>
-* <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">Yohann Cout&eacute;</a>
-* <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">Christophe Bruley</a>
-* <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">Anne-Marie Hesse</a>
-* Alexia Dorffer
-* Enora Fremy
+<div class="contrib-container">
+<div class="contrib-box">
+<div class="contrib-box-name">Florence Combes</div>
+<a href="https://www.researchgate.net/scientific-contributions/Florence-Combes-84912639" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=IJj2oUsAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-box">
+<div class="contrib-box-name">Quentin Giai-Gianetto</div>
+<a href="https://orcid.org/0000-0001-6815-2498" target="_blank">{{< fa brands orcid >}}</a> <a href="https://research.pasteur.fr/fr/member/quentin-giai-gianetto/" target="_blank">{{< fa link >}}</a><br>
+(Institut Pasteur, France)
+</div>
+<div class="contrib-box">
+<div class="contrib-box-name">Laurent Gatto</div>
+<a href="https://orcid.org/0000-0002-1520-2268" target="_blank">{{< fa brands orcid >}}</a> <a href="https://lgatto.codeberg.page/" target="_blank">{{< fa link >}}</a><br>
+(Université catholique de Louvain, Belgique)
+</div>
+<div class="contrib-box">
+<div class="contrib-box-name">Cosmin Lazar</div>
+<a href="https://www.researchgate.net/profile/Cosmin-Lazar" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=gHyBfNwAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-box">
+<div class="contrib-box-name">Helene Borges</div>
+<a href="https://www.researchgate.net/profile/Helene-Borges" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=yYroo3gAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-box">
+<div class="contrib-box-name">Yohann Couté</div>
+<a href="https://orcid.org/0000-0003-3896-6196" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?user=pUQIR6wAAAAJ&hl=fr" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-box">
+<div class="contrib-box-name">Christophe Bruley</div>
+<a href="https://www.researchgate.net/profile/Christophe-Bruley" target="_blank">{{< fa brands researchgate >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=pnV6KrsAAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-box">
+<div class="contrib-box-name">Anne-Marie Hesse</div>
+<a href="https://orcid.org/0000-0001-6110-0636" target="_blank">{{< fa brands orcid >}}</a> <a href="https://scholar.google.fr/citations?hl=fr&user=DfkciI8AAAAJ" target="_blank">{{< fa link >}}</a></div>
+<div class="contrib-box">
+<div class="contrib-box-name">Alexia Dorffer</div>
+</div>
+<div class="contrib-box">
+<div class="contrib-box-name">Enora Fremy</div>
+<a href="https://www.linkedin.com/in/enora-fremy-68486a102/" target="_blank">{{< fa brands linkedin >}}</a></div>
+</div>
+
 
 ### Beta-testing & co.
 <img src="images/logo_edyp.png"   width="155"/>
 
-The entire EDyP proteomics platform (see <a href="http://www.edyp.fr" target="_blank">www.edyp.fr</a>):
+**The entire [EDyP proteomics platform](http://www.edyp.fr)**
+
 Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members.
 They are all warmly acknowledged for their contributions.
 

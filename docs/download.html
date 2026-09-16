@@ -71,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7d04a614f0f4fc318b556908ebda4e42.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-37715cb425b0e64c9110643ba1d1c431.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -101,7 +101,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -212,11 +211,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#zero-install" id="toc-zero-install" class="nav-link active" data-scroll-target="#zero-install">Zero-install</a>
   <ul class="collapse">
   <li><a href="#zip-file-only-for-windows" id="toc-zip-file-only-for-windows" class="nav-link" data-scroll-target="#zip-file-only-for-windows">Zip file (only for Windows)</a></li>
-  <li><a href="#bêta-docker-image-ok-for-unixlinux-mac-os-x-and-windows" id="toc-bêta-docker-image-ok-for-unixlinux-mac-os-x-and-windows" class="nav-link" data-scroll-target="#bêta-docker-image-ok-for-unixlinux-mac-os-x-and-windows"><strong>Bêta</strong> Docker image (ok for Unix/Linux, Mac OS X and Windows)</a></li>
   </ul></li>
   <li><a href="#bioconductor-installs" id="toc-bioconductor-installs" class="nav-link" data-scroll-target="#bioconductor-installs">Bioconductor installs</a></li>
   <li><a href="#github-installs" id="toc-github-installs" class="nav-link" data-scroll-target="#github-installs">Github installs</a></li>
-  <li><a href="#online-demo" id="toc-online-demo" class="nav-link" data-scroll-target="#online-demo">Online demo</a></li>
   </ul>
 </nav>
     </div>
@@ -246,20 +243,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="zero-install">Zero-install</h2>
 <section id="zip-file-only-for-windows" class="level3">
 <h3 class="anchored" data-anchor-id="zip-file-only-for-windows">Zip file (only for Windows)</h3>
-<p><strong>Remarks:</strong> 1. It is not necessary to already have R installed.<br>
-2. For now, Zero-install is only available for Microsoft Windows machines.<br>
-3. At first launch, an internet connection is necessary to finish the install.<br>
-4. To ensure full compatibility and debugging, the zip file may be available up to few weeks after each Bioconductor release.</p>
+<p><strong>Remarks:</strong> - It is not necessary to already have R installed.<br>
+- For now, Zero-install is only available for Microsoft Windows machines.<br>
+- At first launch, an internet connection is necessary to finish the install.<br>
+- To ensure full compatibility and debugging, the zip file may be available up to few weeks after each Bioconductor release.</p>
 <p>Just download the zip file below and unzip it! The unzipped folder contains an executable file which directly launches Prostar.</p>
 <p>Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/" download="Prostar_1.38.1" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.38.1.zip'});"><strong>Prostar 1.38.1 zip file</strong></a> (Release date: 25/11/2024)</p>
 <p>Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/Prostar4metabolomics_1.22.8.zip" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});"><strong>Prostar4metabolomics 1.22.8 zip file</strong></a> (Release date: 22/06/2021)</p>
-</section>
-<section id="bêta-docker-image-ok-for-unixlinux-mac-os-x-and-windows" class="level3">
-<h3 class="anchored" data-anchor-id="bêta-docker-image-ok-for-unixlinux-mac-os-x-and-windows"><strong>Bêta</strong> Docker image (ok for Unix/Linux, Mac OS X and Windows)</h3>
-<p>This feature is deployed as a Beta-test, as to give an alternative to the zip files. The Docker image and the zip file are synchronized and embed identical Prostar versions (to ensure full compatibility and debugging, the zip file and the docker image may be available up to few weeks after each Bioconductor release).</p>
-<p>As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started. The Docker image of Prostar is available on <a href="https://github.com/orgs/edyp-lab/packages">Prostar proteomics’s Github webpage</a>. It can be run using the following command:</p>
-<pre><code>docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1</code></pre>
-<p>Then, access it by the following link : <a href="http://localhost" target="_blank">Prostar</a></p>
+<!-- ### **Bêta** Docker image (ok for Unix/Linux, Mac OS X and Windows) -->
+<!-- This feature is deployed as a Beta-test, as to give an alternative to the zip -->
+<!-- files. The Docker image and the zip file are synchronized and embed identical Prostar versions (to ensure full compatibility and debugging, the zip file and the docker image may be available up to few weeks after each Bioconductor release). -->
+<!-- As a prerequisite to run the Docker image, <a href="http://docker.com">Docker</a> must be installed on the computer and the service must be started.  -->
+<!-- The Docker image of Prostar is available on <a href="https://github.com/orgs/edyp-lab/packages">Prostar proteomics's Github webpage</a>. It can be run using the following command: -->
+<!-- ``` -->
+<!-- docker run -it -p 80:3838 ghcr.io/edyp-lab/prostar:1.38.1 -->
+<!-- ``` -->
+<!-- Then, access it by the following link : <a href="http://localhost" target='_blank'>Prostar</a> -->
 </section>
 </section>
 <section id="bioconductor-installs" class="level2">
@@ -268,30 +267,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li>Install Bioconductor package manager with the following commands (see <a href="https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html" target="_blank">this page</a> for details):</li>
 </ol>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="at">version=</span><span class="st">'3.20'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="at">version=</span><span class="st">'3.20'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="3" type="1">
 <li>Install Prostar:</li>
 </ol>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="st">"Prostar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="st">"Prostar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ol start="3" type="1">
 <li>Launch Prostar:</li>
 </ol>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(Prostar)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Prostar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(Prostar)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Prostar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="github-installs" class="level2">
 <h2 class="anchored" data-anchor-id="github-installs">Github installs</h2>
-<pre><code>pkgs &lt;- c('edyp-lab/DAPARdata', 'edyp-lab/DAPAR', 'edyp-lab/Prostar')
-install.packages('remotes')
-remotes::install_github(pkgs, dependencies = TRUE, ref = 'RELEASE_3_20')
-Prostar::Prostar()</code></pre>
-</section>
-<section id="online-demo" class="level2">
-<h2 class="anchored" data-anchor-id="online-demo">Online demo</h2>
-<p>An online demo of Prostar software is available at: <a href="http://live.prostar-proteomics.org/" target="_blank"><strong>http://live.prostar-proteomics.org</strong></a></p>
-<p><strong>Remark:</strong> The server hosting the online demo has limited capacities. Thus, uploading your own dataset may lead to server overload. To test the online demo, please rely on the toy datasets that are available in “Demo data” (from “Data manager” menu).</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pkgs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'edyp-lab/DAPARdata'</span>, <span class="st">'edyp-lab/DAPAR'</span>, <span class="st">'edyp-lab/Prostar'</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'remotes'</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(pkgs, <span class="at">dependencies =</span> <span class="cn">TRUE</span>, <span class="at">ref =</span> <span class="st">'RELEASE_3_20'</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>Prostar<span class="sc">::</span><span class="fu">Prostar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<!-- ## Online demo -->
+<!-- An online demo of Prostar software is available at: -->
+<!-- <a href="http://live.prostar-proteomics.org/" target="_blank">**http://live.prostar-proteomics.org**</a> -->
+<!-- **Remark:** The server hosting the online demo has limited capacities. -->
+<!-- Thus, uploading your own dataset may lead to server overload. -->
+<!-- To test the online demo, please rely on the toy datasets that are available in "Demo data" (from "Data manager" menu). -->
 
 
 </section>

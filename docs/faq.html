@@ -71,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7d04a614f0f4fc318b556908ebda4e42.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-37715cb425b0e64c9110643ba1d1c431.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -101,7 +101,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -284,9 +283,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="why-isnt-it-possible-to-adjust-the-logfc-threshold-on-each-differential-analysis-comparison">Why isn’t it possible to adjust the logFC threshold on each differential analysis comparison?</h3>
 <p>Shortly, because from a statistical viewpoint, doing so roughly amount to FDR cheating. We have observed that numerous practitioners use the logFC threshold as a way to discard some proteins on the volcano plot, so that other proteins of interests appear more strikingly. In addition to be an uncontrolled and subjective way of sorting the proteins regardless of p-values, it has an important side effect on FDR computation: FDR computation requires a sufficiently large amount of proteins “below” the horizontal threshold on the volcano plot. However, all the proteins filtered out because of a too low logFC are not considered in FDR computation, so that tuning the logFC threshold to a too high value (so as to fine tune the protein selection) may lead to a spurious FDR. Finally, in case of more than two conditions (say A, B and C) , it would not make sense to defined differently (i.e.&nbsp;with a different logFC threshold) differentialy abundant proteins across various comparisons (e.g.&nbsp;when comparing AvsB, BvsC and CvsA). For all these reasons, we advise Prostar user to define once and for all the logFC threshold of each proteomics experiment (to a minimal value, such that below the threshold, a protein cannot be interesting froma biological viewpoint, because de FC cannot be properly exploited). More detailed explanations can be found in the following articles:</p>
 <ul>
-<li><a href="http://prabig-prostar.univ-lyon1.fr/Articles/OnTheMissuseOfFudgeFactorInProteomics_FV.pdf" target="_blank"><em>Q. Giai Gianetto, Y. Coute, C. Bruley and T. Burger</em>. Uses and misuses of the fudge factor in quantitative discovery proteomics. <strong>Proteomics</strong>, 16(14):1955-60, 2016.</a><br>
+<li><a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/pmic.201600132" target="_blank"><em>Q. Giai Gianetto, Y. Coute, C. Bruley and T. Burger</em>. Uses and misuses of the fudge factor in quantitative discovery proteomics. <strong>Proteomics</strong>, 16(14):1955-60, 2016.</a><br>
 </li>
-<li><a href="http://prabig-prostar.univ-lyon1.fr/Articles/fdrtuto.pdf" target="_blank"><em>T. Burger</em>. Gentle introduction to the statistical foundations of false discovery rate in quantitative proteomics. <strong>Journal of Proteome Research</strong>, 17(1):12-22, 2017.</a></li>
+<li><a href="https://pubs.acs.org/jprobs/article/17/1/12/1265687/Gentle-Introduction-to-the-Statistical-Foundations" target="_blank"><em>T. Burger</em>. Gentle introduction to the statistical foundations of false discovery rate in quantitative proteomics. <strong>Journal of Proteome Research</strong>, 17(1):12-22, 2017.</a></li>
 <li><a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019</a> (Section 2).</li>
 </ul>
 </section>

@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7d04a614f0f4fc318b556908ebda4e42.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-37715cb425b0e64c9110643ba1d1c431.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,7 +67,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -225,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Filtering</strong>: To prune the protein or peptide list according to various criteria (missing values, string matching).</li>
 <li><strong>Normalization</strong>: To correct batch or group effects.</li>
-<li>**Imputation: By taking into account the very nature of each missing value.</li>
+<li><strong>Imputation</strong>: By taking into account the very nature of each missing value.</li>
 <li><strong>Aggregation</strong>: For peptide-level datasets, it is possible to estimate protein abundances.</li>
 <li><strong>Hypothesis testing</strong>: To compute the significance of each protein differential abundance.</li>
 </ul>
@@ -244,13 +243,11 @@ ul.task-list li input[type="checkbox"] {
 <h1>Software</h1>
 <ol type="1">
 <li><a href="#zero-install"><strong>Zero-install</strong></a><br>
-The easiest way. Prostar is deployed either as a zip archive (so far only available on Microsoft Windows desktop machines) or as a Docker image (bêta, but ok for Windows, Mac OS X and (Unix/Linux).</li>
+The easiest way. Prostar is deployed as a zip archive (so far only available on Microsoft Windows desktop machines). <!-- or as a Docker image (bêta, but ok for Windows, Mac OS X and (Unix/Linux). --></li>
 <li><a href="#bioconductor-installs"><strong>Stand-alone Bioconductor install</strong></a><br>
 The standard method to install Bioconductor distributed software. This method works for any operating systems (Unix/Linux, Mac OS X and Windows) as long as R is installed.</li>
 <li><strong>Server install</strong><br>
-When one wants Prostar to run on a Unix server, on which remote users connect. This more advanced type of install is detailed in the <a href="#useful-links">user manual</a>.</li>
-<li><a href="#online-demo"><strong>Online demo</strong></a><br>
-Before installing Prostar on your desktop machine, test our online demo!</li>
+When one wants Prostar to run on a Unix server, on which remote users connect. This more advanced type of install is detailed in the <a href="#useful-links">user manual</a>. <!-- 4. [**Online demo**](#online-demo)   --> <!-- Before installing Prostar on your desktop machine, test our online demo! --></li>
 </ol>
 
 
