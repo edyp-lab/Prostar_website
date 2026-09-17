@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f90a5c42c28e2faaca74594d79b736f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-839c4bf13c605cf1d929eefbdb4ec0b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -96,8 +96,10 @@ ul.task-list li input[type="checkbox"] {
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main">
-    <a href="https://github.com/edyp-lab/Prostar2" title="Prostar on GitHub" class="quarto-navigation-tool px-1" aria-label="Prostar on GitHub"><i class="bi bi-github"></i></a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/edyp-lab/Prostar" title="Prostar on GitHub" class="quarto-navigation-tool px-1" aria-label="Prostar on GitHub" target="_blank"><i class="bi bi-github"></i></a>
+    <a href="https://www.bioconductor.org/packages/release/bioc/html/Prostar.html" title="Prostar on Bioconductor" class="quarto-navigation-tool px-1" aria-label="Prostar on Bioconductor" target="_blank"><i class="bi bi-code-square"></i></a>
+    <a href="https://www.edyp.fr/web/" title="EDyP Lab" class="quarto-navigation-tool px-1" aria-label="EDyP Lab" target="_blank"><i class="bi bi-globe"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -164,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#citation" id="toc-citation" class="nav-link active" data-scroll-target="#citation">Citation</a></li>
-  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
+  <li><a href="#news" id="toc-news" class="nav-link active" data-scroll-target="#news">News</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
     </div>
@@ -191,16 +193,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.</p>
-<p>Prostar is easy to install (see our <a href=".\download.html#zero-install">Zero-install page</a>), easy to use (thanks to its <a href="https://shiny.rstudio.com/">Shiny</a>-based click-button interface) and well-documented (see our <a href=".\ressources.html">reference page</a>). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.</p>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p><strong>Maintaining Prostar as free software is a heavy duty. Please cite the following reference</strong></p>
-<blockquote class="blockquote">
-<p><em>S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Coute;, M. Ferro, C. Bruley and T. Burger</em>. DAPAR &amp; ProStaR: software to perform statistical analyses in quantitative discovery proteomics. <strong>Bioinformatics</strong> 33(1), 135-136, 2017.<br>
-<a href="http://doi.org/10.1093/bioinformatics/btw580" target="_blank">http://doi.org/10.1093/bioinformatics/btw580.</a></p>
-</blockquote>
-</section>
+<div class="subtitle">
+PROteomic STatistical Analysis with R
+</div>
+<p><strong>Prostar</strong> is a software for the <strong>statistical analysis of quantitative data</strong> from discovery proteomics experiments. Its <strong>user-friendly</strong>, <a href="https://shiny.rstudio.com/">Shiny</a>-based interface provides an <strong>accessible workflow</strong> for exploring, processing, and performing differential analysis of <strong>proteomics datasets</strong>.</p>
+<p>Prostar brings together established and state-of-the-art data analysis methods in a documented and <strong>continuously updated</strong> and <strong>easy to install</strong> environment, making advanced <strong>proteomics analysis accessible</strong> without requiring extensive programming expertise.</p>
+<div class="button-container">
+<p><a href="./discoverprostar.html" class="custom-button">Learn more</a> <a href="./download.html" class="custom-button">Get Prostar</a></p>
+</div>
 <section id="news" class="level2">
 <h2 class="anchored" data-anchor-id="news">News</h2>
 <table>
@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <td style="width: 5%;">
 <hr>
 </td><td>
-<strong>25/11/2024</strong>
+<span class="turquoise"><strong>25/11/2024</strong></span>
 </td><td style="width: 100%;">
 <hr>
 </td></tr></tbody></table>
@@ -216,6 +216,14 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a <a href=".\download.html#zero-install">Zero-install</a> zip.</li>
 </ul>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<p><strong>Maintaining Prostar as free software is a heavy duty. Please cite the following reference</strong></p>
+<blockquote class="blockquote">
+<p><em>S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Couté, M. Ferro, C. Bruley and T. Burger</em>. DAPAR &amp; ProStaR: software to perform statistical analyses in quantitative discovery proteomics. <strong>Bioinformatics</strong> 33(1), 135-136, 2017.<br>
+<a href="http://doi.org/10.1093/bioinformatics/btw580" target="_blank">http://doi.org/10.1093/bioinformatics/btw580.</a></p>
+</blockquote>
 
 
 </section>
@@ -311,7 +319,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.prostar-proteomics\.org\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

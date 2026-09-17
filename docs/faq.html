@@ -72,7 +72,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f90a5c42c28e2faaca74594d79b736f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-839c4bf13c605cf1d929eefbdb4ec0b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -130,8 +130,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main">
-    <a href="https://github.com/edyp-lab/Prostar2" title="Prostar on GitHub" class="quarto-navigation-tool px-1" aria-label="Prostar on GitHub"><i class="bi bi-github"></i></a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/edyp-lab/Prostar" title="Prostar on GitHub" class="quarto-navigation-tool px-1" aria-label="Prostar on GitHub" target="_blank"><i class="bi bi-github"></i></a>
+    <a href="https://www.bioconductor.org/packages/release/bioc/html/Prostar.html" title="Prostar on Bioconductor" class="quarto-navigation-tool px-1" aria-label="Prostar on Bioconductor" target="_blank"><i class="bi bi-code-square"></i></a>
+    <a href="https://www.edyp.fr/web/" title="EDyP Lab" class="quarto-navigation-tool px-1" aria-label="EDyP Lab" target="_blank"><i class="bi bi-globe"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -280,13 +282,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/pmic.201600132" target="_blank"><em>Q. Giai Gianetto, Y. Coute, C. Bruley and T. Burger</em>. Uses and misuses of the fudge factor in quantitative discovery proteomics. <strong>Proteomics</strong>, 16(14):1955-60, 2016.</a><br>
 </li>
 <li><a href="https://pubs.acs.org/jprobs/article/17/1/12/1265687/Gentle-Introduction-to-the-Statistical-Foundations" target="_blank"><em>T. Burger</em>. Gentle introduction to the statistical foundations of false discovery rate in quantitative proteomics. <strong>Journal of Proteome Research</strong>, 17(1):12-22, 2017.</a></li>
-<li><a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019</a> (Section 2).</li>
+<li><a href="https://hal.science/hal-02267178v1" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019</a> (Section 2).</li>
 </ul>
 </section>
 <section id="how-does-push-p-values-works" class="level2">
 <h2 class="anchored" data-anchor-id="how-does-push-p-values-works">How does “Push p-values” works?</h2>
 <p>This is now clearly explained and illustrated in <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf" target="_blank">Prostar user manual</a> as well as in the following article (Section 3):</p>
-<p><a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019.</a></p>
+<p><a href="https://hal.science/hal-02267178v1" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019.</a></p>
 </section>
 <section id="how-should-i-tune-the-calibration-plot-options" class="level2">
 <h2 class="anchored" data-anchor-id="how-should-i-tune-the-calibration-plot-options">How should I tune the calibration plot options?</h2>
@@ -450,7 +452,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.prostar-proteomics\.org\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

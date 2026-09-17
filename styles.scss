@@ -1,19 +1,18 @@
 /*-- scss:defaults --*/
 
-// Font
+/*-- Font --*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 
 
-// Colors
+/*-- Colors --*/
 $light-bluegreen: #D6EAE7;
 $turquoise: #25949A;
-$dark-turquoise: #246C72;
 $orange: #E87352;
 
 
 
-// Global
+/*-- Global --*/
 $sidebar-bg: $light-bluegreen; 
 $sidebar-fg: $turquoise;
 $sidebar-hl: $orange;
@@ -24,35 +23,86 @@ $sidebar-hover-color: $orange;
 
 $link-color: $orange;
 h1 {
-  color: $turquoise !important;
-  font-family: "Space Grotesk";
-  font-weight: 700 !important;
+    color: $turquoise !important;
+    font-family: "Space Grotesk";
+    font-weight: 700 !important;
   
 }
 h2 {
-  color: $turquoise !important;
-  font-family: "Space Grotesk";
-  font-weight: 600 !important;
-  padding-left: 25px;
-  padding-bottom: 2px !important;
-  margin-top: 10px;
+    color: $turquoise !important;
+    font-family: "Space Grotesk";
+    font-weight: 600 !important;
+    padding: 10px 0px 2px 25px !important;
+    border-bottom: 1px solid $light-bluegreen !important;
 }
 h3, h4, h5, h6 {
-  color: $turquoise !important;
-  font-weight: 500 !important;
+    color: $turquoise !important;
+    font-weight: 500 !important;
 }
 
 .toc-active {
-  color: $turquoise !important;
-  font-weight: 400 !important;
+    color: $turquoise !important;
+    font-weight: 400 !important;
 }
 .toc-active h2 {
-  padding-left: 0px !important;
-  font-weight: 400 !important;
+    padding: 0px !important;
+    font-weight: 400 !important;
+    border-bottom: none !important;
+}
+
+.blockquote {
+    color: $turquoise !important;
+    background-color: $light-bluegreen;
+    border-left: .25rem solid $orange !important;
+    font-weight: 350 !important;
+}
+
+hr {
+    color: $orange !important;
+    opacity: .60 !important;
+}
+
+.turquoise {
+    color: $turquoise !important;
+}
+.orange {
+    color: $orange !important;
 }
 
 
-// About page
+
+/*-- Home page --*/
+.subtitle {
+    color: $turquoise;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 300
+}
+
+.button-container {
+  margin: 20px 0 30px 20px;
+}
+.custom-button {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: $light-bluegreen;
+  color: $orange;
+  border: 1px solid $turquoise;
+  margin: 0 5px 0 5px;
+}
+.custom-button:hover {
+  opacity: 0.85;
+  background-color: $turquoise;
+  color: $light-bluegreen;
+  border: 1px solid $orange;
+}
+
+
+
+/*-- About page --*/
 .core-team-container {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

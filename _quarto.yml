@@ -5,6 +5,7 @@ project:
 website:
   title: "prostar-proteomics.org"
   favicon: "images/logo.png"
+  site-url: "https://www.prostar-proteomics.org/"
   
   sidebar:
     logo: "images/logo.png"
@@ -15,8 +16,17 @@ website:
     collapse-level: 0
     tools:
       - icon: github
-        href: https://github.com/edyp-lab/Prostar2
+        href: https://github.com/edyp-lab/Prostar
         text: "Prostar on GitHub"
+        target: _blank
+      - icon: code-square
+        href: https://www.bioconductor.org/packages/release/bioc/html/Prostar.html
+        text: "Prostar on Bioconductor"
+        target: _blank
+      - icon: globe
+        href: https://www.edyp.fr/web/
+        text: "EDyP Lab"
+        target: _blank
         
     contents:
       - href: index.qmd
@@ -43,3 +53,6 @@ format:
     code-copy: true
     code-overflow: wrap
     mainfont: Roboto
+
+resources:
+  - CNAME

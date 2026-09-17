@@ -283,17 +283,7 @@
     "href": "index.html",
     "title": "Prostar",
     "section": "",
-    "text": "Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.\nProstar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
-    "title": "Prostar",
-    "section": "Citation",
-    "text": "Citation\nMaintaining Prostar as free software is a heavy duty. Please cite the following reference\n\nS. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Coute;, M. Ferro, C. Bruley and T. Burger. DAPAR & ProStaR: software to perform statistical analyses in quantitative discovery proteomics. Bioinformatics 33(1), 135-136, 2017.\nhttp://doi.org/10.1093/bioinformatics/btw580.",
+    "text": "PROteomic STatistical Analysis with R\nProstar is a software for the statistical analysis of quantitative data from discovery proteomics experiments. Its user-friendly, Shiny-based interface provides an accessible workflow for exploring, processing, and performing differential analysis of proteomics datasets.\nProstar brings together established and state-of-the-art data analysis methods in a documented and continuously updated and easy to install environment, making advanced proteomics analysis accessible without requiring extensive programming expertise.",
     "crumbs": [
       "Home"
     ]
@@ -304,6 +294,16 @@
     "title": "Prostar",
     "section": "News",
     "text": "News\n\n\n\n\n\n25/11/2024\n\n\n\nEnjoy the Zero-install version of Prostar !\n\nProstar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a Zero-install zip.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Prostar",
+    "section": "Citation",
+    "text": "Citation\nMaintaining Prostar as free software is a heavy duty. Please cite the following reference\n\nS. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Couté, M. Ferro, C. Bruley and T. Burger. DAPAR & ProStaR: software to perform statistical analyses in quantitative discovery proteomics. Bioinformatics 33(1), 135-136, 2017.\nhttp://doi.org/10.1093/bioinformatics/btw580.",
     "crumbs": [
       "Home"
     ]
