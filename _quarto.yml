@@ -4,6 +4,7 @@ project:
 
 website:
   title: "prostar-proteomics.org"
+  favicon: "images/logo.png"
   
   sidebar:
     logo: "images/logo.png"
@@ -20,9 +21,7 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - section: discoverprostar.qmd
-        contents: 
-            - workflows.qmd
+      - discoverprostar.qmd
       - download.qmd
       - releasenotes.qmd
       - section: ressources.qmd
@@ -32,6 +31,9 @@ website:
 
 format:
   html:
+    grid: 
+      sidebar-width: 275px
+      body-width: 1000px
     theme:
       - cosmo
       - brand
@@ -40,3 +42,4 @@ format:
     page-layout: full
     code-copy: true
     code-overflow: wrap
+    mainfont: Roboto

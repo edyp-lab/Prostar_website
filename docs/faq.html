@@ -63,6 +63,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +72,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b4a20a2af3d59b4938486bfd3321bce3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f90a5c42c28e2faaca74594d79b736f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -146,23 +147,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Home</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Discover Prostar</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workflows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workflows</span></a>
+  <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Discover Prostar</span></a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./download.html" class="sidebar-item-text sidebar-link">
@@ -179,11 +169,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="./ressources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support &amp; Resources</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./faq.html" class="sidebar-item-text sidebar-link active">
@@ -217,7 +207,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#how-does-push-p-values-works" id="toc-how-does-push-p-values-works" class="nav-link" data-scroll-target="#how-does-push-p-values-works">How does “Push p-values” works?</a></li>
   <li><a href="#how-should-i-tune-the-calibration-plot-options" id="toc-how-should-i-tune-the-calibration-plot-options" class="nav-link" data-scroll-target="#how-should-i-tune-the-calibration-plot-options">How should I tune the calibration plot options?</a></li>
   <li><a href="#why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis" id="toc-why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis" class="nav-link" data-scroll-target="#why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis">Why are the adjusted p-values hidden in the tabular outputs of the differential analysis?</a></li>
-  <li><a href="#how-the-cells-metadata-tags-are-structured" id="toc-how-the-cells-metadata-tags-are-structured" class="nav-link" data-scroll-target="#how-the-cells-metadata-tags-are-structured">How the cells metadata tags are structured?</a></li>
+  <li><a href="#how-the-cells-metadata-tags-are-structured" id="toc-how-the-cells-metadata-tags-are-structured" class="nav-link" data-scroll-target="#how-the-cells-metadata-tags-are-structured">How the cells metadata tags are structured?</a>
+  <ul class="collapse">
+  <li><a href="#prostar-prior-to-1.30.0" id="toc-prostar-prior-to-1.30.0" class="nav-link" data-scroll-target="#prostar-prior-to-1.30.0">Prostar prior to 1.30.0</a></li>
+  <li><a href="#prostar-from-1.31.2" id="toc-prostar-from-1.31.2" class="nav-link" data-scroll-target="#prostar-from-1.31.2">Prostar from 1.31.2</a></li>
+  </ul></li>
   <li><a href="#how-the-cells-metadata-tags-are-aggregated" id="toc-how-the-cells-metadata-tags-are-aggregated" class="nav-link" data-scroll-target="#how-the-cells-metadata-tags-are-aggregated">How the cells metadata tags are aggregated?</a></li>
   </ul>
 </nav>
@@ -244,12 +238,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="why-does-the-table-in-experimental-design-blink-during-edition" class="level3">
-<h3 class="anchored" data-anchor-id="why-does-the-table-in-experimental-design-blink-during-edition">Why does the table in experimental design blink during edition?</h3>
+<section id="why-does-the-table-in-experimental-design-blink-during-edition" class="level2">
+<h2 class="anchored" data-anchor-id="why-does-the-table-in-experimental-design-blink-during-edition">Why does the table in experimental design blink during edition?</h2>
 <p>When you edit the experimental design (during converting a text file to MSnset or during the update of the design), it may happen that the cells begin to blink in a random order. Then, no more operation is possible in the table. This happens if you edit the cells too fast with respect to the table update speed. We apologize for this caveat : this is a known bug of the package used to provide the table. No patch is available yet. The only workaround is to close then reopen Prostar.</p>
 </section>
-<section id="how-to-build-a-valid-experimental-design" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-build-a-valid-experimental-design">How to build a valid experimental design?</h3>
+<section id="how-to-build-a-valid-experimental-design" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-build-a-valid-experimental-design">How to build a valid experimental design?</h2>
 <p>In Prostar, the differential analysis is devoted to the processing of hierarchical unpaired experimental designs. However, in former versions, this was not explicit enough, so that users with paired samples could used Prostar with wrong assumptions. To clear this out, we have changed the experimental design construction step so that its explicitly appears unpaired.</p>
 <p>As a result, the samples must now be numbered as in the following example:</p>
 <ul>
@@ -264,23 +258,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Which, depending on the context, could suggest that the 8 samples comes only from 4 different biological subjects, and thus leading to paired tests - for instance, patients that are compared between Before (Condition 1) and After (Condition 2) some treatment.</p>
 <p>However, one should note that even if the experimental design now looks different, this is just due to a numbering convention, and the statistical test is not impacted.</p>
 </section>
-<section id="why-do-the-items-of-the-contextual-menus-for-plots-remain-undefined" class="level3">
-<h3 class="anchored" data-anchor-id="why-do-the-items-of-the-contextual-menus-for-plots-remain-undefined">Why do the items of the contextual menus for plots remain ‘undefined’?</h3>
+<section id="why-do-the-items-of-the-contextual-menus-for-plots-remain-undefined" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-the-items-of-the-contextual-menus-for-plots-remain-undefined">Why do the items of the contextual menus for plots remain ‘undefined’?</h2>
 <p>This happens if the version of the package ‘highcharter’ is less or equal to 0.5.0. To fix this issue, you should install the devel version of the package by typing the following command in a R console:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">'jbkunst/highcharter'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="why-does-my-volcano-plot-look-so-aligned" class="level3">
-<h3 class="anchored" data-anchor-id="why-does-my-volcano-plot-look-so-aligned">Why does my volcano plot look so aligned?</h3>
+<section id="why-does-my-volcano-plot-look-so-aligned" class="level2">
+<h2 class="anchored" data-anchor-id="why-does-my-volcano-plot-look-so-aligned">Why does my volcano plot look so aligned?</h2>
 <p><img src="images/dfPriorIssue.png" width="600"></p>
 <p><em>Volcano plot resulting from a Limma issue</em></p>
 <p>In very uncommun situations, one may obtain a bowl shape volcano plot such as depicted above. This is due to using Limma on a dataset for which it is not adapted: Briefly, the numerical values in the quantitative matrix appears to have a repetitive pattern that prevent Limma routines to compute the number of degrees of freedom of the Chi2 distribution on which the protein variances should be fitted. As a result, Limma returns a result directly proportional to the fold-change, and the p-values are none-informative. In such cases, which are fortunately extremely odd, we advise to replace Limma test by a classical t-test.</p>
 </section>
-<section id="how-to-recover-differential-analysis-results" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-recover-differential-analysis-results">How to recover differential analysis results?</h3>
+<section id="how-to-recover-differential-analysis-results" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-recover-differential-analysis-results">How to recover differential analysis results?</h2>
 <p>From Prostar 1.14, the differential analysis results are not exported anymore when using the “Export fo file” functionality, regardless the format (MSnset, excel or zipped CSV). This is due to the separate management of the “data mining” and “data processing” outputs. As a result, after performing the differential analysis, the results must be downloaded thanks to the devoted buttons (otherwise, they will be lost when closing the Prostar session). However, all the p-value computatations (from the “hypothesis testing” menu) can be exported and recovered from one session to another one.</p>
 </section>
-<section id="why-isnt-it-possible-to-adjust-the-logfc-threshold-on-each-differential-analysis-comparison" class="level3">
-<h3 class="anchored" data-anchor-id="why-isnt-it-possible-to-adjust-the-logfc-threshold-on-each-differential-analysis-comparison">Why isn’t it possible to adjust the logFC threshold on each differential analysis comparison?</h3>
+<section id="why-isnt-it-possible-to-adjust-the-logfc-threshold-on-each-differential-analysis-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="why-isnt-it-possible-to-adjust-the-logfc-threshold-on-each-differential-analysis-comparison">Why isn’t it possible to adjust the logFC threshold on each differential analysis comparison?</h2>
 <p>Shortly, because from a statistical viewpoint, doing so roughly amount to FDR cheating. We have observed that numerous practitioners use the logFC threshold as a way to discard some proteins on the volcano plot, so that other proteins of interests appear more strikingly. In addition to be an uncontrolled and subjective way of sorting the proteins regardless of p-values, it has an important side effect on FDR computation: FDR computation requires a sufficiently large amount of proteins “below” the horizontal threshold on the volcano plot. However, all the proteins filtered out because of a too low logFC are not considered in FDR computation, so that tuning the logFC threshold to a too high value (so as to fine tune the protein selection) may lead to a spurious FDR. Finally, in case of more than two conditions (say A, B and C) , it would not make sense to defined differently (i.e.&nbsp;with a different logFC threshold) differentialy abundant proteins across various comparisons (e.g.&nbsp;when comparing AvsB, BvsC and CvsA). For all these reasons, we advise Prostar user to define once and for all the logFC threshold of each proteomics experiment (to a minimal value, such that below the threshold, a protein cannot be interesting froma biological viewpoint, because de FC cannot be properly exploited). More detailed explanations can be found in the following articles:</p>
 <ul>
 <li><a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/pmic.201600132" target="_blank"><em>Q. Giai Gianetto, Y. Coute, C. Bruley and T. Burger</em>. Uses and misuses of the fudge factor in quantitative discovery proteomics. <strong>Proteomics</strong>, 16(14):1955-60, 2016.</a><br>
@@ -289,24 +283,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019</a> (Section 2).</li>
 </ul>
 </section>
-<section id="how-does-push-p-values-works" class="level3">
-<h3 class="anchored" data-anchor-id="how-does-push-p-values-works">How does “Push p-values” works?</h3>
+<section id="how-does-push-p-values-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-push-p-values-works">How does “Push p-values” works?</h2>
 <p>This is now clearly explained and illustrated in <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf" target="_blank">Prostar user manual</a> as well as in the following article (Section 3):</p>
 <p><a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019.</a></p>
 </section>
-<section id="how-should-i-tune-the-calibration-plot-options" class="level3">
-<h3 class="anchored" data-anchor-id="how-should-i-tune-the-calibration-plot-options">How should I tune the calibration plot options?</h3>
+<section id="how-should-i-tune-the-calibration-plot-options" class="level2">
+<h2 class="anchored" data-anchor-id="how-should-i-tune-the-calibration-plot-options">How should I tune the calibration plot options?</h2>
 <p>This is now clearly explained and illustrated in <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf" target="_blank">Prostar user manual</a> as well as in the following article (Sections 4, 5 and 6):</p>
 <p><a href="https://sites.google.com/site/thomasburgerswebpage/download/5tips-VF-accepted.pdf" target="_blank"><em>S. Wieczorek, Q. Giai Gianetto, T. Burger</em>. Five simple yet essential steps to correctly estimate the rate of false differentially abundant proteins in mass spectrometry analyses. <strong>Journal of Proteomics</strong>, vol 207, p.&nbsp;103441, In Press, 2019.</a></p>
 </section>
-<section id="why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis">Why are the adjusted p-values hidden in the tabular outputs of the differential analysis?</h3>
+<section id="why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="why-are-the-adjusted-p-values-hidden-in-the-tabular-outputs-of-the-differential-analysis">Why are the adjusted p-values hidden in the tabular outputs of the differential analysis?</h2>
 <p>Adjusted p-values (a. k. a. q-values) are often misunderstood. Because of their names, Prostar users often assume that an adjusted p-value is a protein-level piece of information, which quantitative value differs from the raw p-value, because of a mere “mathematical correction factor”, yet with essentially the same interpretation (that of a probabilistic quantification related to the DA status of the protein). However, this does not hold: an adjusted p-value is a list-related piece of information, which is exactly equivalent to an FDR: The adjusted p-value of the N-th protein with the smallest p-value equates the FDR when the list of putative DA proteins is cut to a length of N proteins. Consequently, a same protein with a same p-value, may have different adjusted p-values depending on the other p-values of the datasets (those which are smaller). This makes the adjusted p-value interpretation a bit touchy. In addition, displaying the adjusted p-value information in a tabular sheet were rows could be ordered in different ways (such as Excel spreadsheets for instance) is confusing: If the DA proteins are not sorted by increasing or decreasing p-values, their adjusted p-values cannot be related to the set of DA proteins they apply to. Thus, displaying them is both non-informative and error-prone. After having observed (or having received questions from) Prostar users who were misled by the adjusted p-value information, we have decided to remove it from the tabular outputs. An alternative would be to display the adjusted p-values, but with a different names, easier to interpret, such as “minimum FDR threshold at which the protein would be selected”. However, displaying this information promotes p-value hacking, as users may be tempted to spot their proteins of interest and tune the FDR accordingly. As we search for a better solution, any suggestion or comment is welcomed!</p>
 </section>
-<section id="how-the-cells-metadata-tags-are-structured" class="level3">
-<h3 class="anchored" data-anchor-id="how-the-cells-metadata-tags-are-structured">How the cells metadata tags are structured?</h3>
-<section id="prostar-prior-to-1.30.0" class="level4">
-<h4 class="anchored" data-anchor-id="prostar-prior-to-1.30.0">Prostar prior to 1.30.0</h4>
+<section id="how-the-cells-metadata-tags-are-structured" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-cells-metadata-tags-are-structured">How the cells metadata tags are structured?</h2>
+<section id="prostar-prior-to-1.30.0" class="level3">
+<h3 class="anchored" data-anchor-id="prostar-prior-to-1.30.0">Prostar prior to 1.30.0</h3>
 <p>Peptide-level vocabulary</p>
 <pre><code>──Any
   │── 1.0 Quantitative Value
@@ -337,13 +331,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   │
   │── 4.0 Combined value</code></pre>
 </section>
-<section id="prostar-from-1.31.2" class="level4">
-<h4 class="anchored" data-anchor-id="prostar-from-1.31.2">Prostar from 1.31.2</h4>
+<section id="prostar-from-1.31.2" class="level3">
+<h3 class="anchored" data-anchor-id="prostar-from-1.31.2">Prostar from 1.31.2</h3>
 <p><img src="images/metacellTags.png" width="600"></p>
 </section>
 </section>
-<section id="how-the-cells-metadata-tags-are-aggregated" class="level3">
-<h3 class="anchored" data-anchor-id="how-the-cells-metadata-tags-are-aggregated">How the cells metadata tags are aggregated?</h3>
+<section id="how-the-cells-metadata-tags-are-aggregated" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-cells-metadata-tags-are-aggregated">How the cells metadata tags are aggregated?</h2>
 <p>A set of rules define how the cells metadata tags are aggregated: Each example below represent a set of three peptides which are aggregated into one protein.</p>
 <p>Note: Before an aggregation, a dataset does not contain:</p>
 <ul>

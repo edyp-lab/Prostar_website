@@ -1,21 +1,55 @@
 /*-- scss:defaults --*/
 
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
 // Colors
 $light-bluegreen: #D6EAE7;
 $turquoise: #25949A;
+$dark-turquoise: #246C72;
 $orange: #E87352;
+
 
 
 // Global
 $sidebar-bg: $light-bluegreen; 
 $sidebar-fg: $turquoise;
 $sidebar-hl: $orange;
+$sidebar-font-size: 17px;
 $sidebar-active-color: $orange;
 div.sidebar-item-container .active{font-weight: bold;}
 $sidebar-hover-color: $orange;
 
 $link-color: $orange;
+h1 {
+  color: $turquoise !important;
+  font-family: "Space Grotesk";
+  font-weight: 700 !important;
+  
+}
+h2 {
+  color: $turquoise !important;
+  font-family: "Space Grotesk";
+  font-weight: 600 !important;
+  padding-left: 25px;
+  padding-bottom: 2px !important;
+  margin-top: 10px;
+}
+h3, h4, h5, h6 {
+  color: $turquoise !important;
+  font-weight: 500 !important;
+}
 
+.toc-active {
+  color: $turquoise !important;
+  font-weight: 400 !important;
+}
+.toc-active h2 {
+  padding-left: 0px !important;
+  font-weight: 400 !important;
+}
 
 
 // About page
@@ -24,7 +58,11 @@ $link-color: $orange;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
 }
-
+@media (max-width: 850px) {
+    .core-team-container {
+        grid-template-columns: 1fr;
+    }
+}
 .core-team-box {
     width: 100%;
     box-sizing: border-box;
@@ -35,7 +73,6 @@ $link-color: $orange;
     gap: 20px;
     min-width: 0;
 }
-
 .core-team-profile {
     flex: 0 1 40%;
     font-size: 19px;
@@ -44,14 +81,12 @@ $link-color: $orange;
     text-align: center;
     max-width: 160px;
 }
-
 .core-team-profile img {
     width: 100%;
     max-width: 155px;
     height: auto;
     margin: 0 auto;
 }
-
 .core-team-text {
     flex: 1 1 0;
     min-width: 0;
@@ -62,11 +97,6 @@ $link-color: $orange;
     overflow: auto;
 }
 
-@media (max-width: 850px) {
-    .core-team-container {
-        grid-template-columns: 1fr;
-    }
-}
 
 
 .contrib-container {
@@ -75,7 +105,6 @@ $link-color: $orange;
     flex-wrap: wrap;
     
 }
-
 .contrib-box {
     width: 220px;
     box-sizing: border-box;
@@ -89,12 +118,10 @@ $link-color: $orange;
     flex-direction: column;
     justify-content: center;
 }
-
 .contrib-box-name {
     font-weight: bold;
     font-size: 19px;
 }
-
 .contrib-box a {
     font-weight: bold;
     font-size: 16px;
@@ -104,11 +131,9 @@ $link-color: $orange;
     display: flex;
     gap: 10px;
 }
-
 .beta-test div {
     margin-top: 20px;
 }
-
 .beta-test img {
     width: 150px;
 }

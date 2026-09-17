@@ -96,4 +96,4 @@ However, it is also possible to contact the development team by email (see [team
 **If you are pleased with your Prostar experience**, you can also send us a message (messages are not restricted to bug reports)!  
 :-)
 
-Do not forget to [cite Prostar in your publications](#citation)!
+Do not forget to [cite Prostar in your publications](./#citation)!

@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -37,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b4a20a2af3d59b4938486bfd3321bce3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f90a5c42c28e2faaca74594d79b736f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,23 +113,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Discover Prostar</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workflows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workflows</span></a>
+  <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Discover Prostar</span></a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./download.html" class="sidebar-item-text sidebar-link">
@@ -145,11 +135,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./ressources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support &amp; Resources</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./faq.html" class="sidebar-item-text sidebar-link">
@@ -208,10 +198,10 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.</p>
 <p>Prostar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.</p>
-<section id="presentation" class="level1">
-<h1>Presentation</h1>
-<section id="data-management" class="level2">
-<h2 class="anchored" data-anchor-id="data-management">Data management</h2>
+<section id="presentation" class="level2">
+<h2 class="anchored" data-anchor-id="presentation">Presentation</h2>
+<section id="data-management" class="level3">
+<h3 class="anchored" data-anchor-id="data-management">Data management</h3>
 <ul>
 <li><strong>Conversion</strong>: To import a tabulated file containing quantitative data and convert it into an MSnset structure.</li>
 <li><strong>Loading</strong>: To open an Msnset structure that has been previously constructed.</li>
@@ -219,8 +209,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Demo data</strong>: Toy datasets are available to discover Prostar potential in the simplest way.</li>
 </ul>
 </section>
-<section id="data-processing" class="level2">
-<h2 class="anchored" data-anchor-id="data-processing">Data processing</h2>
+<section id="data-processing" class="level3">
+<h3 class="anchored" data-anchor-id="data-processing">Data processing</h3>
 <ul>
 <li><strong>Filtering</strong>: To prune the protein or peptide list according to various criteria (missing values, string matching).</li>
 <li><strong>Normalization</strong>: To correct batch or group effects.</li>
@@ -229,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Hypothesis testing</strong>: To compute the significance of each protein differential abundance.</li>
 </ul>
 </section>
-<section id="data-mining" class="level2">
-<h2 class="anchored" data-anchor-id="data-mining">Data mining</h2>
+<section id="data-mining" class="level3">
+<h3 class="anchored" data-anchor-id="data-mining">Data mining</h3>
 <ul>
 <li><strong>Descriptive statistics</strong>: Available at any stage of the analysis, for data exploration and visualization.</li>
 <li><strong>Peptide-Protein Graph</strong>: Explore and visualize peptide-protein graphs.</li>
@@ -239,15 +229,15 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="software" class="level1">
-<h1>Software</h1>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
 <ol type="1">
-<li><a href="#zero-install"><strong>Zero-install</strong></a><br>
+<li><a href=".\download.html#zero-install"><strong>Zero-install</strong></a><br>
 The easiest way. Prostar is deployed as a zip archive (so far only available on Microsoft Windows desktop machines). <!-- or as a Docker image (bêta, but ok for Windows, Mac OS X and (Unix/Linux). --></li>
-<li><a href="#bioconductor-installs"><strong>Stand-alone Bioconductor install</strong></a><br>
+<li><a href=".\download.html#bioconductor-installs"><strong>Stand-alone Bioconductor install</strong></a><br>
 The standard method to install Bioconductor distributed software. This method works for any operating systems (Unix/Linux, Mac OS X and Windows) as long as R is installed.</li>
 <li><strong>Server install</strong><br>
-When one wants Prostar to run on a Unix server, on which remote users connect. This more advanced type of install is detailed in the <a href="#useful-links">user manual</a>. <!-- 4. [**Online demo**](#online-demo)   --> <!-- Before installing Prostar on your desktop machine, test our online demo! --></li>
+When one wants Prostar to run on a Unix server, on which remote users connect. This more advanced type of install is detailed in the <a href=".\ressources.html">user manual</a>. <!-- 4. [**Online demo**](#online-demo)   --> <!-- Before installing Prostar on your desktop machine, test our online demo! --></li>
 </ol>
 
 

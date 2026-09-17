@@ -4,7 +4,7 @@ title: "Prostar"
 
 Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.
 
-Prostar is easy to install (see our [Zero-install page](#zero-install)), easy to use (thanks to its [Shiny](https://shiny.rstudio.com/)-based click-button interface) and well-documented (see our [reference page](#useful-links)). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.
+Prostar is easy to install (see our [Zero-install page](/download.html#zero-install)), easy to use (thanks to its [Shiny](https://shiny.rstudio.com/)-based click-button interface) and well-documented (see our [reference page](/ressources.html)). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.
 
 
 ## Citation
@@ -17,9 +17,6 @@ DAPAR & ProStaR: software to perform statistical analyses in quantitative discov
 
 
 ## News
-
-
-
 <table><tr><td style="width: 5%;"><hr><td>
 **25/11/2024**
 <td style="width: 100%;"><hr></table>

@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -37,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b4a20a2af3d59b4938486bfd3321bce3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f90a5c42c28e2faaca74594d79b736f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,23 +113,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Discover Prostar</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workflows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Workflows</span></a>
+  <a href="./discoverprostar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Discover Prostar</span></a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./download.html" class="sidebar-item-text sidebar-link">
@@ -145,11 +135,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./ressources.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Support &amp; Resources</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./faq.html" class="sidebar-item-text sidebar-link">
@@ -177,7 +167,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#user-manuals-and-tutorials" id="toc-user-manuals-and-tutorials" class="nav-link active" data-scroll-target="#user-manuals-and-tutorials">User manuals and tutorials</a></li>
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   <li><a href="#reference-manuals" id="toc-reference-manuals" class="nav-link" data-scroll-target="#reference-manuals">Reference manuals</a></li>
-  <li><a href="#bibliographical-references" id="toc-bibliographical-references" class="nav-link" data-scroll-target="#bibliographical-references">Bibliographical references</a></li>
+  <li><a href="#bibliographical-references" id="toc-bibliographical-references" class="nav-link" data-scroll-target="#bibliographical-references">Bibliographical references</a>
+  <ul class="collapse">
+  <li><a href="#our-referenced-works" id="toc-our-referenced-works" class="nav-link" data-scroll-target="#our-referenced-works">Our referenced works</a></li>
+  <li><a href="#other-references" id="toc-other-references" class="nav-link" data-scroll-target="#other-references">Other references</a></li>
+  </ul></li>
   <li><a href="#forum" id="toc-forum" class="nav-link" data-scroll-target="#forum">Forum</a></li>
   </ul>
 </nav>
@@ -204,8 +198,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="user-manuals-and-tutorials" class="level3">
-<h3 class="anchored" data-anchor-id="user-manuals-and-tutorials">User manuals and tutorials</h3>
+<section id="user-manuals-and-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="user-manuals-and-tutorials">User manuals and tutorials</h2>
 <ol type="1">
 <li><a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf" target="_blank">Prostar user manual</a> (corresponds to Prostar release 1.14)</li>
 <li><a href="https://hal.archives-ouvertes.fr/hal-02191440/file/tutorial-CP4P-4.pdf" target="_blank">cp4p tutorial</a></li>
@@ -214,12 +208,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://hal.archives-ouvertes.fr/hal-03242797" target="_blank">Prostar peptide-level and peptidomics protocols</a> (corresponds to Prostar release 1.24).</li>
 </ol>
 </section>
-<section id="contact" class="level3">
-<h3 class="anchored" data-anchor-id="contact">Contact</h3>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
 <p>If you need any help, but also if you wish to make comments or suggestions, please contact Samuel Wieczorek or Thomas Burger (firstname.lastname@cea.fr).</p>
 </section>
-<section id="reference-manuals" class="level3">
-<h3 class="anchored" data-anchor-id="reference-manuals">Reference manuals</h3>
+<section id="reference-manuals" class="level2">
+<h2 class="anchored" data-anchor-id="reference-manuals">Reference manuals</h2>
 <ol type="1">
 <li><a href="https://www.bioconductor.org/packages/release/bioc/manuals/Prostar/man/Prostar.pdf" target="_blank">Prostar reference manual</a></li>
 <li><a href="https://www.bioconductor.org/packages/release/bioc/manuals/DAPAR/man/DAPAR.pdf" target="_blank">DAPAR reference manual</a></li>
@@ -228,10 +222,10 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://cran.r-project.org/web/packages/imp4p/imp4p.pdf" target="_blank">IMP4P reference manual</a></li>
 </ol>
 </section>
-<section id="bibliographical-references" class="level3">
-<h3 class="anchored" data-anchor-id="bibliographical-references">Bibliographical references</h3>
-<section id="our-referenced-works" class="level4">
-<h4 class="anchored" data-anchor-id="our-referenced-works">Our referenced works</h4>
+<section id="bibliographical-references" class="level2">
+<h2 class="anchored" data-anchor-id="bibliographical-references">Bibliographical references</h2>
+<section id="our-referenced-works" class="level3">
+<h3 class="anchored" data-anchor-id="our-referenced-works">Our referenced works</h3>
 <ol type="1">
 <li><a href="https://hal.archives-ouvertes.fr/hal-02191440" target="_blank"><em>Q. Giai Gianetto, F. Combes, C. Ramus, C. Bruley, Y. Couté and T. Burger</em>. Calibration Plot for Proteomics (cp4p): A graphical tool to visually check the assumptions underlying FDR control in quantitative experiments. <strong>Proteomics</strong>, 16(1):29-32, 2016</a>. (<a href="https://sites.google.com/site/thomasburgerswebpage/download/tutorial-CP4P-4.pdf" target="_blank">Supplemental Material</a>).</li>
 <li><a href="https://hal.archives-ouvertes.fr/hal-02083850" target="_blank"><em>C. Lazar, L. Gatto, M. Ferro, C. Bruley, T. Burger</em>. Accounting for the multiple natures of missing values in label-free quantitative proteomics datasets to compare imputation strategies. <strong>Journal of Proteome Research</strong>, 15(4):1116-1125, 2016.</a></li>
@@ -247,8 +241,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://hal.science/hal-03695779" target="_blank"><em>T. Burger</em>. Can Omics Biology Go Subjective because of Artificial Intelligence? A Comment on “Challenges and Opportunities for Bayesian Statistics in Proteomics” by Crook et al.&nbsp;<strong>Journal of Proteome Research</strong>, 21(7), pp.&nbsp;1783–1786, 2022.</a></li>
 </ol>
 </section>
-<section id="other-references" class="level4">
-<h4 class="anchored" data-anchor-id="other-references">Other references</h4>
+<section id="other-references" class="level3">
+<h3 class="anchored" data-anchor-id="other-references">Other references</h3>
 <ol type="1">
 <li><em>Bolstad BM</em> (2017). preprocessCore: A collection of pre-processing functions. <strong>R package</strong> version 1.38.1</li>
 <li><em>Hastie T, Tibshirani R, Narasimhan B and Chu G</em> (2017). impute: Imputation for microarray data. <strong>R package</strong> version 1.50.1</li>
