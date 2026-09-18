@@ -78,7 +78,7 @@ His expertise focuses on the statistical, methodological and algorithmic aspects
 <div class="beta-test">
 <img src="images/logo_edyp.png" />
 
-<div>**The entire [EDyP proteomics platform](http://www.edyp.fr)** <br>
+<div>**The entire [EDyP proteomics platform](http://www.edyp.fr){target="_blank"}** <br>
 Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members.
 They are all warmly acknowledged for their contributions.
 </div></div>

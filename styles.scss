@@ -86,23 +86,56 @@ hr {
 }
 
 .button-container {
-  margin: 30px 0 40px 20px;
+    margin: 30px 0 40px 20px;
 }
 .custom-button {
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  background-color: $light-bluegreen;
-  color: $orange;
-  border: 1px solid $turquoise;
-  margin: 0 5px 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: $light-bluegreen;
+    color: $orange;
+    border: 1px solid $turquoise;
+    margin: 0 5px 0 5px;
 }
 .custom-button:hover {
-  opacity: 0.85;
-  background-color: $turquoise;
-  color: $light-bluegreen;
-  border: 1px solid $orange;
+    opacity: 0.85;
+    background-color: $turquoise;
+    color: $light-bluegreen;
+    border: 1px solid $orange;
+}
+
+.homeNews {
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+
+
+/*-- Realease note page --*/
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 30px 0 -15px 0;
+}
+.divider::before {
+  content: "";
+  height: 1px;
+  background: $orange;
+  opacity: .60 !important;
+  width: 5%;
+}
+.divider::after {
+  content: "";
+  height: 1px;
+  background: $orange;
+  flex: 1;
+  opacity: .60 !important;
+}
+.divider h3 {
+  white-space: nowrap;
+  margin: 0;
 }
 
 

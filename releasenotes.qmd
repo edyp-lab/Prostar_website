@@ -4,25 +4,30 @@ title: "Release notes"
 
 ## Prostar 2
 
+<div class="divider">
 ### Roadmap for Prostar 2.0
+</div>
 
 #### New features
 * To Be Announced - Many Great stuffs! 😉
 
----
+
 
 ## Prostar
 
+<div class="divider">
 ### News in Prostar 1.38
+</div>
 
 #### Bugs fixed
 [1.38.1] (25/11/2024)
 
-  * Bug fixed in the swap conditions tool indice the Hypothesis Test process 
+  * Bug fixed in the swap conditions tool indice of the Hypothesis Test process 
 
 
+<div class="divider">
 ### News in Prostar 1.36
-
+</div>
 
 #### Bugs fixed
 [1.36.3] (05/10/2024)
@@ -31,13 +36,10 @@ title: "Release notes"
   * Bug fixed in the Convert tool when clicking on "Convert Data": sometimes the following error occurred: Error in [.data.frame(tmp.df, , ‘Sample.name’) : undefined columns selected.
   * The page 'Check for Updates' is back
 
-
-
 #### Bugs fixed
 [1.36.2]
 
   * Bug fixed in the Convert tool when using the 'Order by conditions' feature
-
 
 #### Bugs fixed
 [1.36.1]
@@ -58,13 +60,18 @@ title: "Release notes"
 * Filtering tool: as for the cell metadata filtering, when users select infos of symbolic or numerical nature, the number of lines which will be deleted is displayed before clicking on the 'Perform' button.
 * Convert dataset: fixed a bug which built wrong cells metadata when using the option 'Order by conditions' (in the Build design step).
 
+
+<div class="divider">
 ### News in Prostar 1.34.6
+</div>
 
 #### Bugs fixed
   * Hypothesis testing: bug fixed with Limma and designs of level 2 and 3.
   
 
+<div class="divider">
 ### News in Prostar 1.34.5
+</div>
 
 #### Bugs fixed
   * Differential analysis: fixing the details of quantitative values of peptides (when a user clicks on a protein in the volcanoplot).
@@ -72,19 +79,25 @@ title: "Release notes"
   * Bug fixed in the tree for the selection of cells metadata (used in Filtering tool and Descriptive Statistics)
   
   
+<div class="divider">
 ### News in Prostar 1.34.2
+</div>
 
 #### Bugs fixed
   * Bug fixed while opening the 'Descriptive statistics' tab after have used one of the processes in 'Data processing' tab.
   
 
+<div class="divider">
 ### News in Prostar 1.34.1
+</div>
 
 #### New features
   * Allow hypothesis test using Limma with a dataset built on a flat design and containing up to 26 conditions
 
 
+<div class="divider">
 ### News in Prostar 1.34.0
+</div>
 
 #### Bugs fixed
   * Bug fixed while opening xlsx files.
@@ -92,59 +105,67 @@ title: "Release notes"
   * Bug fixed with the display of some pages
 
 
+<div class="divider">
 ### News in Prostar 1.32.1
+</div>
 
 #### New features
   * New selection tool for cell metadata tags (used in the filtering tool, in Descriptive Statistics and Differential Analysis)
   * Export as Excel file: additional sheet with DAPAR and Prostar version number used to process the dataset
   
   
-  
+<div class="divider">
 ### News in Prostar 1.30.7
+</div>
 
 #### Bugs fixed
   * Buggy plots have been temporarly disabled in aggregation process
   * Bug fixed while converting a text/Excel file to a MSnset file (issue with the versions of Prostar and DAPAR)
 
 
-  
+<div class="divider">
 ### News in Prostar 1.30.6
+</div>
 
 #### Bugs fixed
   * Bug fixed in agregation tool for peptide-level pipeline
 
-  
 #### New features
   * A popup windows appears if the dataset which is loaded was built with an older version of Prostar than
   the running one. Prostar will continue to run but the user is informed that unexpected behaviour may happen in this case.
   
+  
+<div class="divider">
 ### News in Prostar 1.30.5
+</div>
 
 #### Bugs fixed
   * Bug fixed in the filtering tool with the cell metadata tags
 
 
+<div class="divider">
 ### News in Prostar 1.30.4
+</div>
 
 #### Bugs fixed
   * Small bug fixed in the normalization tool
 
   
-  
+<div class="divider">
 ### News in Prostar 1.30.3
+</div>
 
 #### Bugs fixed
   * In the imputation tool: all imputation methods are functional again
   * Bug fixed in the Student's test (the value of logFC is now correct and consistent with Limma)
 
-  
 #### New features
   * In case of error during the execution of some processes(), a popup window - containing the text of the error - will be shown.
   
   
-  
-  
+<div class="divider">
 ### News in Prostar 1.30.2
+</div>
 
 #### Bugs fixed
   * In the normalization tool:
@@ -152,18 +173,23 @@ title: "Release notes"
     * the display of the comparative plot (before and after normalization) is faster, which speeds up the overall normalisation process.
   
   
+<div class="divider">
 ### News in Prostar 1.30.1
+</div>
+
 #### New features
   * Differential analysis : a new information has been included concerning the 'push p-value' feature. This information is the number of entities that have been pushed
   * Missing values imputation in pipeline at protein: In the 'Missing on Entire Condition' step, the info text after impuation was confusing. Now, when the imputation has been achieved a more explicit message( giving the number of imputed proteins) is displayed
   * Metacell tags have been renamed. For more information, please got to the FAQ
-  
 
 #### Bugs fixed
   * In the filtering tool, when selecting a tag which not appeared in the dataset, all the lines were deleted. This has been fixed. Moreover, the list of tags to choose now reflects only the tags that are really in the dataset and not all the tags available in DAPAR
   * Bug fixed in "Open a MSnset" ("Attempt to select less than one element in get1index")
 
+
+<div class="divider">
 ### News in Prostar 1.28
+</div>
 
 #### New features
 * In the 'Hypothesis testing' tool, the interface for the 'Swap conditions' option has been updated (a collapsible panel has been added).
@@ -183,7 +209,9 @@ title: "Release notes"
   * Bug fixed about Prostar freeze when saving the aggregated dataset.
 
 
+<div class="divider">
 ### News in Prostar 1.26
+</div>
 
 #### New features
 * In the 'Convert' tool, implementation of a new way to select the nature of quantitative data for each sample
@@ -215,8 +243,9 @@ title: "Release notes"
   * Bug fixed in select metadata information for Aggregation
 
 
-
+<div class="divider">
 ### News in Prostar 1.24
+</div>
 
 #### New features
 * Fully operational peptidomics and peptide-level workflows.
@@ -259,8 +288,9 @@ title: "Release notes"
   * Bug fixed with normalization on some selected proteins.
 
 
-  
+<div class="divider">
 ### News in Prostar 1.22
+</div>
 
 #### New features
 * Functionalities enabling the focus on a protein (or a subset of proteins) to compare the normalization options.
@@ -287,7 +317,9 @@ title: "Release notes"
 * Bug fixed in MEC imputation after the POV imputation proceeded with KNN
 
 
+<div class="divider">
 ### News in Prostar 1.20
+</div>
 
 #### New features
 * Implementation of for more complex experimental designs,
@@ -298,7 +330,10 @@ title: "Release notes"
 * Typos corrections
 * Optimisation of Convert Data tool
 
+
+<div class="divider">
 ### News in Prostar 1.18
+</div>
 
 #### New features
 * Warning on the FDR if the number of selected peptides/proteins is too small.
@@ -323,7 +358,10 @@ title: "Release notes"
 * Bug fixed in the navigation bar for each process: the reset button is functional
 * Inconsistent behaviour when the user changes a dataset in any process UI
 
+
+<div class="divider">
 ### News in Prostar 1.16
+</div>
 
 #### New features
 * New customized theme according to Prostar logo colors.
@@ -348,7 +386,10 @@ title: "Release notes"
 * In string-based filtering, reusing several times the same column is possible.
 * Added more numerical precision of p-values in exported dataset (differential analysis)
 
+
+<div class="divider">
 ### News in Prostar 1.14
+</div>
 
 #### Bug fixed
 * Auto reset of dropdown menu in differential analysis.
@@ -370,7 +411,9 @@ title: "Release notes"
 * Add customisation of colors for plots.
 
 
+<div class="divider">
 ### News in Prostar 1.12
+</div>
 
 #### Bug fixed
 * Normalization: "Sum by columns" has been modified to provide log-abundances compatible with subsequent processing.
@@ -390,7 +433,10 @@ title: "Release notes"
 * Differential analysis: Limma takes into account all the hierarchical experimental designs.
 * GO analysis: the GeneID nomenclature is now available.
 
+
+<div class="divider">
 ### News in Prostar 1.10
+</div>
 
 #### Bug fixed
 * When the aggregation step has been performed, the interface switches to the first tab of the 'Descriptive Statistics' in order to view informations aout the new dataset (the protein one).

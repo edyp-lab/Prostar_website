@@ -5,7 +5,7 @@ title: "Prostar"
 <div class="subtitle">PROteomic STatistical Analysis with R</div>
 
 <img src="images/prostar_screenshot.png" class="homescreen" />
-**Prostar** is a software for the **statistical analysis of quantitative data** from discovery proteomics experiments. Its **user-friendly**, [Shiny](https://shiny.rstudio.com/)-based interface provides an **accessible workflow** for exploring, processing, and performing differential analysis of **proteomics datasets**.
+**Prostar** is a software for the **statistical analysis of quantitative data** from discovery proteomics experiments. Its **user-friendly**, [Shiny](https://shiny.rstudio.com/){target="_blank"}-based interface provides an **accessible workflow** for exploring, processing, and performing differential analysis of **proteomics datasets**.
 
 Prostar brings together established and state-of-the-art data analysis methods in a documented and **continuously updated** and **easy to install** environment, making advanced **proteomics analysis accessible** without requiring extensive programming expertise.
 
@@ -17,7 +17,7 @@ Prostar brings together established and state-of-the-art data analysis methods i
 
 ## News
 <table><tr><td style="width: 5%;"><hr><td>
-<span class="turquoise">**25/11/2024**</span>
+<span class="turquoise homeNews">**25/11/2024**</span>
 <td style="width: 100%;"><hr></table>
 
 **Enjoy the [Zero-install version of Prostar](/download.html#zero-install) !**
