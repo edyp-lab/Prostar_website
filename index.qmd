@@ -17,12 +17,25 @@ Prostar brings together established and state-of-the-art data analysis methods i
 
 ## News
 <table><tr><td style="width: 5%;"><hr><td>
-<span class="turquoise homeNews">**25/11/2024**</span>
+<span class="turquoise homeNews">**28/09/2026**</span>
 <td style="width: 100%;"><hr></table>
+**Prostar2 is now in internal alpha testing !**
 
-**Enjoy the [Zero-install version of Prostar](/download.html#zero-install) !**
+* Prostar2 has entered internal alpha testing and is currently being evaluated in-house ahead of its wider release.
 
-* Prostar version 1.38.1 has been released on the Bioconductor (release 3.20) and is deployed as a [Zero-install](/download.html#zero-install) zip.
+<table><tr><td style="width: 5%;"><hr><td>
+<span class="turquoise homeNews">**31/08/2026**</span>
+<td style="width: 100%;"><hr></table>
+**MagellanNTK has been submitted to Bioconductor !**
+
+* The package acceptance process on Bioconductor is currently underway.
+
+<table><tr><td style="width: 5%;"><hr><td>
+<span class="turquoise homeNews">**18/05/2026**</span>
+<td style="width: 100%;"><hr></table>
+**DaparToolshed package has been accepted to Bioconductor !**
+
+* DaparToolshed is now available through Bioconductor. Check the [DaparToolshed Bioconductor page](https://bioconductor.org/packages/devel/bioc/html/DaparToolshed.html){target="_blank"}.
 
 
 ## Citation

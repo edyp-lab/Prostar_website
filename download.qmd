@@ -12,11 +12,11 @@ The Zero-install version allows you to **run Prostar without installing R**. It 
 
 To ensure full compatibility and facilitate debugging, the newest version of the zip file may be released up to a few weeks after each Bioconductor release.
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/"  download="Prostar_1.38.1" onclick="ga('event', 'send', { 'event_category': 'file_download',  'event_name': 'Download Prostar_1.38.1.zip'});">**Prostar 1.38.1 zip file**</a>
+Download <a href="https://zenodo.org/records/23019464" target="_blank">**Prostar 1.38.1 zip file**</a>
 (Release date: 25/11/2024)
 
 
-Download <a href="http://prabig-prostar.univ-lyon1.fr/ProstarZeroInstall/" onclick="gtag('event', 'send', { 'event_category': 'file_download',  'event_label': 'Download Prostar4metabolomics_1.22.8.zip'});">**Prostar4metabolomics 1.22.8 zip file**</a>
+Download <a href="https://zenodo.org/records/23019494" target="_blank">**Prostar4metabolomics 1.22.8 zip file**</a>
 (Release date: 22/06/2021)
 
 <!-- ### **Bêta** Docker image (ok for Unix/Linux, Mac OS X and Windows) -->
@@ -70,7 +70,7 @@ install.packages("pak")
 pak::pkg_install("edyp-lab/Prostar")
 ```
 
-4. Launch Prostar:
+3. Launch Prostar:
 ```R
 library(Prostar)
 Prostar()

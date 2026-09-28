@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!md/**"
 
 website:
   title: "prostar-proteomics.org"
@@ -56,3 +59,8 @@ format:
 
 resources:
   - CNAME
+  - "md/FAQ.md"
+  - "md/formerReleases.md"
+  - "md/links.md"
+  - "md/presentation.md"
+  - "md/versionNotes.md"
