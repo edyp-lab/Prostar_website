@@ -24,7 +24,7 @@
     "href": "ressources.html#contact",
     "title": "Support & Resources",
     "section": "Contact",
-    "text": "Contact\nIf you need any help, but also if you wish to make comments or suggestions, please contact Samuel Wieczorek or Thomas Burger (firstname.lastname@cea.fr).",
+    "text": "Contact\nIf you need any help, but also if you wish to make comments or suggestions, please contact Manon Gaudin or Thomas Burger (firstname.lastname@cea.fr).",
     "crumbs": [
       "Support & Resources"
     ]
@@ -64,17 +64,7 @@
     "href": "index.html",
     "title": "Prostar",
     "section": "",
-    "text": "PROteomic STatistical Analysis with R\nProstar is a software for the statistical analysis of quantitative data from discovery proteomics experiments. Its user-friendly, Shiny-based interface provides an accessible workflow for exploring, processing, and performing differential analysis of proteomics datasets.\nProstar brings together established and state-of-the-art data analysis methods in a documented and continuously updated and easy to install environment, making advanced proteomics analysis accessible without requiring extensive programming expertise.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Prostar",
-    "section": "News",
-    "text": "News\n\n\n\n\n\n28/09/2026\n\n\n\nProstar2 is now in internal alpha testing !\n\nProstar2 has entered internal alpha testing and is currently being evaluated in-house ahead of its wider release.\n\n\n\n\n\n\n31/08/2026\n\n\n\nMagellanNTK has been submitted to Bioconductor !\n\nThe package acceptance process on Bioconductor is currently underway.\n\n\n\n\n\n\n18/05/2026\n\n\n\nDaparToolshed package has been accepted to Bioconductor !\n\nDaparToolshed is now available through Bioconductor. Check the DaparToolshed Bioconductor page.",
+    "text": "Proteomic statistical analysis with R\nProstar is a software tool for the statistical analysis of quantitative data from discovery proteomics experiments. Its user-friendly, Shiny-based interface provides an accessible workflow for exploring, processing, and performing differential analysis of proteomics datasets.\nProstar brings together established and state-of-the-art data analysis methods in a documented and continuously updated and easy to install environment, making advanced proteomics analysis accessible without requiring extensive programming expertise.",
     "crumbs": [
       "Home"
     ]
@@ -85,6 +75,16 @@
     "title": "Prostar",
     "section": "Citation",
     "text": "Citation\nMaintaining Prostar as free software is a heavy duty. Please cite the following reference\n\nS. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, A. Dorffer, A.-M. Hesse, Y. Couté, M. Ferro, C. Bruley and T. Burger. DAPAR & ProStaR: software to perform statistical analyses in quantitative discovery proteomics. Bioinformatics 33(1), 135-136, 2017.\nhttp://doi.org/10.1093/bioinformatics/btw580.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Prostar",
+    "section": "News",
+    "text": "News\n\n\n\n\n\n28/09/2026\n\n\n\nProstar2 is now in internal alpha testing!\n\nProstar2 bulk protein-centric workflow has entered internal alpha testing and is currently being evaluated in-house ahead of its wider release.\nBulk-peptide-centric and SC-peptide-centric workflow are to come.\n\n\n\n\n\n\n31/08/2026\n\n\n\nMagellanNTK (Prostar2 engine) has been submitted to Bioconductor!\n\nThe package acceptance process on Bioconductor is currently underway.\n\n\n\n\n\n\n18/05/2026\n\n\n\nDaparToolshed is now available through Bioconductor!\n\nCheck the DaparToolshed Bioconductor page.",
     "crumbs": [
       "Home"
     ]
@@ -134,7 +134,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Samuel Wieczorek  \n\n\nAfter a first career as IT support technician, Sam obtained an engineering degree (2004) at “Conservatoire National des Arts et Metiers”, followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University. Since then, he has been working as a research engineer at EDyP-lab, where he has been developing and maintaining software tools for proteomics. Sam has been involved in Prostar project since its beginning. He is the code guru and supervises all the software aspects of the project, such as coding, packaging, deployment, debugging, graphical user interfaces, etc.\n\n\n\n\n Thomas Burger  \n\n\nTom is a CNRS senior scientist. He holds two MS degrees in computer sciences and applied mathematics (2004), a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. Tom was an associate professor in machine learning with South Brittany University (2008-2011), before rushing back to his beloved mountains, with a CNRS position at EDyP-lab. He is the principal investigator of Prostar project. His expertise focuses on the statistical, methodological and algorithmic aspects of proteomics data analysis.\n\n\n\nContact us - firstname.lastname@cea.fr\n\n\n\n\n\n\nFlorence Combes\n\n\n \n\n\n\n\nQuentin Giai-Gianetto\n\n\n \n\n(Institut Pasteur, France)\n\n\n\nLaurent Gatto\n\n\n \n\n(Université catholique de Louvain, Belgique)\n\n\n\nCosmin Lazar\n\n\n \n\n\n\n\nHelene Borges\n\n\n \n\n\n\n\nYohann Couté\n\n\n \n\n\n\n\nChristophe Bruley\n\n\n \n\n\n\n\nAnne-Marie Hesse\n\n\n \n\n\n\n\nAlexia Dorffer\n\n\n\n\nEnora Fremy\n\n\n\n\n\n\n\n\n\n\n\n\nThe entire EDyP proteomics platform  Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members. They are all warmly acknowledged for their contributions.",
+    "text": "Manon Gaudin \n\n\ntext incoming\n\n\n\n\n Thomas Burger  \n\n\nTom is a grey-haired version of the CNRS senior scientist depicted on the nearby photo. He holds two MS degrees in computer sciences and applied mathematics (2004), a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. Tom was an associate professor in machine learning with South Brittany University (2008-2011), before rushing back to his beloved mountains, with a CNRS position at EDyP-lab. He is the principal investigator of Prostar project. His expertise focuses on the statistical, methodological and algorithmic aspects of proteomics data analysis.\n\n\n\nContact us - firstname.lastname@cea.fr\n\n\n\n\n\n\nSamuel Wieczorek\n\n\n \n\n\n\n\nFlorence Combes\n\n\n \n\n\n\n\nQuentin Giai-Gianetto\n\n\n \n\n(Institut Pasteur, France)\n\n\n\nLaurent Gatto\n\n\n \n\n(Université catholique de Louvain, Belgique)\n\n\n\nCosmin Lazar\n\n\n \n\n\n\n\nHelene Borges\n\n\n \n\n\n\n\nYohann Couté\n\n\n \n\n\n\n\nChristophe Bruley\n\n\n \n\n\n\n\nAnne-Marie Hesse\n\n\n \n\n\n\n\nMarianne Tardif\n\n\n \n\n\n\n\nAlexia Dorffer\n\n\n\n\nEnora Fremy\n\n\n\n\n\n\n\nCyril Ariztegui\n\n\n\n\n\n\n\nLaura Fancello\n\n\n \n\n\n\n\n\n\n\n\n\nThe entire EDyP proteomics platform  Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members. They are all warmly acknowledged for their contributions.",
     "crumbs": [
       "About"
     ]
@@ -144,7 +144,7 @@
     "href": "about.html#team-presentation",
     "title": "About",
     "section": "",
-    "text": "Samuel Wieczorek  \n\n\nAfter a first career as IT support technician, Sam obtained an engineering degree (2004) at “Conservatoire National des Arts et Metiers”, followed by a MS degree in computer sciences and a PhD in machine learning (2009) at Grenoble-Alpes University. Since then, he has been working as a research engineer at EDyP-lab, where he has been developing and maintaining software tools for proteomics. Sam has been involved in Prostar project since its beginning. He is the code guru and supervises all the software aspects of the project, such as coding, packaging, deployment, debugging, graphical user interfaces, etc.\n\n\n\n\n Thomas Burger  \n\n\nTom is a CNRS senior scientist. He holds two MS degrees in computer sciences and applied mathematics (2004), a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. Tom was an associate professor in machine learning with South Brittany University (2008-2011), before rushing back to his beloved mountains, with a CNRS position at EDyP-lab. He is the principal investigator of Prostar project. His expertise focuses on the statistical, methodological and algorithmic aspects of proteomics data analysis.\n\n\n\nContact us - firstname.lastname@cea.fr\n\n\n\n\n\n\nFlorence Combes\n\n\n \n\n\n\n\nQuentin Giai-Gianetto\n\n\n \n\n(Institut Pasteur, France)\n\n\n\nLaurent Gatto\n\n\n \n\n(Université catholique de Louvain, Belgique)\n\n\n\nCosmin Lazar\n\n\n \n\n\n\n\nHelene Borges\n\n\n \n\n\n\n\nYohann Couté\n\n\n \n\n\n\n\nChristophe Bruley\n\n\n \n\n\n\n\nAnne-Marie Hesse\n\n\n \n\n\n\n\nAlexia Dorffer\n\n\n\n\nEnora Fremy\n\n\n\n\n\n\n\n\n\n\n\n\nThe entire EDyP proteomics platform  Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members. They are all warmly acknowledged for their contributions.",
+    "text": "Manon Gaudin \n\n\ntext incoming\n\n\n\n\n Thomas Burger  \n\n\nTom is a grey-haired version of the CNRS senior scientist depicted on the nearby photo. He holds two MS degrees in computer sciences and applied mathematics (2004), a PhD in pattern recognition (2007) and a Habilitation thesis (2017), all from Grenoble Alpes University. Tom was an associate professor in machine learning with South Brittany University (2008-2011), before rushing back to his beloved mountains, with a CNRS position at EDyP-lab. He is the principal investigator of Prostar project. His expertise focuses on the statistical, methodological and algorithmic aspects of proteomics data analysis.\n\n\n\nContact us - firstname.lastname@cea.fr\n\n\n\n\n\n\nSamuel Wieczorek\n\n\n \n\n\n\n\nFlorence Combes\n\n\n \n\n\n\n\nQuentin Giai-Gianetto\n\n\n \n\n(Institut Pasteur, France)\n\n\n\nLaurent Gatto\n\n\n \n\n(Université catholique de Louvain, Belgique)\n\n\n\nCosmin Lazar\n\n\n \n\n\n\n\nHelene Borges\n\n\n \n\n\n\n\nYohann Couté\n\n\n \n\n\n\n\nChristophe Bruley\n\n\n \n\n\n\n\nAnne-Marie Hesse\n\n\n \n\n\n\n\nMarianne Tardif\n\n\n \n\n\n\n\nAlexia Dorffer\n\n\n\n\nEnora Fremy\n\n\n\n\n\n\n\nCyril Ariztegui\n\n\n\n\n\n\n\nLaura Fancello\n\n\n \n\n\n\n\n\n\n\n\n\nThe entire EDyP proteomics platform  Prostar being permanently hosted by EDyP lab, the first users (the original ones, but also the testers) are naturally the lab members. They are all warmly acknowledged for their contributions.",
     "crumbs": [
       "About"
     ]
@@ -174,7 +174,7 @@
     "href": "discoverprostar.html",
     "title": "Discover Prostar",
     "section": "",
-    "text": "Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.\nProstar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.",
+    "text": "Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.\nProstar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, since its release over a decade ago it has been regularly updated along years to provide state-of-the-art data science methodologies.",
     "crumbs": [
       "Discover Prostar"
     ]
@@ -194,7 +194,7 @@
     "href": "discoverprostar.html#software",
     "title": "Discover Prostar",
     "section": "Software",
-    "text": "Software\n\nZero-install\nThe easiest way. Prostar is deployed as a zip archive (so far only available on Microsoft Windows desktop machines). \nStand-alone Bioconductor install\nThe standard method to install Bioconductor distributed software. This method works for any operating systems (Unix/Linux, Mac OS X and Windows) as long as R is installed.\nServer install\nWhen one wants Prostar to run on a Unix server, on which remote users connect. This more advanced type of install is detailed in the user manual.",
+    "text": "Software\n\nZero-install\nThe easiest way. Prostar is deployed as a zip archive (so far only available on Microsoft Windows desktop machines). \nStand-alone Bioconductor install\nThe standard method to install Bioconductor distributed software. This method works for any operating systems (Unix/Linux, Mac OS X and Windows) as long as R is installed.\nDocker install (to be announced)\nIncoming.",
     "crumbs": [
       "Discover Prostar"
     ]

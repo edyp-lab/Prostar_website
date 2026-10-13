@@ -4,7 +4,7 @@ title: "Discover Prostar"
 
 Prostar is a software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.
 
-Prostar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, it has been regularly updated along years to provide state-of-the-art data science methodologies.
+Prostar is easy to install (see our Zero-install page), easy to use (thanks to its Shiny-based click-button interface) and well-documented (see our reference page). Moreover, since its release over a decade ago it has been regularly updated along years to provide state-of-the-art data science methodologies. 
 
 ## Presentation
 ### Data management
@@ -35,9 +35,8 @@ The easiest way. Prostar is deployed as a zip archive (so far only available on 
 The standard method to install Bioconductor distributed software.
 This method works for any operating systems (Unix/Linux, Mac OS X and Windows) 
 as long as R is installed.
-3. **Server install**  
-When one wants Prostar to run on a Unix server, on which remote users connect.
-This more advanced type of install is detailed in the [user manual](/ressources.html).
+3. **Docker install (to be announced)**  
+Incoming.
 <!-- 4. [**Online demo**](#online-demo)   -->
 <!-- Before installing Prostar on your desktop machine, test our online demo! -->
 

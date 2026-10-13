@@ -12,7 +12,7 @@ title: "Support & Resources"
 
 ## Contact
 
-If you need any help, but also if you wish to make comments or suggestions, please contact Samuel Wieczorek or Thomas Burger (firstname.lastname@cea.fr).
+If you need any help, but also if you wish to make comments or suggestions, please contact Manon Gaudin or Thomas Burger (firstname.lastname@cea.fr).
 
 ## Reference manuals
 

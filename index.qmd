@@ -2,10 +2,10 @@
 title: "Prostar"
 ---
 
-<div class="subtitle">PROteomic STatistical Analysis with R</div>
+<div class="subtitle"><u>Pro</u>teomic <u>st</u>atistical <u>a</u>nalysis with <u>R</u></div>
 
 <img src="images/prostar_screenshot.png" class="homescreen" />
-**Prostar** is a software for the **statistical analysis of quantitative data** from discovery proteomics experiments. Its **user-friendly**, [Shiny](https://shiny.rstudio.com/){target="_blank"}-based interface provides an **accessible workflow** for exploring, processing, and performing differential analysis of **proteomics datasets**.
+**Prostar** is a software tool for the **statistical analysis of quantitative data** from discovery proteomics experiments. Its **user-friendly**, [Shiny](https://shiny.rstudio.com/){target="_blank"}-based interface provides an **accessible workflow** for exploring, processing, and performing differential analysis of **proteomics datasets**.
 
 Prostar brings together established and state-of-the-art data analysis methods in a documented and **continuously updated** and **easy to install** environment, making advanced **proteomics analysis accessible** without requiring extensive programming expertise.
 
@@ -15,29 +15,6 @@ Prostar brings together established and state-of-the-art data analysis methods i
 </div>
 
 
-## News
-<table><tr><td style="width: 5%;"><hr><td>
-<span class="turquoise homeNews">**28/09/2026**</span>
-<td style="width: 100%;"><hr></table>
-**Prostar2 is now in internal alpha testing !**
-
-* Prostar2 has entered internal alpha testing and is currently being evaluated in-house ahead of its wider release.
-
-<table><tr><td style="width: 5%;"><hr><td>
-<span class="turquoise homeNews">**31/08/2026**</span>
-<td style="width: 100%;"><hr></table>
-**MagellanNTK has been submitted to Bioconductor !**
-
-* The package acceptance process on Bioconductor is currently underway.
-
-<table><tr><td style="width: 5%;"><hr><td>
-<span class="turquoise homeNews">**18/05/2026**</span>
-<td style="width: 100%;"><hr></table>
-**DaparToolshed package has been accepted to Bioconductor !**
-
-* DaparToolshed is now available through Bioconductor. Check the [DaparToolshed Bioconductor page](https://bioconductor.org/packages/devel/bioc/html/DaparToolshed.html){target="_blank"}.
-
-
 ## Citation
 **Maintaining Prostar as free software is a heavy duty. Please cite the following reference**
 
@@ -45,3 +22,27 @@ Prostar brings together established and state-of-the-art data analysis methods i
 DAPAR & ProStaR: software to perform statistical analyses in quantitative discovery proteomics.
 **Bioinformatics** 33(1), 135-136, 2017.  
 <a href="http://doi.org/10.1093/bioinformatics/btw580" target="_blank">http://doi.org/10.1093/bioinformatics/btw580.</a>
+
+
+## News
+<table><tr><td style="width: 5%;"><hr><td>
+<span class="turquoise homeNews">**28/09/2026**</span>
+<td style="width: 100%;"><hr></table>
+**Prostar2 is now in internal alpha testing!**
+
+* Prostar2 bulk protein-centric workflow has entered internal alpha testing and is currently being evaluated in-house ahead of its wider release. 
+* Bulk-peptide-centric and SC-peptide-centric workflow are to come.
+
+<table><tr><td style="width: 5%;"><hr><td>
+<span class="turquoise homeNews">**31/08/2026**</span>
+<td style="width: 100%;"><hr></table>
+**MagellanNTK (Prostar2 engine) has been submitted to Bioconductor!**
+
+* The package acceptance process on Bioconductor is currently underway.
+
+<table><tr><td style="width: 5%;"><hr><td>
+<span class="turquoise homeNews">**18/05/2026**</span>
+<td style="width: 100%;"><hr></table>
+**DaparToolshed is now available through Bioconductor!**
+
+* Check the [DaparToolshed Bioconductor page](https://bioconductor.org/packages/devel/bioc/html/DaparToolshed.html){target="_blank"}.
